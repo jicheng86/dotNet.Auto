@@ -1,0 +1,51 @@
+2020-07-24 17:35:04.385 +08:00 [FTL] Application start-up failed
+System.IO.FileNotFoundException: Could not load file or assembly 'Auto.Service, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'Auto.Service, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Auto.Web.Models.autofac.AutomaticInjectionModule.Load(ContainerBuilder builder) in F:\dotNetCore\dotNet.Auto\Auto.Web\Models\autofac\AutomaticInjectionModule.cs:line 43
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Auto.Web.Program.Main(String[] args) in F:\dotNetCore\dotNet.Auto\Auto.Web\Program.cs:line 86
+
+
+2020-07-24 17:39:51.177 +08:00 [FTL] Application start-up failed
+System.IO.FileNotFoundException: Could not load file or assembly 'Auto.Service, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'Auto.Service, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Auto.Web.Models.autofac.AutomaticInjectionModule.Load(ContainerBuilder builder) in F:\dotNetCore\dotNet.Auto\Auto.Web\Models\autofac\AutomaticInjectionModule.cs:line 43
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Auto.Web.Program.Main(String[] args) in F:\dotNetCore\dotNet.Auto\Auto.Web\Program.cs:line 86
+
+
+2020-07-24 17:44:42.600 +08:00 [FTL] Application start-up failed
+System.IO.FileNotFoundException: Could not load file or assembly 'Auto.Service, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'Auto.Service, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Auto.Web.Models.autofac.AutomaticInjectionModule.Load(ContainerBuilder builder) in F:\dotNetCore\dotNet.Auto\Auto.Web\Models\autofac\AutomaticInjectionModule.cs:line 43
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Auto.Web.Program.Main(String[] args) in F:\dotNetCore\dotNet.Auto\Auto.Web\Program.cs:line 86
+
+

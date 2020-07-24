@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Auto.IRepository\Auto.IRepository.csproj" />
+    <ProjectReference Include="..\Auto.IService\Auto.IService.csproj" />
+    <ProjectReference Include="..\Auto.Model\Auto.Model.csproj" />
+  </ItemGroup>
+
+</Project>

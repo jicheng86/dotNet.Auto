@@ -1,0 +1,21 @@
+﻿@*依赖jquery bootstra *@
+<environment exclude="Development">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.1.2/css/fileinput.min.css"
+          resource="~/lib/bootstrap-fileinput/v5.1.2/dist/css/fileinput.css"
+          integrity="sha512-KrsXJaSKHqHogNzPCOHPvkyvH4ZQGzUcR/Q6R3qywbdtrvOHPuPz9iRIoJoiKguuIgkDGsj+PwPh3QKnlwwQPA=="
+          crossorigin="anonymous" asp-append-version="true" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.1.2/js/fileinput.min.js"
+            resource="~/lib/bootstrap-fileinput/v5.1.2/dist/js/fileinput.js"
+            integrity="sha512-wvbv0QlgtUZ1jkgRfB7HNUICt+27sqAUh2IwVJXfN9q7rtrmgbdI6LQjhzurdLo1+vxO645+GY+Kq8Vop0WA4w=="
+            crossorigin="anonymous"
+            asp-append-version="true"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.1.2/js/locales/zh.min.js"
+            resource="~/lib/bootstrap-fileinput/v5.1.2/dist/js/locales/zh.js"
+            integrity="sha512-SsELOpOXKZl2RHeBovFclZujawnEh7x1pI3Vl6fbNn26RL0Y5XJGEWfhEmFDp7EnYfhfHJFoksr7XZ7M6MvuqQ=="
+            crossorigin="anonymous" asp-append-version="true"></script>
+</environment>
+<environment include="Development">
+    <link href="~/lib/bootstrap-fileinput/v5.1.2/dist/css/fileinput.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap-fileinput/v5.1.2/dist/js/fileinput.js" type="text/javascript"></script>
+    <script src="~/lib/bootstrap-fileinput/v5.1.2/dist/js/locales/zh.js" type="text/javascript"></script>
+</environment>

@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "twitter-bootstrap@4.5.0",
+      "destination": "wwwroot/lib/bootstrap/v4.5.0/dist"
+    },
+    {
+      "library": "bootstrap-table@1.17.1",
+      "destination": "wwwroot/lib/bootstrap-table/v1.17.1/dist"
+    },
+    {
+      "library": "bootstrap-select@1.13.18",
+      "destination": "wwwroot/lib/bootstrap-select/v1.13.18/dist"
+    },
+    {
+      "library": "bootstrap-fileinput@5.1.2",
+      "destination": "wwwroot/lib/bootstrap-fileinput/v5.1.2/dist"
+    }
+  ]
+}
