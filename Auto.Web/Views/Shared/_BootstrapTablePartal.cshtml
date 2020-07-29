@@ -1,31 +1,26 @@
 ﻿@*依赖jquery Bootstrap *@
 <environment exclude="Development">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.17.1/bootstrap-table.min.css"
-          resource="~/lib/bootstrap-table/v1.17.1/dist/bootstrap-table.css"
+          asp-fallback-src="~/lib/bootstrap-table/v1.17.1/dist/bootstrap-table.css"
           integrity="sha512-zfridm8+ad8KSyxzl1REhqDP5975y8Q0AYaF22bcVGOnaVxlekxODmCGu0TP+Kbk3JbiNK5ENTHs7pT+yf+rBA=="
           crossorigin="anonymous"
+          type="text/css"
           asp-append-version="true" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
-          resource="~/lib/fontawesome/v5.11.2/dist/css/all.css"
-          integrity="sha512-0S+nbAYis87iX26mmj/+fWt1MmaKCv80H+Mbo+Ne7ES4I6rxswpfnC6PxmLiw33Ywj2ghbtTw0FkLbMWqh4F7Q=="
-          crossorigin="anonymous"
-          asp-append-version="true" />
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.17.1/bootstrap-table.min.js"
-            resource="~/lib/bootstrap-table/v1.17.1/dist/bootstrap-table.js"
+            asp-fallback-src="~/lib/bootstrap-table/v1.17.1/dist/bootstrap-table.js"
             integrity="sha512-KtafFo5oE7fpMVyO/gXFnwsAXeGwl8Kxyikp1SCtMc+mXrvzO7WP1Zs70gSNmkcrBd9PS3byB/HFKvAVKtTWdg=="
             crossorigin="true"
+            type="text/javascript"
             asp-append-version="true"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.17.1/locale/bootstrap-table-zh-CN.min.js"
-             
-            resource="~/lib/bootstrap-table/v1.17.1/dist/locale/bootstrap-table-zh-CN.js"
+             asp-fallback-src="~/lib/bootstrap-table/v1.17.1/dist/locale/bootstrap-table-zh-CN.js"
             integrity="sha512-cvu8YO8+dwOY/OC4d1EqZIUXYc5l9qe9jWbPzpt5Gffp1XkD3O6gM5eV5JDSciVK41jkH6j+mOnt/Zm5XYRH0Q=="
             crossorigin="anonymous"
+            type="text/javascript"
             asp-append-version="true"></script>
 </environment>
 <environment include="Development">
     <link href="~/lib/bootstrap-table/v1.17.1/dist/bootstrap-table.css" rel="stylesheet" />
-    <link href="~/lib/fontawesome/v5.11.2/dist/css/all.css" rel="stylesheet" />
     <script src="~/lib/bootstrap-table/v1.17.1/dist/bootstrap-table.js" type="text/javascript"></script>
     <script src="~/lib/bootstrap-table/v1.17.1/dist/locale/bootstrap-table-zh-CN.js"></script>
 </environment>

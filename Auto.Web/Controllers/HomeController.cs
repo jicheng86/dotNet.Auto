@@ -9,7 +9,7 @@ using Auto.Web.Models;
 
 namespace Auto.Web.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
 
@@ -19,6 +19,10 @@ namespace Auto.Web.Controllers
         }
 
         public IActionResult Index()
+        {
+            return View();
+        }
+        public IActionResult Home()
         {
             return View();
         }

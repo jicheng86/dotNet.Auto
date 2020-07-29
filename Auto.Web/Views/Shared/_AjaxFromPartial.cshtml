@@ -1,0 +1,12 @@
+﻿<!--依赖 jQuery v1.7.2 or later-->
+<environment exclude="Development">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js"
+            asp-fallback-src="~/lib/jquery-form/v4.3.0/dist/jquery.form.js"
+            integrity="sha512-YUkaLm+KJ5lQXDBdqBqk7EVhJAdxRnVdT2vtCzwPHSweCzyMgYV/tgGF4/dCyqtCC2eCphz0lRQgatGVdfR0ww=="
+            crossorigin="anonymous"
+            type="text/javascript"
+            asp-append-version="true"></script>
+</environment>
+<environment include="Development">
+    <script src="~/lib/jquery-form/v4.3.0/dist/jquery.form.js" type="text/javascript" asp-append-version="true"></script>
+</environment>

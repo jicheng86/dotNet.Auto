@@ -40,18 +40,18 @@ namespace Auto.Web.Models.autofac
 
 
             //程序集范围注入
-            //Assembly service = Assembly.Load("Auto.Service");
-            //Assembly iservice = Assembly.Load("Auto.IService");
-            //builder.RegisterAssemblyTypes(service, iservice)
-            //    .Where(t => t.Name.EndsWith("Service"))
-            //    .AsImplementedInterfaces()
-            //    .PropertiesAutowired();
-            //Assembly repository = Assembly.Load("Auto.Repository");
-            //Assembly irepository = Assembly.Load("Auto.IRepository");
-            //builder.RegisterAssemblyTypes(repository, irepository)
-            //    .Where(t => t.Name.EndsWith("Repository"))
-            //    .AsImplementedInterfaces()
-            //    .PropertiesAutowired();
+            Assembly service = Assembly.Load("Auto.Service");
+            Assembly iservice = Assembly.Load("Auto.IService");
+            builder.RegisterAssemblyTypes(service, iservice)
+                .Where(t => t.Name.EndsWith("Service"))
+                .AsImplementedInterfaces()
+                .PropertiesAutowired();
+            Assembly repository = Assembly.Load("Auto.Repository");
+            Assembly irepository = Assembly.Load("Auto.IRepository");
+            builder.RegisterAssemblyTypes(repository, irepository)
+                .Where(t => t.Name.EndsWith("Repository"))
+                .AsImplementedInterfaces()
+                .PropertiesAutowired();
 
             //单个注册
             // builder.RegisterType<IMapper>().As<Mapper>().PropertiesAutowired();

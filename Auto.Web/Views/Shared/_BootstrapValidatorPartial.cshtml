@@ -1,0 +1,33 @@
+﻿@*依赖jquery*@
+<environment exclude="Development">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          asp-fallback-href="~/lib/jquery-bootstrapvalidator/dist/css/bootstrap.css"
+          integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w="
+          crossorigin="anonymous"
+          type="text/css"
+          asp-append-version="true">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/css/bootstrapValidator.min.css"
+          asp-fallback-href="~/lib/jquery-bootstrapvalidator/dist/css/bootstrapValidator.css"
+          integrity="sha512-YDChav1pUAodyH1Ja7PIpEDUOoFROpZi5Lb7pY8+9+kU8UTr3J8SI8QO7SRuf4qdDKb5OI0xSt4Vk1wiYjBXgw=="
+          crossorigin="anonymous"
+          type="text/css"
+          asp-append-version="true" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"
+            asp-fallback-src="~/lib/jquery-bootstrapvalidator/dist/js/bootstrapValidator.js"
+            integrity="sha512-Vp2UimVVK8kNOjXqqj/B0Fyo96SDPj9OCSm1vmYSrLYF3mwIOBXh/yRZDVKo8NemQn1GUjjK0vFJuCSCkYai/A=="
+            crossorigin="anonymous"
+            type="text/javascript"
+            asp-append-version="true"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/language/zh_CN.min.js"
+            integrity="sha512-B1NSL6D8wDhdpqA91rIUm+nugw1iHg02H0okGFMTJw5Zqlw8eVZy4iA+4bRu/AzCA3W7Mhs2dR7iAwfShFpWXQ=="
+            crossorigin="anonymous"
+            type="text/javascript"
+            asp-append-version="true"></script>
+</environment>
+<environment include="Development">
+    <link href="~/lib/jquery-bootstrapvalidator/dist/css/bootstrap.css" rel="stylesheet" type="text/css" asp-append-version="true" />
+    <link href="~/lib/jquery-bootstrapvalidator/dist/css/bootstrapValidator.css" rel="stylesheet" type="text/css" asp-append-version="true" />
+    <script src="~/lib/jquery-bootstrapvalidator/dist/js/bootstrapValidator.js" type="text/javascript" asp-append-version="true"></script>
+    <script src="~/lib/jquery-bootstrapvalidator/dist/js/language/zh_CN.js" type="text/javascript" asp-append-version="true"></script>
+</environment>

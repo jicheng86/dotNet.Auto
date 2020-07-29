@@ -1,0 +1,28 @@
+﻿<!--依赖jQuery v1.9.1 +，Bootstrap的dropdown.js组件和Bootstrap的CSS  如果在Bootstrap v4 +中使用bootstrap-select，你还需要Popper.js-->
+<environment exclude="Development">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css"
+          asp-fallback-href="~/lib/bootstrap-select/v1.13.18/dist/css/bootstrap-select.css"
+          integrity="sha512-ARJR74swou2y0Q2V9k0GbzQ/5vJ2RBSoCWokg4zkfM29Fb3vZEQyv0iWBMW/yvKgyHSR/7D64pFMmU8nYmbRkg=="
+          crossorigin="anonymous"
+          type="text/css"
+          asp-append-version="true" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js"
+            asp-fallback-src="~/lib/bootstrap-select/v1.13.18/dist/js/bootstrap-select.js"
+            integrity="sha512-yDlE7vpGDP7o2eftkCiPZ+yuUyEcaBwoJoIhdXv71KZWugFqEphIS3PU60lEkFaz8RxaVsMpSvQxMBaKVwA5xg=="
+            crossorigin="anonymous"
+            type="text/javascript"
+            asp-append-version="true"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/i18n/defaults-zh_CN.min.js"
+            integrity="sha512-RCS7QWCOrXe4Xo1n2JZS9JnDpeKCEgKC96rNeNtmcMc4P0WcZMADSC5U0lY165YTd2T/BuI77hXZAUEWyVoQNQ=="
+            crossorigin="anonymous"
+            type="text/javascript"
+            asp-append-version="true"></script>
+
+</environment>
+<environment include="Development">
+    <!--bootstrap-select css-->
+    <link href="~/lib/bootstrap-select/v1.13.18/dist/css/bootstrap-select.css" rel="stylesheet" type="text/css" asp-append-version="true" />
+    <!--bootstrap-select js-->
+    <script src="~/lib/bootstrap-select/v1.13.18/dist/js/bootstrap-select.js" type="text/javascript" asp-append-version="true"></script>
+    <script src="~/lib/bootstrap-select/v1.13.18/dist/js/i18n/defaults-zh_CN.js" type="text/javascript" asp-append-version="true"></script>
+</environment>

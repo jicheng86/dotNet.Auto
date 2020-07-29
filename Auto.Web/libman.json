@@ -17,6 +17,51 @@
     {
       "library": "bootstrap-fileinput@5.1.2",
       "destination": "wwwroot/lib/bootstrap-fileinput/v5.1.2/dist"
+    },
+    {
+      "library": "metisMenu@2.7.7",
+      "destination": "wwwroot/lib/jquery-metisMenu/v2.7.7/dist"
+    },
+    {
+      "library": "jQuery-slimScroll@1.3.8",
+      "destination": "wwwroot/lib/jquery-slimScroll/v1.3.8/dist"
+    },
+    {
+      "library": "animate.css@4.1.0",
+      "destination": "wwwroot/lib/animate/v4.1.0/dist"
+    },
+    {
+      "library": "flot@0.8.3",
+      "destination": "wwwroot/lib/jquery-flot/v0.8.3/dist"
+    },
+    {
+      "library": "flot.tooltip@0.9.0",
+      "destination": "wwwroot/lib/jquery-flot/v0.9.0/dist"
+    },
+    {
+      "provider": "unpkg",
+      "library": "flot-spline@0.0.1",
+      "destination": "wwwroot/lib/jquery-flot/v0.8.2/dist"
+    },
+    {
+      "library": "popper.js@1.13.0",
+      "destination": "wwwroot/lib/popper/v1.13.0/dist"
+    },
+    {
+      "library": "jquery@3.1.0",
+      "destination": "wwwroot/lib/jquery/v3.1.0/dist"
+    },
+    {
+      "library": "jquery.form@4.3.0",
+      "destination": "wwwroot/lib/jquery-form/v4.3.0/dist"
+    },
+    {
+      "library": "jquery.bootstrapvalidator@0.5.3",
+      "destination": "wwwroot/lib/jquery-bootstrapvalidator/dist"
+    },
+    {
+      "library": "layer@3.1.1",
+      "destination": "wwwroot/lib/layer/v3.11/dist"
     }
   ]
 }
