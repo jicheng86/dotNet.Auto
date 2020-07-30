@@ -47,7 +47,12 @@ namespace Auto.Repository.Repositories
             {
                 whereLambda = w => true;
             }
-            var dataSource = dbContext.Corporations.Where(whereLambda);
+            var dataSource = dbContext.Corporations
+                .LeftJoin(dbContext.Areas, c => c.ID, a => a.ID, (c, a) => new { Corporations = c, Areas = a })
+                  // .GroupJoin(dbContext.Products, person => person.Id, product => product.Id, (person, products) => new { Person = person, Products = products })
+                 // .SelectMany(combination => combination.Areas.MergerName.DefaultIfEmpty(), (Corporations, Areas) => new { PersonId = Corporations.Corporations.ID, PersonName = Areas.a})
+                   .SelectMany(combination => combination.Areas.ID.ToString(), (Area, products) => new CorporationDto { AreaID = Area.Areas.ID, PersonName = Area.Corporations.Name, ProductsId = products.Id, ProductsName = products.Product });
+                .Where(whereLambda);
 
             PageData<CorporationDto> resualData = new PageData<CorporationDto>();
             if (dataSource == null || !dataSource.Any())

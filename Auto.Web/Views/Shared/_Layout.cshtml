@@ -38,13 +38,12 @@
     <link href="~/css/public.css" rel="stylesheet" type="text/css" />
 
     <!-- Add local styles, mostly for plugins css file -->
-    @if (IsSectionDefined("Styles"))
-    {@RenderSection("Styles", required: false)}
+    @RenderSection("Styles", required: false)
 </head>
-<body>
+<body class="container-fluid pace-done">
 
     <!-- Wrapper-->
-    <div id="wrapper" class="@Html.PageClass()">
+    <div id="wrapper" class="@Html.PageClass() ">
 
         <!-- Navigation -->
         <partial name="_Navigation" />

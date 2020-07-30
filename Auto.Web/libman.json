@@ -62,6 +62,14 @@
     {
       "library": "layer@3.1.1",
       "destination": "wwwroot/lib/layer/v3.11/dist"
+    },
+    {
+      "library": "iCheck@1.0.2",
+      "destination": "wwwroot/lib/iCheck/v1.0.2/dist"
+    },
+    {
+      "library": "awesome-bootstrap-checkbox@1.0.2",
+      "destination": "wwwroot/lib/iCheck/v1.0.2/dist/"
     }
   ]
 }

@@ -1,0 +1,208 @@
+﻿@{
+    ViewBag.Title = "Corporation Creation";
+}
+@model CorporationDtoCreation;
+
+<div class="wrapper wrapper-content animated fadeInRight ">
+    <div class="row wrapper border-bottom white-bg page-heading">
+        <div class="col-lg-12">
+            <h2>Basic Form</h2>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a>Forms</a>
+                </li>
+                <li class="breadcrumb-item active">
+                    <strong>Basic Form</strong>
+                </li>
+            </ol>
+        </div>
+        @*<div class="col-lg-2 hidden">
+
+            </div>*@
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>@ViewBag.Title <small>请填写相关数据.</small></h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li>
+                                <a href="#" class="dropdown-item">Config option 1</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">Config option 2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <form class="form-horizontal m-t" id="FormCorporationCreation" enctype="multipart/form-data" method="post" asp-action="Creation" asp-controller="Corporation">
+                        <div class="form-group row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-1 col-form-label" asp-for="FullName"></label>
+                                    <div class="col-md-8">
+                                        <input type="text" placeholder="填写公司全称" class="form-control" asp-for="FullName" />
+                                        <span asp-validation-for="FullName" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-1 col-form-label" asp-for="Name"></label>
+                                    <div class="col-md-8">
+                                        <input type="text" placeholder="填写公司简称" class="form-control" asp-for="Name" />
+                                        <span asp-validation-for="Name" class="text-danger"></span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-1 col-form-label" asp-for="BusinessLicense"></label>
+                                    <div class="col-md-8">
+                                        <input type="text" placeholder="填写公司营业执照/组织机构代码/税务登记编号" class="form-control" asp-for="BusinessLicense" />
+                                        <span asp-validation-for="BusinessLicense" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-1 col-form-label" asp-for="LegalPerson"></label>
+                                    <div class="col-md-8">
+                                        <input type="text" placeholder="填写公司法人" class="form-control" asp-for="LegalPerson" />
+                                        <span asp-validation-for="LegalPerson" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-1 col-form-label" asp-for="LegalPersonIDCardNo"></label>
+                                    <div class="col-md-8">
+                                        <input type="text" placeholder="填写公司法人证件号" class="form-control" asp-for="LegalPersonIDCardNo" />
+                                        <span asp-validation-for="LegalPersonIDCardNo" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-1 col-form-label" asp-for="LegalPersonPhone"></label>
+                                    <div class="col-md-8">
+                                        <input type="text" placeholder="填写公司法人手机号" class="form-control" asp-for="LegalPersonPhone" />
+                                        <span asp-validation-for="LegalPersonPhone" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-1 col-form-label" asp-for="Telephone"></label>
+                                    <div class="col-md-8">
+                                        <input type="text" placeholder="填写公司联系电话" class="form-control" asp-for="Telephone" />
+                                        <span asp-validation-for="Telephone" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-1 col-form-label" asp-for="FaxNumber"></label>
+                                    <div class="col-md-8">
+                                        <input type="text" placeholder="填写公司传真号" class="form-control" asp-for="FaxNumber" />
+                                        <span asp-validation-for="FaxNumber" class="text-danger"></span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-1 col-form-label" asp-for="SupportEMail"></label>
+                                    <div class="col-md-8">
+                                        <input type="text" placeholder="填写公司服务支持邮件地址" class="form-control" asp-for="SupportEMail" />
+                                        <span asp-validation-for="SupportEMail" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-1 col-form-label" asp-for="AreaID"></label>
+                                    <div class="col-md-8">
+                                        <select class="form-control col selectpicker show-tick" data-live-search="true" data-style="btn-success" data-size="11" data-width="fit" data-actions-box="true" title="请选择" name="AreaID" id="seltProvinceAreaID">
+                                        </select>
+                                        <select class="form-control col selectpicker show-tick" data-live-search="true" data-style="btn-success" data-size="11" data-width="fit" data-actions-box="true" title="请选择" name="AreaID" id="seltCityAreaID">
+                                        </select>
+                                        <select class="form-control col selectpicker show-tick" data-live-search="true" data-style="btn-success" data-size="11" data-width="fit" data-actions-box="true" title="请选择" name="AreaID" id="seltCistrictAreaID">
+                                        </select>
+                                        <select class="form-control col selectpicker show-tick" data-live-search="true" data-style="btn-success" data-size="11" data-width="auto" data-actions-box="true" title="请选择" name="AreaID" id="seltStreetAreaID">
+                                        </select>
+                                        <span asp-validation-for="AreaID" class="text-danger"></span>
+                                        <i class="form-control-feedback glyphicon glyphicon-remove" data-bv-icon-for="AreaID" style=""></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-1 col-form-label" asp-for="CorporationAddress"></label>
+                                    <div class="col-md-8">
+                                        <input type="text" placeholder="请填写公司所在区划之后的详细地址" class="form-control" asp-for="CorporationAddress" />
+                                        <span asp-validation-for="CorporationAddress" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-1 col-form-label"></label>
+                                    <div class="col-md-8">
+                                        <input type="checkbox" class="checkbox" id="agree" name="agree" /> 我已经认真阅读并同意《使用协议》
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-4 col-md-offset-2">
+                                <button class="btn btn-white btn-sm" type="button">Cancel</button>
+                                <button class="btn btn-primary btn-sm" type="button" id="btnSubmit">Save changes</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_BootstrapSelectPartial"); }
+    @{await Html.RenderPartialAsync("_BootstrapValidatorPartial"); }
+    @{await Html.RenderPartialAsync("_AjaxFromPartial"); }
+    <script src="~/js/Corporation/Creation.js" type="text/javascript" asp-append-version="true"></script>
+}
