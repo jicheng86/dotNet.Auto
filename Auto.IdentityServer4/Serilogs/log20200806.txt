@@ -1,0 +1,511 @@
+﻿2020-08-06 13:38:41.396 +08:00 [INF] Starting up Successful
+2020-08-06 13:38:44.505 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-06 13:38:44.705 +08:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2020-08-06 13:38:44.955 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-08-06 13:38:45.296 +08:00 [INF] Now listening on: https://localhost:5001
+2020-08-06 13:38:45.297 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-06 13:38:45.299 +08:00 [INF] Hosting environment: Development
+2020-08-06 13:38:45.300 +08:00 [INF] Content root path: F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4
+2020-08-06 13:38:47.325 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-08-06 13:38:47.461 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-06 13:38:47.493 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-06 13:38:47.674 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-06 13:38:47.689 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.3765ms.
+2020-08-06 13:38:47.728 +08:00 [INF] Executing ViewResult, running view Index.
+2020-08-06 13:38:47.904 +08:00 [INF] Executed ViewResult - view Index executed in 182.2061ms.
+2020-08-06 13:38:47.907 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) in 410.1513ms
+2020-08-06 13:38:47.908 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-06 13:38:47.918 +08:00 [INF] Request finished in 596.6898ms 200 text/html; charset=utf-8
+2020-08-06 13:38:47.944 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2020-08-06 13:38:47.944 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2020-08-06 13:38:47.944 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/icon.png  
+2020-08-06 13:38:47.945 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/icon.jpg  
+2020-08-06 13:38:47.945 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.slim.min.js  
+2020-08-06 13:38:47.959 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2020-08-06 13:38:48.010 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\wwwroot\css\site.css'
+2020-08-06 13:38:48.058 +08:00 [INF] Sending file. Request path: '/icon.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\wwwroot\icon.jpg'
+2020-08-06 13:38:48.059 +08:00 [INF] Sending file. Request path: '/icon.png'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\wwwroot\icon.png'
+2020-08-06 13:38:48.075 +08:00 [INF] Request finished in 131.0173ms 200 image/png
+2020-08-06 13:38:48.058 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.slim.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\wwwroot\lib\jquery\dist\jquery.slim.min.js'
+2020-08-06 13:38:48.079 +08:00 [INF] Request finished in 133.6361ms 200 application/javascript
+2020-08-06 13:38:48.061 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2020-08-06 13:38:48.068 +08:00 [INF] Request finished in 123.972ms 200 image/jpeg
+2020-08-06 13:38:48.098 +08:00 [INF] Request finished in 154.2439ms 200 text/css
+2020-08-06 13:38:48.059 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2020-08-06 13:38:48.058 +08:00 [INF] Request finished in 99.1618ms 200 text/css
+2020-08-06 13:38:48.111 +08:00 [INF] Request finished in 166.3401ms 200 application/javascript
+2020-08-06 13:39:04.461 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-06 13:39:04.474 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-06 13:39:05.142 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-06 13:39:05.509 +08:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-06 13:39:05.658 +08:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-06 13:39:05.687 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-06 13:39:05.991 +08:00 [INF] Request finished in 1530.2087ms 200 application/json; charset=UTF-8
+2020-08-06 13:39:15.704 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/connect/token  
+2020-08-06 13:39:15.727 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2020-08-06 13:39:15.730 +08:00 [WRN] Invalid HTTP request for token endpoint
+2020-08-06 13:39:15.738 +08:00 [INF] Request finished in 34.3051ms 400 application/json; charset=UTF-8
+2020-08-06 13:39:44.068 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-06 13:39:44.071 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-06 13:39:44.102 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-06 13:39:46.575 +08:00 [INF] Executed DbCommand (2,467ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-06 13:39:46.976 +08:00 [INF] Executed DbCommand (389ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-06 13:39:46.991 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-06 13:39:47.000 +08:00 [INF] Request finished in 2932.1857ms 200 application/json; charset=UTF-8
+2020-08-06 13:39:53.638 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/.well-known/openid-configuration/jwks  
+2020-08-06 13:39:53.642 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-08-06 13:39:53.658 +08:00 [INF] Request finished in 20.2714ms 200 application/json; charset=UTF-8
+2020-08-06 13:40:00.940 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/connect/userinfo  
+2020-08-06 13:40:00.944 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo
+2020-08-06 13:40:00.956 +08:00 [ERR] No access token found.
+2020-08-06 13:40:00.960 +08:00 [INF] Request finished in 20.2949ms 401 
+2020-08-06 13:40:01.266 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2020-08-06 13:40:01.277 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\wwwroot\favicon.ico'
+2020-08-06 13:40:01.279 +08:00 [INF] Request finished in 13.8915ms 200 image/x-icon
+2020-08-06 13:41:42.595 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/connect/introspect  
+2020-08-06 13:41:42.600 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.IntrospectionEndpoint for /connect/introspect
+2020-08-06 13:41:42.610 +08:00 [WRN] Introspection endpoint only supports POST requests
+2020-08-06 13:41:42.611 +08:00 [INF] Request finished in 15.8176ms 405 
+2020-08-06 13:41:49.275 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/.well-known/openid-configuration/jwks  
+2020-08-06 13:41:49.277 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-08-06 13:41:49.280 +08:00 [INF] Request finished in 5.1762ms 200 application/json; charset=UTF-8
+2020-08-06 14:49:00.909 +08:00 [INF] Starting up Successful
+2020-08-06 14:49:01.275 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-06 14:49:01.330 +08:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2020-08-06 14:49:01.421 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-08-06 14:49:01.526 +08:00 [INF] Now listening on: https://localhost:5001
+2020-08-06 14:49:01.527 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-06 14:49:01.529 +08:00 [INF] Hosting environment: Development
+2020-08-06 14:49:01.529 +08:00 [INF] Content root path: F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4
+2020-08-06 14:49:02.563 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Account/Login  
+2020-08-06 14:49:02.650 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.AccountController.Login (Auto.IdentityServer4)'
+2020-08-06 14:49:02.688 +08:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller IdentityServerHost.Quickstart.UI.AccountController (Auto.IdentityServer4).
+2020-08-06 14:49:02.727 +08:00 [INF] Executing ViewResult, running view Login.
+2020-08-06 14:49:02.833 +08:00 [INF] Executed ViewResult - view Login executed in 108.2325ms.
+2020-08-06 14:49:02.836 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.AccountController.Login (Auto.IdentityServer4) in 146.3727ms
+2020-08-06 14:49:02.838 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.AccountController.Login (Auto.IdentityServer4)'
+2020-08-06 14:49:02.843 +08:00 [INF] Request finished in 283.7212ms 200 text/html; charset=utf-8
+2020-08-06 15:06:27.577 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/External/Challenge?scheme=Google  
+2020-08-06 15:06:27.581 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.ExternalController.Challenge (Auto.IdentityServer4)'
+2020-08-06 15:06:27.584 +08:00 [INF] Route matched with {action = "Challenge", controller = "External"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Challenge(System.String, System.String) on controller IdentityServerHost.Quickstart.UI.ExternalController (Auto.IdentityServer4).
+2020-08-06 15:06:27.595 +08:00 [INF] Executing ChallengeResult with authentication schemes (["Google"]).
+2020-08-06 15:06:27.605 +08:00 [INF] AuthenticationScheme: Google was challenged.
+2020-08-06 15:06:27.606 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.ExternalController.Challenge (Auto.IdentityServer4) in 21.2542ms
+2020-08-06 15:06:27.607 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.ExternalController.Challenge (Auto.IdentityServer4)'
+2020-08-06 15:06:27.609 +08:00 [INF] Request finished in 33.1648ms 302 
+2020-08-06 15:06:37.919 +08:00 [INF] Application is shutting down...
+2020-08-06 16:53:55.153 +08:00 [INF] Starting up Successful
+2020-08-06 16:53:56.312 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-06 16:53:56.447 +08:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2020-08-06 16:53:56.580 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-08-06 16:53:56.831 +08:00 [INF] Now listening on: https://localhost:5001
+2020-08-06 16:53:56.832 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-06 16:53:56.834 +08:00 [INF] Hosting environment: Development
+2020-08-06 16:53:56.835 +08:00 [INF] Content root path: F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4
+2020-08-06 16:53:58.805 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-08-06 16:53:58.982 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-06 16:53:59.006 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-06 16:53:59.154 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-06 16:53:59.166 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.2502ms.
+2020-08-06 16:53:59.191 +08:00 [INF] Executing ViewResult, running view Index.
+2020-08-06 16:53:59.275 +08:00 [INF] Executed ViewResult - view Index executed in 91.4411ms.
+2020-08-06 16:53:59.278 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) in 268.1711ms
+2020-08-06 16:53:59.278 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-06 16:53:59.282 +08:00 [INF] Request finished in 488.7938ms 200 text/html; charset=utf-8
+2020-08-06 16:53:59.336 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2020-08-06 16:53:59.336 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2020-08-06 16:53:59.336 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.slim.min.js  
+2020-08-06 16:53:59.346 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2020-08-06 16:53:59.346 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/icon.png  
+2020-08-06 16:53:59.347 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/icon.jpg  
+2020-08-06 16:53:59.369 +08:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2020-08-06 16:53:59.369 +08:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2020-08-06 16:53:59.369 +08:00 [INF] The file /css/site.css was not modified
+2020-08-06 16:53:59.370 +08:00 [INF] The file /icon.jpg was not modified
+2020-08-06 16:53:59.372 +08:00 [INF] Request finished in 36.0316ms 304 text/css
+2020-08-06 16:53:59.372 +08:00 [INF] Request finished in 25.9127ms 304 application/javascript
+2020-08-06 16:53:59.369 +08:00 [INF] The file /lib/jquery/dist/jquery.slim.min.js was not modified
+2020-08-06 16:53:59.373 +08:00 [INF] Request finished in 36.5538ms 304 text/css
+2020-08-06 16:53:59.370 +08:00 [INF] The file /icon.png was not modified
+2020-08-06 16:53:59.384 +08:00 [INF] Request finished in 37.2476ms 304 image/jpeg
+2020-08-06 16:53:59.388 +08:00 [INF] Request finished in 52.1587ms 304 application/javascript
+2020-08-06 16:53:59.403 +08:00 [INF] Request finished in 56.8927ms 304 image/png
+2020-08-06 16:54:04.925 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/diagnostics  
+2020-08-06 16:54:04.942 +08:00 [INF] Authorization failed.
+2020-08-06 16:54:04.956 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2020-08-06 16:54:04.957 +08:00 [INF] Request finished in 32.3366ms 302 
+2020-08-06 16:54:04.979 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Account/Login?ReturnUrl=%2Fdiagnostics  
+2020-08-06 16:54:04.986 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.AccountController.Login (Auto.IdentityServer4)'
+2020-08-06 16:54:05.012 +08:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller IdentityServerHost.Quickstart.UI.AccountController (Auto.IdentityServer4).
+2020-08-06 16:54:05.064 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.AccountController.Login (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-06 16:54:05.080 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.AccountController.Login (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.5787ms.
+2020-08-06 16:54:05.082 +08:00 [INF] Executing ViewResult, running view Login.
+2020-08-06 16:54:05.152 +08:00 [INF] Executed ViewResult - view Login executed in 70.8577ms.
+2020-08-06 16:54:05.152 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.AccountController.Login (Auto.IdentityServer4) in 135.2764ms
+2020-08-06 16:54:05.154 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.AccountController.Login (Auto.IdentityServer4)'
+2020-08-06 16:54:05.154 +08:00 [INF] Request finished in 175.3423ms 200 text/html; charset=utf-8
+2020-08-06 16:54:41.493 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-06 16:54:41.498 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-06 16:54:43.158 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-06 16:54:43.503 +08:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-06 16:54:43.650 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-06 16:54:43.689 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-06 16:54:43.954 +08:00 [INF] Request finished in 2460.4488ms 200 application/json; charset=UTF-8
+2020-08-06 16:54:44.286 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration/jwks  
+2020-08-06 16:54:44.289 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-08-06 16:54:44.314 +08:00 [INF] Request finished in 28.4476ms 200 application/json; charset=UTF-8
+2020-08-06 16:54:44.388 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/connect/authorize?client_id=mvc&redirect_uri=https%3A%2F%2Flocalhost%3A7001%2Fsignin-oidc&response_type=code&scope=openid%20profile&code_challenge=-TvkZrWTW3Bv7lEAtZzJ4SnDrVNVGNwKqYGbdSgE7es&code_challenge_method=S256&response_mode=form_post&nonce=637323008843605569.NzY0OTY5MDktMTU4Yy00ZTlhLTk0NTYtNmE1ZDdhZDY2NmU2OWRjOTljYWQtMzQwNy00OTFjLWJkMjQtZjAyNmM1NWMyNDk4&state=CfDJ8E2AUgCI_l1CkDiUE-qVm_KKBA-b2HM2KN3O0B3xO40jCstrOZh-Ik8zrBbZwv4DBA7OnRZJhcmv1hdyXEVDxenEFr9qqssdkNt5Q_NAkqCYIuOvIAyFzuz4qBxORjb4xLSFfPa7ysnjNijLB8D4REdJSy0so1A3FQE7SVDinAy97zI8LVsxiIlRFEk0Yxav1pHd07KAdgquyXW66F-PMlFMSu54aHzh7QAwvNPtENQlaHyWcNR_DmEzCxwjE8F7x1xKseBsq5KjqpWGnhHlImXO9nE5i2pcIpfHEagFbnoKeUh8mmIEc7G3Xi3n-p9goKFYdVYQc5o_SbaJkZ08ywSEe7G7j4iziFK5erahmnH2aPq1m9aJJXlOlxjKW3_Agg&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.5.0.0  
+2020-08-06 16:54:44.406 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-08-06 16:54:44.453 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-06 16:54:44.532 +08:00 [INF] Executed DbCommand (34ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[AbsoluteRefreshTokenLifetime], [t].[AccessTokenLifetime], [t].[AccessTokenType], [t].[AllowAccessTokensViaBrowser], [t].[AllowOfflineAccess], [t].[AllowPlainTextPkce], [t].[AllowRememberConsent], [t].[AllowedIdentityTokenSigningAlgorithms], [t].[AlwaysIncludeUserClaimsInIdToken], [t].[AlwaysSendClientClaims], [t].[AuthorizationCodeLifetime], [t].[BackChannelLogoutSessionRequired], [t].[BackChannelLogoutUri], [t].[ClientClaimsPrefix], [t].[ClientId], [t].[ClientName], [t].[ClientUri], [t].[ConsentLifetime], [t].[Created], [t].[Description], [t].[DeviceCodeLifetime], [t].[EnableLocalLogin], [t].[Enabled], [t].[FrontChannelLogoutSessionRequired], [t].[FrontChannelLogoutUri], [t].[IdentityTokenLifetime], [t].[IncludeJwtId], [t].[LastAccessed], [t].[LogoUri], [t].[NonEditable], [t].[PairWiseSubjectSalt], [t].[ProtocolType], [t].[RefreshTokenExpiration], [t].[RefreshTokenUsage], [t].[RequireClientSecret], [t].[RequireConsent], [t].[RequirePkce], [t].[RequireRequestObject], [t].[SlidingRefreshTokenLifetime], [t].[UpdateAccessTokenClaimsOnRefresh], [t].[Updated], [t].[UserCodeType], [t].[UserSsoLifetime]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+2020-08-06 16:54:44.669 +08:00 [ERR] Unknown client or not enabled: mvc
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code","scope":"openid profile","code_challenge":"-TvkZrWTW3Bv7lEAtZzJ4SnDrVNVGNwKqYGbdSgE7es","code_challenge_method":"S256","response_mode":"form_post","nonce":"637323008843605569.NzY0OTY5MDktMTU4Yy00ZTlhLTk0NTYtNmE1ZDdhZDY2NmU2OWRjOTljYWQtMzQwNy00OTFjLWJkMjQtZjAyNmM1NWMyNDk4","state":"CfDJ8E2AUgCI_l1CkDiUE-qVm_KKBA-b2HM2KN3O0B3xO40jCstrOZh-Ik8zrBbZwv4DBA7OnRZJhcmv1hdyXEVDxenEFr9qqssdkNt5Q_NAkqCYIuOvIAyFzuz4qBxORjb4xLSFfPa7ysnjNijLB8D4REdJSy0so1A3FQE7SVDinAy97zI8LVsxiIlRFEk0Yxav1pHd07KAdgquyXW66F-PMlFMSu54aHzh7QAwvNPtENQlaHyWcNR_DmEzCxwjE8F7x1xKseBsq5KjqpWGnhHlImXO9nE5i2pcIpfHEagFbnoKeUh8mmIEc7G3Xi3n-p9goKFYdVYQc5o_SbaJkZ08ywSEe7G7j4iziFK5erahmnH2aPq1m9aJJXlOlxjKW3_Agg","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2020-08-06 16:54:44.726 +08:00 [ERR] Request validation failed
+2020-08-06 16:54:44.727 +08:00 [INF] {"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code","scope":"openid profile","code_challenge":"-TvkZrWTW3Bv7lEAtZzJ4SnDrVNVGNwKqYGbdSgE7es","code_challenge_method":"S256","response_mode":"form_post","nonce":"637323008843605569.NzY0OTY5MDktMTU4Yy00ZTlhLTk0NTYtNmE1ZDdhZDY2NmU2OWRjOTljYWQtMzQwNy00OTFjLWJkMjQtZjAyNmM1NWMyNDk4","state":"CfDJ8E2AUgCI_l1CkDiUE-qVm_KKBA-b2HM2KN3O0B3xO40jCstrOZh-Ik8zrBbZwv4DBA7OnRZJhcmv1hdyXEVDxenEFr9qqssdkNt5Q_NAkqCYIuOvIAyFzuz4qBxORjb4xLSFfPa7ysnjNijLB8D4REdJSy0so1A3FQE7SVDinAy97zI8LVsxiIlRFEk0Yxav1pHd07KAdgquyXW66F-PMlFMSu54aHzh7QAwvNPtENQlaHyWcNR_DmEzCxwjE8F7x1xKseBsq5KjqpWGnhHlImXO9nE5i2pcIpfHEagFbnoKeUh8mmIEc7G3Xi3n-p9goKFYdVYQc5o_SbaJkZ08ywSEe7G7j4iziFK5erahmnH2aPq1m9aJJXlOlxjKW3_Agg","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2020-08-06 16:54:44.779 +08:00 [INF] {"ClientId":"mvc","ClientName":null,"RedirectUri":null,"Endpoint":"Authorize","SubjectId":null,"Scopes":"","GrantType":null,"Error":"unauthorized_client","ErrorDescription":"Unknown client or client not enabled","Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HM1PSP0HIHA3:00000013","TimeStamp":"2020-08-06T08:54:44.0000000Z","ProcessId":33392,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2020-08-06 16:54:44.796 +08:00 [INF] Request finished in 408.9121ms 302 
+2020-08-06 16:54:44.800 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/home/error?errorId=CfDJ8E2AUgCI_l1CkDiUE-qVm_JLs0GY-Gi9IxdFGtQyn3flaVjO8_MatBFb-3msJ3APv1kRDeVvJAxoOGRAHSRfrktzqIybOELEacauZZbcIKezicgfT6tI838-42TSJMhn6MdZ2GHMw5fkTlehfCgyINE9hv3hVnydNVTOwGcaYAE7qdZ8S_8Qvjkx6b-9fj_8q50asNrTQyR7BZQcUBixoNNzjTpWvFb18RiGIDt2PbVs1odm5s3T2qqYCiBOhf8RZSOsFqItP17zB4BjRxp4-wRhNe5PTpZyzbJn-hXBdIi7A6fZhjEPoakHHg7sg5vK9RELG-aXBjxcoDcQqwJKqmeJYCbVJ6jDNyyG4VV1Kwq4  
+2020-08-06 16:54:44.806 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4)'
+2020-08-06 16:54:44.814 +08:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Error(System.String) on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-06 16:54:44.844 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-06 16:54:44.859 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 12.6596ms.
+2020-08-06 16:54:44.861 +08:00 [INF] Executing ViewResult, running view Error.
+2020-08-06 16:54:44.871 +08:00 [INF] Executed ViewResult - view Error executed in 11.6723ms.
+2020-08-06 16:54:44.874 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4) in 58.7815ms
+2020-08-06 16:54:44.879 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4)'
+2020-08-06 16:54:44.881 +08:00 [INF] Request finished in 81.5482ms 200 text/html; charset=utf-8
+2020-08-06 16:55:15.856 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-06 16:55:15.865 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-06 16:55:15.914 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-06 16:55:15.925 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-06 16:55:15.956 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-06 16:55:15.969 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-06 16:55:15.982 +08:00 [INF] Request finished in 126.1999ms 200 application/json; charset=UTF-8
+2020-08-06 16:55:16.221 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration/jwks  
+2020-08-06 16:55:16.223 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-08-06 16:55:16.264 +08:00 [INF] Request finished in 42.8534ms 200 application/json; charset=UTF-8
+2020-08-06 16:55:16.310 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/connect/authorize?client_id=mvc&redirect_uri=https%3A%2F%2Flocalhost%3A7001%2Fsignin-oidc&response_type=code&scope=openid%20profile&code_challenge=tTA-YQn7JxaKYHffna8bOXjuSQWNV6EoaU0lvT05uoA&code_challenge_method=S256&response_mode=form_post&nonce=637323009162899392.YzA2NjFhMTItMzIzYy00ODM4LTgwNTMtMTMxODQ3YmQ0NmNjOWIyZmZiNWEtODMxMy00ZjVhLTk4ZGMtYjdjZTRlNDZmZmIx&state=CfDJ8E2AUgCI_l1CkDiUE-qVm_KihfVyT7WKGbhqI3xXLfAVATawZvLQh1GD1THIbcxW-etlxJjMsehzM3kZvSmp38_1EbRsVHtKTgkpwE5GyNq_xOKxKQsf4FMRR3S18V4-fVmUj0uPc_DuWEwoS8JyK39GfdNtrqavsZQwLwrpeB4TIOCnw6pawVc8lOBR-oNPqjILHpTvy0_rtDqcS_sTokoCVfiCEaf8HwIZvA2Tsfd0fa3J_BxeBupTULHJaBAUGlZoyDeCs5OIUl1qPVwdH0H3cWvyBZram2zv2W7EupKSMpPaUjdoENOt9BpSEwgFUwXngKuLj9xuSBr73ZvRx3Ft4jNxlZb_yCI-qtJ5WaoK6lRKzXWuBNofG00CGmKOAw&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.5.0.0  
+2020-08-06 16:55:16.317 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-08-06 16:55:16.326 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-06 16:55:16.330 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[AbsoluteRefreshTokenLifetime], [t].[AccessTokenLifetime], [t].[AccessTokenType], [t].[AllowAccessTokensViaBrowser], [t].[AllowOfflineAccess], [t].[AllowPlainTextPkce], [t].[AllowRememberConsent], [t].[AllowedIdentityTokenSigningAlgorithms], [t].[AlwaysIncludeUserClaimsInIdToken], [t].[AlwaysSendClientClaims], [t].[AuthorizationCodeLifetime], [t].[BackChannelLogoutSessionRequired], [t].[BackChannelLogoutUri], [t].[ClientClaimsPrefix], [t].[ClientId], [t].[ClientName], [t].[ClientUri], [t].[ConsentLifetime], [t].[Created], [t].[Description], [t].[DeviceCodeLifetime], [t].[EnableLocalLogin], [t].[Enabled], [t].[FrontChannelLogoutSessionRequired], [t].[FrontChannelLogoutUri], [t].[IdentityTokenLifetime], [t].[IncludeJwtId], [t].[LastAccessed], [t].[LogoUri], [t].[NonEditable], [t].[PairWiseSubjectSalt], [t].[ProtocolType], [t].[RefreshTokenExpiration], [t].[RefreshTokenUsage], [t].[RequireClientSecret], [t].[RequireConsent], [t].[RequirePkce], [t].[RequireRequestObject], [t].[SlidingRefreshTokenLifetime], [t].[UpdateAccessTokenClaimsOnRefresh], [t].[Updated], [t].[UserCodeType], [t].[UserSsoLifetime]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+2020-08-06 16:55:16.335 +08:00 [ERR] Unknown client or not enabled: mvc
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code","scope":"openid profile","code_challenge":"tTA-YQn7JxaKYHffna8bOXjuSQWNV6EoaU0lvT05uoA","code_challenge_method":"S256","response_mode":"form_post","nonce":"637323009162899392.YzA2NjFhMTItMzIzYy00ODM4LTgwNTMtMTMxODQ3YmQ0NmNjOWIyZmZiNWEtODMxMy00ZjVhLTk4ZGMtYjdjZTRlNDZmZmIx","state":"CfDJ8E2AUgCI_l1CkDiUE-qVm_KihfVyT7WKGbhqI3xXLfAVATawZvLQh1GD1THIbcxW-etlxJjMsehzM3kZvSmp38_1EbRsVHtKTgkpwE5GyNq_xOKxKQsf4FMRR3S18V4-fVmUj0uPc_DuWEwoS8JyK39GfdNtrqavsZQwLwrpeB4TIOCnw6pawVc8lOBR-oNPqjILHpTvy0_rtDqcS_sTokoCVfiCEaf8HwIZvA2Tsfd0fa3J_BxeBupTULHJaBAUGlZoyDeCs5OIUl1qPVwdH0H3cWvyBZram2zv2W7EupKSMpPaUjdoENOt9BpSEwgFUwXngKuLj9xuSBr73ZvRx3Ft4jNxlZb_yCI-qtJ5WaoK6lRKzXWuBNofG00CGmKOAw","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2020-08-06 16:55:16.347 +08:00 [ERR] Request validation failed
+2020-08-06 16:55:16.347 +08:00 [INF] {"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code","scope":"openid profile","code_challenge":"tTA-YQn7JxaKYHffna8bOXjuSQWNV6EoaU0lvT05uoA","code_challenge_method":"S256","response_mode":"form_post","nonce":"637323009162899392.YzA2NjFhMTItMzIzYy00ODM4LTgwNTMtMTMxODQ3YmQ0NmNjOWIyZmZiNWEtODMxMy00ZjVhLTk4ZGMtYjdjZTRlNDZmZmIx","state":"CfDJ8E2AUgCI_l1CkDiUE-qVm_KihfVyT7WKGbhqI3xXLfAVATawZvLQh1GD1THIbcxW-etlxJjMsehzM3kZvSmp38_1EbRsVHtKTgkpwE5GyNq_xOKxKQsf4FMRR3S18V4-fVmUj0uPc_DuWEwoS8JyK39GfdNtrqavsZQwLwrpeB4TIOCnw6pawVc8lOBR-oNPqjILHpTvy0_rtDqcS_sTokoCVfiCEaf8HwIZvA2Tsfd0fa3J_BxeBupTULHJaBAUGlZoyDeCs5OIUl1qPVwdH0H3cWvyBZram2zv2W7EupKSMpPaUjdoENOt9BpSEwgFUwXngKuLj9xuSBr73ZvRx3Ft4jNxlZb_yCI-qtJ5WaoK6lRKzXWuBNofG00CGmKOAw","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2020-08-06 16:55:16.375 +08:00 [INF] {"ClientId":"mvc","ClientName":null,"RedirectUri":null,"Endpoint":"Authorize","SubjectId":null,"Scopes":"","GrantType":null,"Error":"unauthorized_client","ErrorDescription":"Unknown client or client not enabled","Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HM1PSP0HIHA3:00000017","TimeStamp":"2020-08-06T08:55:16.0000000Z","ProcessId":33392,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2020-08-06 16:55:16.380 +08:00 [INF] Request finished in 70.3773ms 302 
+2020-08-06 16:55:16.389 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/home/error?errorId=CfDJ8E2AUgCI_l1CkDiUE-qVm_KxmjML3x7M6JM0pWiTEdqwdTolP3d4P49m3-qTcdzqFBXPsjh3BMa5VyXZ9o60nhP4nubhB4u-2HdRDaflFGMJLuHcH90RdK-HNoCFc8GJqRisKkZb6ClzpuZjA3T5kZUEz5HfK4IC4ews8l65yTuDBypdlRKZZJAcO7B6RgQeXMu-NJMhBqvsp4kJoB4gUc-YYvUADueMjnO-PH-OXdGLgdJaTNysxHGyTYCBi7rrBBm4m9ukTedT3jPRnROtfjPaT7yb0QtgGnvZqyqJEqdH7n39jOXzvBCnzTbci8rpZ8q0fHY3grDx68Lr40Dw53qyZh45wOH3CocQIv13DSzc  
+2020-08-06 16:55:16.392 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4)'
+2020-08-06 16:55:16.392 +08:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Error(System.String) on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-06 16:55:16.415 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-06 16:55:16.417 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.675ms.
+2020-08-06 16:55:16.420 +08:00 [INF] Executing ViewResult, running view Error.
+2020-08-06 16:55:16.422 +08:00 [INF] Executed ViewResult - view Error executed in 2.5778ms.
+2020-08-06 16:55:16.423 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4) in 29.7264ms
+2020-08-06 16:55:16.423 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4)'
+2020-08-06 16:55:16.424 +08:00 [INF] Request finished in 34.7106ms 200 text/html; charset=utf-8
+2020-08-06 16:56:48.939 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/connect/authorize?client_id=mvc&redirect_uri=https%3A%2F%2Flocalhost%3A7001%2Fsignin-oidc&response_type=code&scope=openid%20profile&code_challenge=-PUrnGbPcBYnXqtfHABehhsKFvl2FRNY1lk93uG9K5M&code_challenge_method=S256&response_mode=form_post&nonce=637323010089295564.ZWJhYmQwYjktNmY2Ni00MjcyLWE5N2QtZmZmM2ZjN2UwZjdlNTczY2M0YmItY2U4NC00NDFlLWIyYmEtM2IxNmRiYzE0ZWE3&state=CfDJ8E2AUgCI_l1CkDiUE-qVm_LbVcwEuK2fQ8fq6JsP-LwOwhdsIEYTvZ3xieEpJIYHgfXS_9Mb2W7HEsscvanIbaVMnmHSXMSdHkTHYjIyopkF0Wu5ZVsC2UbB2jbzvbr1a9GMwAVgvLZ36ytfA2XE57xgZoD6djiO-VI-m4rP9QIyfcCfQbvgkXX3sWZMgfvaIwMtzVvlvxcJI0-cA1RKzzQX2oF8tg-Ct5GmQvQrEcfln1r8H-SlJlWEV0qyrnX32sd8LMNLP2YIBLvKMyW9YapU3bonWmSY65Yd-HjLjP7xvwvkFT3PLGr-b3PinB6SuCzfkJhzaPfrU5z0OyXG3AyCMG5FsqT-Z9_3l2HJfxPX1Ei9k9sXFIr-CC6olw10arqsU5UA0UMAu3TYCGWSd88&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.5.0.0  
+2020-08-06 16:56:48.960 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-08-06 16:56:48.961 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-06 16:56:48.971 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[AbsoluteRefreshTokenLifetime], [t].[AccessTokenLifetime], [t].[AccessTokenType], [t].[AllowAccessTokensViaBrowser], [t].[AllowOfflineAccess], [t].[AllowPlainTextPkce], [t].[AllowRememberConsent], [t].[AllowedIdentityTokenSigningAlgorithms], [t].[AlwaysIncludeUserClaimsInIdToken], [t].[AlwaysSendClientClaims], [t].[AuthorizationCodeLifetime], [t].[BackChannelLogoutSessionRequired], [t].[BackChannelLogoutUri], [t].[ClientClaimsPrefix], [t].[ClientId], [t].[ClientName], [t].[ClientUri], [t].[ConsentLifetime], [t].[Created], [t].[Description], [t].[DeviceCodeLifetime], [t].[EnableLocalLogin], [t].[Enabled], [t].[FrontChannelLogoutSessionRequired], [t].[FrontChannelLogoutUri], [t].[IdentityTokenLifetime], [t].[IncludeJwtId], [t].[LastAccessed], [t].[LogoUri], [t].[NonEditable], [t].[PairWiseSubjectSalt], [t].[ProtocolType], [t].[RefreshTokenExpiration], [t].[RefreshTokenUsage], [t].[RequireClientSecret], [t].[RequireConsent], [t].[RequirePkce], [t].[RequireRequestObject], [t].[SlidingRefreshTokenLifetime], [t].[UpdateAccessTokenClaimsOnRefresh], [t].[Updated], [t].[UserCodeType], [t].[UserSsoLifetime]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+2020-08-06 16:56:48.980 +08:00 [ERR] Unknown client or not enabled: mvc
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code","scope":"openid profile","code_challenge":"-PUrnGbPcBYnXqtfHABehhsKFvl2FRNY1lk93uG9K5M","code_challenge_method":"S256","response_mode":"form_post","nonce":"637323010089295564.ZWJhYmQwYjktNmY2Ni00MjcyLWE5N2QtZmZmM2ZjN2UwZjdlNTczY2M0YmItY2U4NC00NDFlLWIyYmEtM2IxNmRiYzE0ZWE3","state":"CfDJ8E2AUgCI_l1CkDiUE-qVm_LbVcwEuK2fQ8fq6JsP-LwOwhdsIEYTvZ3xieEpJIYHgfXS_9Mb2W7HEsscvanIbaVMnmHSXMSdHkTHYjIyopkF0Wu5ZVsC2UbB2jbzvbr1a9GMwAVgvLZ36ytfA2XE57xgZoD6djiO-VI-m4rP9QIyfcCfQbvgkXX3sWZMgfvaIwMtzVvlvxcJI0-cA1RKzzQX2oF8tg-Ct5GmQvQrEcfln1r8H-SlJlWEV0qyrnX32sd8LMNLP2YIBLvKMyW9YapU3bonWmSY65Yd-HjLjP7xvwvkFT3PLGr-b3PinB6SuCzfkJhzaPfrU5z0OyXG3AyCMG5FsqT-Z9_3l2HJfxPX1Ei9k9sXFIr-CC6olw10arqsU5UA0UMAu3TYCGWSd88","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2020-08-06 16:56:48.997 +08:00 [ERR] Request validation failed
+2020-08-06 16:56:48.998 +08:00 [INF] {"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code","scope":"openid profile","code_challenge":"-PUrnGbPcBYnXqtfHABehhsKFvl2FRNY1lk93uG9K5M","code_challenge_method":"S256","response_mode":"form_post","nonce":"637323010089295564.ZWJhYmQwYjktNmY2Ni00MjcyLWE5N2QtZmZmM2ZjN2UwZjdlNTczY2M0YmItY2U4NC00NDFlLWIyYmEtM2IxNmRiYzE0ZWE3","state":"CfDJ8E2AUgCI_l1CkDiUE-qVm_LbVcwEuK2fQ8fq6JsP-LwOwhdsIEYTvZ3xieEpJIYHgfXS_9Mb2W7HEsscvanIbaVMnmHSXMSdHkTHYjIyopkF0Wu5ZVsC2UbB2jbzvbr1a9GMwAVgvLZ36ytfA2XE57xgZoD6djiO-VI-m4rP9QIyfcCfQbvgkXX3sWZMgfvaIwMtzVvlvxcJI0-cA1RKzzQX2oF8tg-Ct5GmQvQrEcfln1r8H-SlJlWEV0qyrnX32sd8LMNLP2YIBLvKMyW9YapU3bonWmSY65Yd-HjLjP7xvwvkFT3PLGr-b3PinB6SuCzfkJhzaPfrU5z0OyXG3AyCMG5FsqT-Z9_3l2HJfxPX1Ei9k9sXFIr-CC6olw10arqsU5UA0UMAu3TYCGWSd88","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2020-08-06 16:56:49.009 +08:00 [INF] {"ClientId":"mvc","ClientName":null,"RedirectUri":null,"Endpoint":"Authorize","SubjectId":null,"Scopes":"","GrantType":null,"Error":"unauthorized_client","ErrorDescription":"Unknown client or client not enabled","Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HM1PSP0HIHA3:0000001B","TimeStamp":"2020-08-06T08:56:49.0000000Z","ProcessId":33392,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2020-08-06 16:56:49.012 +08:00 [INF] Request finished in 72.9876ms 302 
+2020-08-06 16:56:49.015 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/home/error?errorId=CfDJ8E2AUgCI_l1CkDiUE-qVm_JhDuLxI0WCfolFht0tSZj6CX_Xflbuyc5og6qGuUA-IITC3XFyz6Sp0hIRKFB2u0BuWEBL0uPdSbYVr7Ly2YhNSgObSKoGRd4V7XOapAaE-yeyZ9duOxgTEMaeBQR243DZ9zKW12Tm75vxBHfAJg92bJSCtuDUQaJGrfGw0m0-V_9uhqzEmy9ULM_xwRsZGvahjCNwGCjMFmzGd9AbE-yK5wDgW5nt0HBC3hAAOFwgjbWb-v5oLCmP_KVsO_jId8pW7cJX1jbQ5Zw-yn0UWYuzoCo0UwNPNqh90Kt8ZRmqi3awTpSq9yhmXsxmZ1ypoW-FxuUFYWiyQsHA_FlR5BeY  
+2020-08-06 16:56:49.016 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4)'
+2020-08-06 16:56:49.016 +08:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Error(System.String) on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-06 16:56:49.037 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-06 16:56:49.040 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4058ms.
+2020-08-06 16:56:49.045 +08:00 [INF] Executing ViewResult, running view Error.
+2020-08-06 16:56:49.047 +08:00 [INF] Executed ViewResult - view Error executed in 1.6607ms.
+2020-08-06 16:56:49.047 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4) in 29.9111ms
+2020-08-06 16:56:49.048 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4)'
+2020-08-06 16:56:49.048 +08:00 [INF] Request finished in 33.3119ms 200 text/html; charset=utf-8
+2020-08-06 16:57:33.547 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/connect/authorize?client_id=mvc&redirect_uri=https%3A%2F%2Flocalhost%3A7001%2Fsignin-oidc&response_type=code&scope=openid%20profile&code_challenge=em8wIgD3b6nV724XpNTinRNrZo916ygNyWA0zkHGLNw&code_challenge_method=S256&response_mode=form_post&nonce=637323010535355762.NTZmOWI1MDYtZDM1OS00N2E5LWI4MDctMWJiZDY5ZDk5M2ZlZjkzNGUwNWUtZjg0Mi00ODk1LWFiODMtZTI3NzZlYjcwYTYx&state=CfDJ8E2AUgCI_l1CkDiUE-qVm_Ksh_a1zbUZOhT-r5uW525sJWWEMk8akkXzcyeEyV-96y2ZGLPMifIKGKX3iK4Cw8JhCKP2iJS-7YBku63HbyFcjgXDdZAOmmBjZn1aw1varj4tyARCAQfk_3QZcPm2IbpYEgYGbmc6RFH-FAMStzMKP8iohwRYcZuP-558EKI4KUi26juxg6EtVqyzIof5Y3y-qSCy92lc7j4POjvw9rwKrT9qu2ic7WXqoSFmRNsNfLTFJGhjGld_EGy-gmdOd26r1Miqc8SACgfvIMBkSken7FkySXcUDeDaigbV2fJKgFs4GpxUrBJ-Q9y_6-0tgx4I5xxHCPyfW7SIVTVpSN3IkxleFHdPp2_nHy43RJuz3wJCXBIigMJ-t7qFDokpZ7Y&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.5.0.0  
+2020-08-06 16:57:33.565 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-08-06 16:57:33.569 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-06 16:57:33.590 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[AbsoluteRefreshTokenLifetime], [t].[AccessTokenLifetime], [t].[AccessTokenType], [t].[AllowAccessTokensViaBrowser], [t].[AllowOfflineAccess], [t].[AllowPlainTextPkce], [t].[AllowRememberConsent], [t].[AllowedIdentityTokenSigningAlgorithms], [t].[AlwaysIncludeUserClaimsInIdToken], [t].[AlwaysSendClientClaims], [t].[AuthorizationCodeLifetime], [t].[BackChannelLogoutSessionRequired], [t].[BackChannelLogoutUri], [t].[ClientClaimsPrefix], [t].[ClientId], [t].[ClientName], [t].[ClientUri], [t].[ConsentLifetime], [t].[Created], [t].[Description], [t].[DeviceCodeLifetime], [t].[EnableLocalLogin], [t].[Enabled], [t].[FrontChannelLogoutSessionRequired], [t].[FrontChannelLogoutUri], [t].[IdentityTokenLifetime], [t].[IncludeJwtId], [t].[LastAccessed], [t].[LogoUri], [t].[NonEditable], [t].[PairWiseSubjectSalt], [t].[ProtocolType], [t].[RefreshTokenExpiration], [t].[RefreshTokenUsage], [t].[RequireClientSecret], [t].[RequireConsent], [t].[RequirePkce], [t].[RequireRequestObject], [t].[SlidingRefreshTokenLifetime], [t].[UpdateAccessTokenClaimsOnRefresh], [t].[Updated], [t].[UserCodeType], [t].[UserSsoLifetime]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+2020-08-06 16:57:33.628 +08:00 [ERR] Unknown client or not enabled: mvc
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code","scope":"openid profile","code_challenge":"em8wIgD3b6nV724XpNTinRNrZo916ygNyWA0zkHGLNw","code_challenge_method":"S256","response_mode":"form_post","nonce":"637323010535355762.NTZmOWI1MDYtZDM1OS00N2E5LWI4MDctMWJiZDY5ZDk5M2ZlZjkzNGUwNWUtZjg0Mi00ODk1LWFiODMtZTI3NzZlYjcwYTYx","state":"CfDJ8E2AUgCI_l1CkDiUE-qVm_Ksh_a1zbUZOhT-r5uW525sJWWEMk8akkXzcyeEyV-96y2ZGLPMifIKGKX3iK4Cw8JhCKP2iJS-7YBku63HbyFcjgXDdZAOmmBjZn1aw1varj4tyARCAQfk_3QZcPm2IbpYEgYGbmc6RFH-FAMStzMKP8iohwRYcZuP-558EKI4KUi26juxg6EtVqyzIof5Y3y-qSCy92lc7j4POjvw9rwKrT9qu2ic7WXqoSFmRNsNfLTFJGhjGld_EGy-gmdOd26r1Miqc8SACgfvIMBkSken7FkySXcUDeDaigbV2fJKgFs4GpxUrBJ-Q9y_6-0tgx4I5xxHCPyfW7SIVTVpSN3IkxleFHdPp2_nHy43RJuz3wJCXBIigMJ-t7qFDokpZ7Y","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2020-08-06 16:57:33.657 +08:00 [ERR] Request validation failed
+2020-08-06 16:57:33.658 +08:00 [INF] {"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code","scope":"openid profile","code_challenge":"em8wIgD3b6nV724XpNTinRNrZo916ygNyWA0zkHGLNw","code_challenge_method":"S256","response_mode":"form_post","nonce":"637323010535355762.NTZmOWI1MDYtZDM1OS00N2E5LWI4MDctMWJiZDY5ZDk5M2ZlZjkzNGUwNWUtZjg0Mi00ODk1LWFiODMtZTI3NzZlYjcwYTYx","state":"CfDJ8E2AUgCI_l1CkDiUE-qVm_Ksh_a1zbUZOhT-r5uW525sJWWEMk8akkXzcyeEyV-96y2ZGLPMifIKGKX3iK4Cw8JhCKP2iJS-7YBku63HbyFcjgXDdZAOmmBjZn1aw1varj4tyARCAQfk_3QZcPm2IbpYEgYGbmc6RFH-FAMStzMKP8iohwRYcZuP-558EKI4KUi26juxg6EtVqyzIof5Y3y-qSCy92lc7j4POjvw9rwKrT9qu2ic7WXqoSFmRNsNfLTFJGhjGld_EGy-gmdOd26r1Miqc8SACgfvIMBkSken7FkySXcUDeDaigbV2fJKgFs4GpxUrBJ-Q9y_6-0tgx4I5xxHCPyfW7SIVTVpSN3IkxleFHdPp2_nHy43RJuz3wJCXBIigMJ-t7qFDokpZ7Y","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2020-08-06 16:57:33.668 +08:00 [INF] {"ClientId":"mvc","ClientName":null,"RedirectUri":null,"Endpoint":"Authorize","SubjectId":null,"Scopes":"","GrantType":null,"Error":"unauthorized_client","ErrorDescription":"Unknown client or client not enabled","Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HM1PSP0HIHA3:0000001F","TimeStamp":"2020-08-06T08:57:33.0000000Z","ProcessId":33392,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2020-08-06 16:57:33.671 +08:00 [INF] Request finished in 124.4538ms 302 
+2020-08-06 16:57:33.681 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/home/error?errorId=CfDJ8E2AUgCI_l1CkDiUE-qVm_JBDLpLnhdOsGmSCog819w2Qu-jLul-lJjvG2d4tHHyH8aK7Kn4aWutzWNXByra6mNsh2spAvnAs_d0qWtqm-g0we5bmq746WvanAqOYOU5iRITVY4jNkYL2YvkZO07UDKE5EeOiiljF0cvxQ5wO9wYhzOOSq5LUglkRPmS3Ks5yGWztIjFMu2rbrkoaeQ4bY5i2ImDXtqjCy2O3U9JoY_oazcs12eJzk_wq2gUbugjiEzWBKWfE35I7aTvLe4jqMluLd4q3_TbrAVSqLdbPHqRHKqyNsinHCCzs_I5fmjpt5tBM1vq3AGHH46JrtWsIuM_AhassyktVxqhV_rfuGt0  
+2020-08-06 16:57:33.684 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4)'
+2020-08-06 16:57:33.685 +08:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Error(System.String) on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-06 16:57:33.705 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-06 16:57:33.707 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3314ms.
+2020-08-06 16:57:33.713 +08:00 [INF] Executing ViewResult, running view Error.
+2020-08-06 16:57:33.715 +08:00 [INF] Executed ViewResult - view Error executed in 1.2495ms.
+2020-08-06 16:57:33.716 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4) in 30.1093ms
+2020-08-06 16:57:33.716 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4)'
+2020-08-06 16:57:33.717 +08:00 [INF] Request finished in 35.9776ms 200 text/html; charset=utf-8
+2020-08-06 16:58:22.161 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/connect/authorize?client_id=mvc&redirect_uri=https%3A%2F%2Flocalhost%3A7001%2Fsignin-oidc&response_type=code&scope=openid%20profile&code_challenge=i1oYWxaZL3uo8JclxDlnsZr9kWCzdtbMFCanPOtb_DY&code_challenge_method=S256&response_mode=form_post&nonce=637323011021479226.Mzc0MjIzZDItZGUwMS00ZWRiLWI4NWQtNjRjYmMwZDE5OTJkYmIwZDg4ZTQtOWQyMS00MDRkLWJjZjUtMDUxNWE4MzExZWFi&state=CfDJ8E2AUgCI_l1CkDiUE-qVm_KfEQbpqkS1o_IRZ5jUjXHtNy4J0pCiEuFFg3bLOAbGpE0vwyfo5UpE70Dcx52ZRc4Y-nIZ59D1L87tHEu4Qk1c_-009qfhRGRQ_TNsBEyb-ZR7a1b5JbdbJkAFFjF6lT4-2VUV0iNwCcDoKMBcc_ORWdMqlSWIf8yPngUOqHlv403NWF3bHAk5ZfhgupqJI05T8MGOg0nfgKgsl1QC8bHWM69UZJtIHQB5ICu43jj3Tvj1k-Iy_Z17NNMcAZS5gKE7dMNwwHLWo2arYQbEFAQssvBSZkwPPELoH_YZQD0Qs2FbeaF-sU8aATHaZ2uaupcjkneg36xFodwLNzvTFhw6FB-X6xGneL9RmB6EIJ5wWy1HY1kXG1LML_fKxehOuh8&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.5.0.0  
+2020-08-06 16:58:22.180 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-08-06 16:58:22.185 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-06 16:58:22.191 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[AbsoluteRefreshTokenLifetime], [t].[AccessTokenLifetime], [t].[AccessTokenType], [t].[AllowAccessTokensViaBrowser], [t].[AllowOfflineAccess], [t].[AllowPlainTextPkce], [t].[AllowRememberConsent], [t].[AllowedIdentityTokenSigningAlgorithms], [t].[AlwaysIncludeUserClaimsInIdToken], [t].[AlwaysSendClientClaims], [t].[AuthorizationCodeLifetime], [t].[BackChannelLogoutSessionRequired], [t].[BackChannelLogoutUri], [t].[ClientClaimsPrefix], [t].[ClientId], [t].[ClientName], [t].[ClientUri], [t].[ConsentLifetime], [t].[Created], [t].[Description], [t].[DeviceCodeLifetime], [t].[EnableLocalLogin], [t].[Enabled], [t].[FrontChannelLogoutSessionRequired], [t].[FrontChannelLogoutUri], [t].[IdentityTokenLifetime], [t].[IncludeJwtId], [t].[LastAccessed], [t].[LogoUri], [t].[NonEditable], [t].[PairWiseSubjectSalt], [t].[ProtocolType], [t].[RefreshTokenExpiration], [t].[RefreshTokenUsage], [t].[RequireClientSecret], [t].[RequireConsent], [t].[RequirePkce], [t].[RequireRequestObject], [t].[SlidingRefreshTokenLifetime], [t].[UpdateAccessTokenClaimsOnRefresh], [t].[Updated], [t].[UserCodeType], [t].[UserSsoLifetime]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+2020-08-06 16:58:22.206 +08:00 [ERR] Unknown client or not enabled: mvc
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code","scope":"openid profile","code_challenge":"i1oYWxaZL3uo8JclxDlnsZr9kWCzdtbMFCanPOtb_DY","code_challenge_method":"S256","response_mode":"form_post","nonce":"637323011021479226.Mzc0MjIzZDItZGUwMS00ZWRiLWI4NWQtNjRjYmMwZDE5OTJkYmIwZDg4ZTQtOWQyMS00MDRkLWJjZjUtMDUxNWE4MzExZWFi","state":"CfDJ8E2AUgCI_l1CkDiUE-qVm_KfEQbpqkS1o_IRZ5jUjXHtNy4J0pCiEuFFg3bLOAbGpE0vwyfo5UpE70Dcx52ZRc4Y-nIZ59D1L87tHEu4Qk1c_-009qfhRGRQ_TNsBEyb-ZR7a1b5JbdbJkAFFjF6lT4-2VUV0iNwCcDoKMBcc_ORWdMqlSWIf8yPngUOqHlv403NWF3bHAk5ZfhgupqJI05T8MGOg0nfgKgsl1QC8bHWM69UZJtIHQB5ICu43jj3Tvj1k-Iy_Z17NNMcAZS5gKE7dMNwwHLWo2arYQbEFAQssvBSZkwPPELoH_YZQD0Qs2FbeaF-sU8aATHaZ2uaupcjkneg36xFodwLNzvTFhw6FB-X6xGneL9RmB6EIJ5wWy1HY1kXG1LML_fKxehOuh8","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2020-08-06 16:58:22.224 +08:00 [ERR] Request validation failed
+2020-08-06 16:58:22.229 +08:00 [INF] {"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code","scope":"openid profile","code_challenge":"i1oYWxaZL3uo8JclxDlnsZr9kWCzdtbMFCanPOtb_DY","code_challenge_method":"S256","response_mode":"form_post","nonce":"637323011021479226.Mzc0MjIzZDItZGUwMS00ZWRiLWI4NWQtNjRjYmMwZDE5OTJkYmIwZDg4ZTQtOWQyMS00MDRkLWJjZjUtMDUxNWE4MzExZWFi","state":"CfDJ8E2AUgCI_l1CkDiUE-qVm_KfEQbpqkS1o_IRZ5jUjXHtNy4J0pCiEuFFg3bLOAbGpE0vwyfo5UpE70Dcx52ZRc4Y-nIZ59D1L87tHEu4Qk1c_-009qfhRGRQ_TNsBEyb-ZR7a1b5JbdbJkAFFjF6lT4-2VUV0iNwCcDoKMBcc_ORWdMqlSWIf8yPngUOqHlv403NWF3bHAk5ZfhgupqJI05T8MGOg0nfgKgsl1QC8bHWM69UZJtIHQB5ICu43jj3Tvj1k-Iy_Z17NNMcAZS5gKE7dMNwwHLWo2arYQbEFAQssvBSZkwPPELoH_YZQD0Qs2FbeaF-sU8aATHaZ2uaupcjkneg36xFodwLNzvTFhw6FB-X6xGneL9RmB6EIJ5wWy1HY1kXG1LML_fKxehOuh8","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2020-08-06 16:58:22.234 +08:00 [INF] {"ClientId":"mvc","ClientName":null,"RedirectUri":null,"Endpoint":"Authorize","SubjectId":null,"Scopes":"","GrantType":null,"Error":"unauthorized_client","ErrorDescription":"Unknown client or client not enabled","Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HM1PSP0HIHA3:00000023","TimeStamp":"2020-08-06T08:58:22.0000000Z","ProcessId":33392,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2020-08-06 16:58:22.246 +08:00 [INF] Request finished in 85.943ms 302 
+2020-08-06 16:58:22.249 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/home/error?errorId=CfDJ8E2AUgCI_l1CkDiUE-qVm_JBDIMHJuwwTU9ZjAj9zg64Rc9ERF_iMgy6zQj67FGKGpXM1CZ5VcvYR47N1HSdUJDZd-4oXL7g3rtnGqs2s71sZdg8tNBgGMgnO6Pedrdhgqik3KJd9-0wcoKrF84KrSkq2xi4ro3kTSj2y-IdVhIrcZeE0-SHRzw60T7JDFI1hku8EwV374Hgy30mdRqIusledD07rwDaRX4SKCHk5OB3CiyecOn-VVsnA4H-pdjiWq1uc1aYU5-VmHcNr_Bn5CtNSWsQiblj19Mh0tcY90nHuKMd5ZQCdtonjfPLUPdq5-EcLXLKbnPKeQnmcA4FJMEa_LS7_iUiY7TpD3jbdwVa  
+2020-08-06 16:58:22.251 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4)'
+2020-08-06 16:58:22.253 +08:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Error(System.String) on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-06 16:58:22.280 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-06 16:58:22.281 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.388ms.
+2020-08-06 16:58:22.282 +08:00 [INF] Executing ViewResult, running view Error.
+2020-08-06 16:58:22.283 +08:00 [INF] Executed ViewResult - view Error executed in 1.6042ms.
+2020-08-06 16:58:22.285 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4) in 24.5836ms
+2020-08-06 16:58:22.285 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4)'
+2020-08-06 16:58:22.294 +08:00 [INF] Request finished in 45.1926ms 200 text/html; charset=utf-8
+2020-08-06 17:02:55.503 +08:00 [INF] Starting up Successful
+2020-08-06 17:02:56.595 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-06 17:02:56.716 +08:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2020-08-06 17:02:56.831 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-08-06 17:02:57.063 +08:00 [INF] Now listening on: https://localhost:5001
+2020-08-06 17:02:57.064 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-06 17:02:57.066 +08:00 [INF] Hosting environment: Development
+2020-08-06 17:02:57.067 +08:00 [INF] Content root path: F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4
+2020-08-06 17:02:59.235 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-08-06 17:02:59.332 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-06 17:02:59.361 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-06 17:02:59.471 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-06 17:02:59.483 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.1889ms.
+2020-08-06 17:02:59.516 +08:00 [INF] Executing ViewResult, running view Index.
+2020-08-06 17:02:59.597 +08:00 [INF] Executed ViewResult - view Index executed in 91.4731ms.
+2020-08-06 17:02:59.599 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) in 233.8381ms
+2020-08-06 17:02:59.607 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-06 17:02:59.611 +08:00 [INF] Request finished in 379.1424ms 200 text/html; charset=utf-8
+2020-08-06 17:04:44.410 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-06 17:04:44.422 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-06 17:04:45.127 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-06 17:04:45.492 +08:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-06 17:04:45.660 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-06 17:04:45.705 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-06 17:04:45.983 +08:00 [INF] Request finished in 1573.6929ms 200 application/json; charset=UTF-8
+2020-08-06 17:04:46.210 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration/jwks  
+2020-08-06 17:04:46.220 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-08-06 17:04:46.232 +08:00 [INF] Request finished in 21.8776ms 200 application/json; charset=UTF-8
+2020-08-06 17:04:46.279 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/connect/authorize?client_id=mvc&redirect_uri=https%3A%2F%2Flocalhost%3A7001%2Fsignin-oidc&response_type=code&scope=openid%20profile&code_challenge=NdMLa5q06d22n_4Nji8thbIARFtAfp7Xia0-PVn7Ets&code_challenge_method=S256&response_mode=form_post&nonce=637323014862543729.MWQ1YjIzYzctNWNiMi00OTAyLThmZDQtYmI5ZmM0MjljODliMTkwY2MyNDItZmQ5Yi00NGJjLWE0MDItNjZiZjI5ZjY3MmU2&state=CfDJ8E2AUgCI_l1CkDiUE-qVm_LQuqwa2YvkDpWzWaXU2tGIAZkbIqS1RF9mM3Rb8gZ5S5391-0teDj4CfY2WyvvOZA7PatqedEVhTMwRoo17zV57H7yJurNBLrfwH6nvf1ExeTcnvdcamYYFuQ1o9vTByqgjBElZNT2WScB1yPaLaFmgnoIdNTKLfhky7kftgTgxZSlHDNJz0Q71Njqd01hbmkXZncbHCNjMXn-_PPjK6atLwngclehHqYqoS4Uqoaadp8u5M_-Q3dqXGDjrF4lq7HSJ6QMhqb4dk-IwGMkt3mh6zxaQojHNgUiQe1aVB5KY1Y6F1QohN9mJsMMoli8PRz9EPbk71nMlNEfbrYooOr7wrj9ru1tbpBPQ3MXUVsBhQ&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.5.0.0  
+2020-08-06 17:04:46.308 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-08-06 17:04:46.351 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-06 17:04:46.427 +08:00 [INF] Executed DbCommand (33ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[AbsoluteRefreshTokenLifetime], [t].[AccessTokenLifetime], [t].[AccessTokenType], [t].[AllowAccessTokensViaBrowser], [t].[AllowOfflineAccess], [t].[AllowPlainTextPkce], [t].[AllowRememberConsent], [t].[AllowedIdentityTokenSigningAlgorithms], [t].[AlwaysIncludeUserClaimsInIdToken], [t].[AlwaysSendClientClaims], [t].[AuthorizationCodeLifetime], [t].[BackChannelLogoutSessionRequired], [t].[BackChannelLogoutUri], [t].[ClientClaimsPrefix], [t].[ClientId], [t].[ClientName], [t].[ClientUri], [t].[ConsentLifetime], [t].[Created], [t].[Description], [t].[DeviceCodeLifetime], [t].[EnableLocalLogin], [t].[Enabled], [t].[FrontChannelLogoutSessionRequired], [t].[FrontChannelLogoutUri], [t].[IdentityTokenLifetime], [t].[IncludeJwtId], [t].[LastAccessed], [t].[LogoUri], [t].[NonEditable], [t].[PairWiseSubjectSalt], [t].[ProtocolType], [t].[RefreshTokenExpiration], [t].[RefreshTokenUsage], [t].[RequireClientSecret], [t].[RequireConsent], [t].[RequirePkce], [t].[RequireRequestObject], [t].[SlidingRefreshTokenLifetime], [t].[UpdateAccessTokenClaimsOnRefresh], [t].[Updated], [t].[UserCodeType], [t].[UserSsoLifetime]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+2020-08-06 17:04:46.462 +08:00 [ERR] Unknown client or not enabled: mvc
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code","scope":"openid profile","code_challenge":"NdMLa5q06d22n_4Nji8thbIARFtAfp7Xia0-PVn7Ets","code_challenge_method":"S256","response_mode":"form_post","nonce":"637323014862543729.MWQ1YjIzYzctNWNiMi00OTAyLThmZDQtYmI5ZmM0MjljODliMTkwY2MyNDItZmQ5Yi00NGJjLWE0MDItNjZiZjI5ZjY3MmU2","state":"CfDJ8E2AUgCI_l1CkDiUE-qVm_LQuqwa2YvkDpWzWaXU2tGIAZkbIqS1RF9mM3Rb8gZ5S5391-0teDj4CfY2WyvvOZA7PatqedEVhTMwRoo17zV57H7yJurNBLrfwH6nvf1ExeTcnvdcamYYFuQ1o9vTByqgjBElZNT2WScB1yPaLaFmgnoIdNTKLfhky7kftgTgxZSlHDNJz0Q71Njqd01hbmkXZncbHCNjMXn-_PPjK6atLwngclehHqYqoS4Uqoaadp8u5M_-Q3dqXGDjrF4lq7HSJ6QMhqb4dk-IwGMkt3mh6zxaQojHNgUiQe1aVB5KY1Y6F1QohN9mJsMMoli8PRz9EPbk71nMlNEfbrYooOr7wrj9ru1tbpBPQ3MXUVsBhQ","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2020-08-06 17:04:46.475 +08:00 [ERR] Request validation failed
+2020-08-06 17:04:46.478 +08:00 [INF] {"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code","scope":"openid profile","code_challenge":"NdMLa5q06d22n_4Nji8thbIARFtAfp7Xia0-PVn7Ets","code_challenge_method":"S256","response_mode":"form_post","nonce":"637323014862543729.MWQ1YjIzYzctNWNiMi00OTAyLThmZDQtYmI5ZmM0MjljODliMTkwY2MyNDItZmQ5Yi00NGJjLWE0MDItNjZiZjI5ZjY3MmU2","state":"CfDJ8E2AUgCI_l1CkDiUE-qVm_LQuqwa2YvkDpWzWaXU2tGIAZkbIqS1RF9mM3Rb8gZ5S5391-0teDj4CfY2WyvvOZA7PatqedEVhTMwRoo17zV57H7yJurNBLrfwH6nvf1ExeTcnvdcamYYFuQ1o9vTByqgjBElZNT2WScB1yPaLaFmgnoIdNTKLfhky7kftgTgxZSlHDNJz0Q71Njqd01hbmkXZncbHCNjMXn-_PPjK6atLwngclehHqYqoS4Uqoaadp8u5M_-Q3dqXGDjrF4lq7HSJ6QMhqb4dk-IwGMkt3mh6zxaQojHNgUiQe1aVB5KY1Y6F1QohN9mJsMMoli8PRz9EPbk71nMlNEfbrYooOr7wrj9ru1tbpBPQ3MXUVsBhQ","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2020-08-06 17:04:46.509 +08:00 [INF] {"ClientId":"mvc","ClientName":null,"RedirectUri":null,"Endpoint":"Authorize","SubjectId":null,"Scopes":"","GrantType":null,"Error":"unauthorized_client","ErrorDescription":"Unknown client or client not enabled","Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HM1PSU1JH6N8:00000003","TimeStamp":"2020-08-06T09:04:46.0000000Z","ProcessId":24772,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2020-08-06 17:04:46.539 +08:00 [INF] Request finished in 259.8796ms 302 
+2020-08-06 17:04:46.563 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/home/error?errorId=CfDJ8E2AUgCI_l1CkDiUE-qVm_IKphINe5FBGUJv7O9sPzWy0Ar-RXxZZnz8Su9Dr0bG1t9zCLX4bp9TpMRy3Iw6Nt8vYAKcoQLsi0CceacVRn9azvMSir2oAgReVf6cUU8ERP3MpmvmCnFSIx64iXe_FmoSepflFIuucu495lDjGpSTlh19agu5UBwmV9V2rYymlKW3_X93S1wAdcwYLJCOL2UJl5zaRSqyp8AGRYe5C71UmU6ZA7OLYPdjLP6JXfhh3GDzSVvMuQU6u5voSPih7FHqjjOu3etLGZfOktQgfKIA5jnGG1GkQDGPYLaUZCpftI0juwjaOzUrioDbqlxAUuRmDZ1Ys-JO0fiQX_ckv0Dp  
+2020-08-06 17:04:46.567 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4)'
+2020-08-06 17:04:46.580 +08:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Error(System.String) on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-06 17:04:46.611 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-06 17:04:46.628 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.7529ms.
+2020-08-06 17:04:46.630 +08:00 [INF] Executing ViewResult, running view Error.
+2020-08-06 17:04:46.642 +08:00 [INF] Executed ViewResult - view Error executed in 12.8718ms.
+2020-08-06 17:04:46.643 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4) in 62.0612ms
+2020-08-06 17:04:46.643 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4)'
+2020-08-06 17:04:46.644 +08:00 [INF] Request finished in 80.6912ms 200 text/html; charset=utf-8
+2020-08-06 17:05:11.566 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/connect/authorize?client_id=mvc&redirect_uri=https%3A%2F%2Flocalhost%3A7001%2Fsignin-oidc&response_type=code&scope=openid%20profile&code_challenge=MpubBLZMuSjQxjTdGCDtlRCJedFW7JCTFOc2QwLdDr8&code_challenge_method=S256&response_mode=form_post&nonce=637323015115499381.ZTVhZmQzNmUtYzE1Ni00MThjLTk4YmItZDQwNjQxNzgwNTRkMzU3ZTYxNzUtNjZhYS00YmM5LTg1YTctMWNhOTU0YmE4N2Nm&state=CfDJ8E2AUgCI_l1CkDiUE-qVm_IKtrDw2rw6Ol_CiriISFamHWE74oLaUhcWOdFLflwLX59RkAGfGTHWebj3m-wFx_51-QW833x78CU1yR7gIm1RbXeJ070AZwTKlx-09CgZ7RFSzm0kzTsK1tDQuh-oBSJcK6p8PbFKqJmcStDFoY6LkAv0cuLVHBa9-XkrzmaQ0nHQpY5JGO6CiOUazO-TNpd22jWv-adsbk5j7my3LUotf2qjLHwV9wttNkx3CoaQqa_WMwFzWzkLFsZUJddqkFLRwPrnMMYtU63gxbHrfB_hci3ddJmWvcBp5Stm1iwhCxNmcRNTqlThQWZ7aC1k2l4apR8kaCPEksP_H_LhifAwNToc09aGJW49Qgo_6dSfe3XJ5K74NXmFyC6GHr4U_B4&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.5.0.0  
+2020-08-06 17:05:11.594 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-08-06 17:05:11.601 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-06 17:05:11.611 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[AbsoluteRefreshTokenLifetime], [t].[AccessTokenLifetime], [t].[AccessTokenType], [t].[AllowAccessTokensViaBrowser], [t].[AllowOfflineAccess], [t].[AllowPlainTextPkce], [t].[AllowRememberConsent], [t].[AllowedIdentityTokenSigningAlgorithms], [t].[AlwaysIncludeUserClaimsInIdToken], [t].[AlwaysSendClientClaims], [t].[AuthorizationCodeLifetime], [t].[BackChannelLogoutSessionRequired], [t].[BackChannelLogoutUri], [t].[ClientClaimsPrefix], [t].[ClientId], [t].[ClientName], [t].[ClientUri], [t].[ConsentLifetime], [t].[Created], [t].[Description], [t].[DeviceCodeLifetime], [t].[EnableLocalLogin], [t].[Enabled], [t].[FrontChannelLogoutSessionRequired], [t].[FrontChannelLogoutUri], [t].[IdentityTokenLifetime], [t].[IncludeJwtId], [t].[LastAccessed], [t].[LogoUri], [t].[NonEditable], [t].[PairWiseSubjectSalt], [t].[ProtocolType], [t].[RefreshTokenExpiration], [t].[RefreshTokenUsage], [t].[RequireClientSecret], [t].[RequireConsent], [t].[RequirePkce], [t].[RequireRequestObject], [t].[SlidingRefreshTokenLifetime], [t].[UpdateAccessTokenClaimsOnRefresh], [t].[Updated], [t].[UserCodeType], [t].[UserSsoLifetime]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+2020-08-06 17:05:11.614 +08:00 [ERR] Unknown client or not enabled: mvc
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code","scope":"openid profile","code_challenge":"MpubBLZMuSjQxjTdGCDtlRCJedFW7JCTFOc2QwLdDr8","code_challenge_method":"S256","response_mode":"form_post","nonce":"637323015115499381.ZTVhZmQzNmUtYzE1Ni00MThjLTk4YmItZDQwNjQxNzgwNTRkMzU3ZTYxNzUtNjZhYS00YmM5LTg1YTctMWNhOTU0YmE4N2Nm","state":"CfDJ8E2AUgCI_l1CkDiUE-qVm_IKtrDw2rw6Ol_CiriISFamHWE74oLaUhcWOdFLflwLX59RkAGfGTHWebj3m-wFx_51-QW833x78CU1yR7gIm1RbXeJ070AZwTKlx-09CgZ7RFSzm0kzTsK1tDQuh-oBSJcK6p8PbFKqJmcStDFoY6LkAv0cuLVHBa9-XkrzmaQ0nHQpY5JGO6CiOUazO-TNpd22jWv-adsbk5j7my3LUotf2qjLHwV9wttNkx3CoaQqa_WMwFzWzkLFsZUJddqkFLRwPrnMMYtU63gxbHrfB_hci3ddJmWvcBp5Stm1iwhCxNmcRNTqlThQWZ7aC1k2l4apR8kaCPEksP_H_LhifAwNToc09aGJW49Qgo_6dSfe3XJ5K74NXmFyC6GHr4U_B4","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2020-08-06 17:05:11.628 +08:00 [ERR] Request validation failed
+2020-08-06 17:05:11.636 +08:00 [INF] {"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"https://localhost:7001/signin-oidc","response_type":"code","scope":"openid profile","code_challenge":"MpubBLZMuSjQxjTdGCDtlRCJedFW7JCTFOc2QwLdDr8","code_challenge_method":"S256","response_mode":"form_post","nonce":"637323015115499381.ZTVhZmQzNmUtYzE1Ni00MThjLTk4YmItZDQwNjQxNzgwNTRkMzU3ZTYxNzUtNjZhYS00YmM5LTg1YTctMWNhOTU0YmE4N2Nm","state":"CfDJ8E2AUgCI_l1CkDiUE-qVm_IKtrDw2rw6Ol_CiriISFamHWE74oLaUhcWOdFLflwLX59RkAGfGTHWebj3m-wFx_51-QW833x78CU1yR7gIm1RbXeJ070AZwTKlx-09CgZ7RFSzm0kzTsK1tDQuh-oBSJcK6p8PbFKqJmcStDFoY6LkAv0cuLVHBa9-XkrzmaQ0nHQpY5JGO6CiOUazO-TNpd22jWv-adsbk5j7my3LUotf2qjLHwV9wttNkx3CoaQqa_WMwFzWzkLFsZUJddqkFLRwPrnMMYtU63gxbHrfB_hci3ddJmWvcBp5Stm1iwhCxNmcRNTqlThQWZ7aC1k2l4apR8kaCPEksP_H_LhifAwNToc09aGJW49Qgo_6dSfe3XJ5K74NXmFyC6GHr4U_B4","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.5.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2020-08-06 17:05:11.644 +08:00 [INF] {"ClientId":"mvc","ClientName":null,"RedirectUri":null,"Endpoint":"Authorize","SubjectId":null,"Scopes":"","GrantType":null,"Error":"unauthorized_client","ErrorDescription":"Unknown client or client not enabled","Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HM1PSU1JH6N8:00000007","TimeStamp":"2020-08-06T09:05:11.0000000Z","ProcessId":24772,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2020-08-06 17:05:11.674 +08:00 [INF] Request finished in 108.3547ms 302 
+2020-08-06 17:05:11.682 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/home/error?errorId=CfDJ8E2AUgCI_l1CkDiUE-qVm_IJrcC_VZnoZYzNolCu4AdkBrjoYgvmClhtxQbFPbgpUYzLy3LCtDWUFdei7YmfKhWdsR11I1eQufh0TkN4HhD2Sp18V2QGR9OkmAjsDfFITkOb9s8HFx8LyD1Wv0V_OKpi-g5_7iPv9H0AzBb5k4bGUNDedYIBCwwuILw6VApJQuOmssiUhDVWS0EupXIgbVhoRTA3fVhFXYPmE_OeBvBs3Goovmj0m6zg6GZ3nc88sgVCSBwpFRwzjjrdTsnHI22ZKhdiRMjJSGdDUffSR4STnKTs7OGt39r1NGuBbEZJmzRGU3HRs_1Tx-3qxGi6cUDPzoz2NSRY9CAv4b5fxiWq  
+2020-08-06 17:05:11.684 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4)'
+2020-08-06 17:05:11.685 +08:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Error(System.String) on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-06 17:05:11.708 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-06 17:05:11.714 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4628ms.
+2020-08-06 17:05:11.727 +08:00 [INF] Executing ViewResult, running view Error.
+2020-08-06 17:05:11.731 +08:00 [INF] Executed ViewResult - view Error executed in 4.5984ms.
+2020-08-06 17:05:11.732 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4) in 46.2908ms
+2020-08-06 17:05:11.732 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Error (Auto.IdentityServer4)'
+2020-08-06 17:05:11.732 +08:00 [INF] Request finished in 50.114ms 200 text/html; charset=utf-8
+2020-08-06 17:22:41.723 +08:00 [INF] Starting up Successful
+2020-08-06 17:22:42.965 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-06 17:22:43.201 +08:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2020-08-06 17:22:43.337 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-08-06 17:22:43.585 +08:00 [INF] Now listening on: https://localhost:5001
+2020-08-06 17:22:43.586 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-06 17:22:43.587 +08:00 [INF] Hosting environment: Development
+2020-08-06 17:22:43.587 +08:00 [INF] Content root path: F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4
+2020-08-06 17:22:45.861 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-08-06 17:22:45.966 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-06 17:22:45.991 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-06 17:22:46.115 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-06 17:22:46.124 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.8237ms.
+2020-08-06 17:22:46.144 +08:00 [INF] Executing ViewResult, running view Index.
+2020-08-06 17:22:46.219 +08:00 [INF] Executed ViewResult - view Index executed in 80.6372ms.
+2020-08-06 17:22:46.221 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) in 227.9058ms
+2020-08-06 17:22:46.230 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-06 17:22:46.234 +08:00 [INF] Request finished in 379.0796ms 200 text/html; charset=utf-8
+2020-08-06 17:22:47.750 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/diagnostics  
+2020-08-06 17:22:47.760 +08:00 [INF] Authorization failed.
+2020-08-06 17:22:47.768 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2020-08-06 17:22:47.769 +08:00 [INF] Request finished in 18.7896ms 302 
+2020-08-06 17:22:47.772 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Account/Login?ReturnUrl=%2Fdiagnostics  
+2020-08-06 17:22:47.776 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.AccountController.Login (Auto.IdentityServer4)'
+2020-08-06 17:22:47.795 +08:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller IdentityServerHost.Quickstart.UI.AccountController (Auto.IdentityServer4).
+2020-08-06 17:22:47.827 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.AccountController.Login (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-06 17:22:47.838 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.AccountController.Login (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.1709ms.
+2020-08-06 17:22:47.839 +08:00 [INF] Executing ViewResult, running view Login.
+2020-08-06 17:22:47.896 +08:00 [INF] Executed ViewResult - view Login executed in 57.4217ms.
+2020-08-06 17:22:47.897 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.AccountController.Login (Auto.IdentityServer4) in 99.3043ms
+2020-08-06 17:22:47.916 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.AccountController.Login (Auto.IdentityServer4)'
+2020-08-06 17:22:47.919 +08:00 [INF] Request finished in 146.9463ms 200 text/html; charset=utf-8
+2020-08-06 18:02:49.978 +08:00 [INF] Starting up Successful
+2020-08-06 18:02:51.168 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-06 18:02:51.303 +08:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2020-08-06 18:02:51.458 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-08-06 18:02:51.731 +08:00 [INF] Now listening on: https://localhost:5001
+2020-08-06 18:02:51.732 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-06 18:02:51.732 +08:00 [INF] Hosting environment: Development
+2020-08-06 18:02:51.733 +08:00 [INF] Content root path: F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4
+2020-08-06 18:02:53.388 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-08-06 18:02:53.501 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-06 18:02:53.540 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-06 18:02:53.642 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-06 18:02:53.653 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.3361ms.
+2020-08-06 18:02:53.679 +08:00 [INF] Executing ViewResult, running view Index.
+2020-08-06 18:02:53.777 +08:00 [INF] Executed ViewResult - view Index executed in 106.8458ms.
+2020-08-06 18:02:53.780 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) in 238.8342ms
+2020-08-06 18:02:53.780 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-06 18:02:53.788 +08:00 [INF] Request finished in 411.6635ms 200 text/html; charset=utf-8

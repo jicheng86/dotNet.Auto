@@ -37,7 +37,7 @@ namespace Auto.Web.Controllers
         [HttpPost]
         public ActionResult GetAreasSelectOptions(int ParentID, int SelectedID, bool HadEmptyItem = false)
         {
-            JSONData jSONData = new JSONData();
+            ResponseJsonData jSONData = new ResponseJsonData();
             List<SelectListItem> items = new List<SelectListItem>();
             if (HadEmptyItem)
             {

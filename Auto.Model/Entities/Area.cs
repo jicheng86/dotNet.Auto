@@ -99,7 +99,7 @@ namespace Auto.Model.Entities
         /// 创建者ID
         /// </summary>
         [Required(ErrorMessage = "{0}不能为空！"), Display(Name = "创建者ID")]
-        public long CreatorUserId { get; set; }
+        public long CreatorUserID { get; set; }
         /// <summary>
         /// 创建时间
         /// </summary>

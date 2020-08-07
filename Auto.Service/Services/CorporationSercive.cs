@@ -23,8 +23,8 @@ namespace Auto.Service.Services
 
         public ICorporationRepository corporationRepository { get; }
 
-        public PageData<CorporationDto> LoadPageDataList(Expression<Func<Corporation, bool>> whereLambda,
-                                                         Expression<Func<Corporation, object>> orderLambda,
+        public PageData<CorporationDto> LoadPageDataList(Expression<Func<CorporationDto, bool>> whereLambda,
+                                                         Expression<Func<CorporationDto, object>> orderLambda,
                                                          int pageIndex, int pageSize, bool isDesc = false)
         {
             return corporationRepository.LoadPageDataList(whereLambda, orderLambda, pageIndex, pageSize, isDesc);

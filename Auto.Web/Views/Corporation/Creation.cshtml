@@ -177,17 +177,29 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <label asp-for="Remarks" class="col-md-3 offset-md-1 col-form-label"></label>
+                                    <div class="col-md-8">
+                                        <textarea class="form-control" asp-for="Remarks" rows="3" placeholder="备注信息（选填）"></textarea>
+                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
+
+                        <div class="form-group row hidden">
                             <div class="col-md-6">
                                 <div class="row">
                                     <label class="col-md-3 offset-md-1 col-form-label"></label>
                                     <div class="col-md-8">
-                                        <input type="checkbox" class="checkbox" id="agree" name="agree" /> 我已经认真阅读并同意《使用协议》
+                                        <input type="checkbox" class="checkbox" id="agree" name="agree" /> <span for="agree">我已经认真阅读并同意《使用协议》</span>
                                     </div>
 
                                 </div>
                             </div>
                         </div>
+
                         <div class="form-group row">
                             <div class="col-md-4 col-md-offset-2">
                                 <button class="btn btn-white btn-sm" type="button">Cancel</button>

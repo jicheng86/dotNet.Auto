@@ -13,6 +13,56 @@ var IsUndefinedOrNull = function (value) {
     }
     return false;
 };
+
+
+/*
+ * json日期格式转换为正常格式
+ * JsonDate类型: timestamp【/Date(1596600000)】 /本地时间【2020-08-03T12:00:00.0000000】
+ */
+function jsonDateFormatting(JsonDate, Format = 'yyyy-MM-dd hh:mm:ss') {
+    try {
+        var isTimestamp = false;
+        if (JsonDate.indexOf("/Date(") > -1) {
+            isTimestamp = true;
+        }
+        //2020-08-03T12:00:00.0000000
+        var dateTime = new Date(parseInt(JsonDate.replace("/Date(", "").replace(")/", ""), 10));
+        var year = isTimestamp ? date.getFullYear() : JsonDate.substring(0, 4);
+        var month = isTimestamp ? dateTime.getMonth() + 1 < 10 ? "0" + (dateTime.getMonth() + 1) : dateTime.getMonth() + 1 : JsonDate.substring(5, 7);
+        var day = isTimestamp ? dateTime.getDate() < 10 ? "0" + dateTime.getDate() : dateTime.getDate() : JsonDate.substring(8, 10);
+        var hours = isTimestamp ? dateTime.getHours() < 10 ? "0" + dateTime.getHours() : dateTime.getHours() : JsonDate.substring(11, 13);
+        var minutes = isTimestamp ? dateTime.getMinutes() < 10 ? "0" + dateTime.getMinutes() : dateTime.getMinutes() : JsonDate.substring(14, 16);
+        var seconds = isTimestamp ? dateTime.getSeconds() < 10 ? "0" + dateTime.getSeconds() : dateTime.getSeconds() : JsonDate.substring(17, 19);
+        var milliseconds = isTimestamp ? dateTime.getMilliseconds() : JsonDate.substring(20, 23);
+        switch (Format) {
+            case 'yyyy':
+                return year;
+            case 'yyyy-MM':
+            case 'yyyy-mm':
+                return year + "-" + month;
+            case 'yyyy-MM-dd':
+            case 'yyyy-mm-dd':
+                return year + "-" + month + '-' + day;
+            case 'yyyy-MM-dd hh:mm':
+            case 'yyyy-mm-dd hh:mm':
+                return year + "-" + month + '-' + day + ' ' + hours + ':' + minutes;
+            case 'yyyy-MM-dd hh:mm:ss':
+            case 'yyyy-mm-dd hh:mm:ss':
+                return year + "-" + month + '-' + day + ' ' + hours + ':' + minutes + ':' + seconds;
+            case 'yyyy-MM-dd hh:mm:ss.SSS':
+            case 'yyyy-mm-dd hh:mm:ss.SSS':
+                return year + "-" + month + '-' + day + ' ' + hours + ':' + minutes + ':' + seconds + "." + milliseconds;
+            default:
+                return year + "-" + month + "-" + day + " " + hours + ":" + minutes + ":" + seconds;
+        }
+        //return year + "-" + month + "-" + day + " " + hours + ":" + minutes + ":" + seconds;
+    } catch (ex) {
+        return "-";
+    }
+}
+
+
+
 //区划地址选择select加载数据
 var loadingAreasOptions = function (initialLoading, thisSelectID, nextSelectID, thisSelectedValue, thisParentIDValue) {
     var select = $('#' + thisSelectID);//当前操作ID

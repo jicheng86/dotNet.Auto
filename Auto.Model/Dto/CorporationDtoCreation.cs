@@ -66,13 +66,17 @@ namespace Auto.Model.Dto
         /// </summary>
         [Required(ErrorMessage = "{0}不能为空！"), Display(Name = "公司详细地址"), StringLength(200, MinimumLength = 5, ErrorMessage = "{0}，长度范围{2}~{1}，请核实！")]
         public string CorporationAddress { get; set; }
-
+        /// <summary>
+        /// 备注信息
+        /// </summary>
+        [Display(Name = "备注信息"), StringLength(500, ErrorMessage = "{0}不能超最大长度{1}，请核实！")]
+        public string Remarks { get; set; }
 
         /// <summary>
         /// 创建者ID
         /// </summary>
         [Required(ErrorMessage = "{0}不能为空！"), Display(Name = "创建者ID")]
-        public long CreatorUserId { get; set; }
+        public long CreatorUserID { get; set; }
         /// <summary>
         /// 创建时间
         /// </summary>
@@ -102,7 +106,7 @@ namespace Auto.Model.Dto
         /// 删除操作者ID
         /// </summary>
         [Display(Name = "删除操作时间")]
-        public long? DeleterUserId { get; set; }
+        public long? DeleterUserID { get; set; }
         /// <summary>
         /// 删除操作时间
         /// </summary>

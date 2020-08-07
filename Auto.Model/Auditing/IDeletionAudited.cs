@@ -12,7 +12,7 @@ namespace Auto.Model.Auditing
         /// <summary>
         /// 删除操作者
         /// </summary>
-        long? DeleterUserId { get; set; }
+        long? DeleterUserID { get; set; }
         /// <summary>
         /// 删除时间
         /// </summary>

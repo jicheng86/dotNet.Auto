@@ -12,7 +12,7 @@ namespace Auto.Model
         public PageData()
         {
             Total = 0;
-            Data = null;
+            Rows = null;
         }
 
         /// <summary>
@@ -22,6 +22,6 @@ namespace Auto.Model
         /// <summary>
         /// 数据
         /// </summary>
-        public List<T> Data { get; set; }
+        public List<T> Rows { get; set; }
     }
 }

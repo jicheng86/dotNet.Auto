@@ -20,7 +20,7 @@ namespace Auto.Model.Entities
         /// 创建者ID
         /// </summary>
         [Required(ErrorMessage = "{0}不能为空！"), Display(Name = "创建者ID")]
-        public long CreatorUserId { get; set; }
+        public long CreatorUserID { get; set; }
         /// <summary>
         /// 创建时间
         /// </summary>
@@ -50,7 +50,7 @@ namespace Auto.Model.Entities
         /// 删除操作者ID
         /// </summary>
         [Display(Name = "删除操作时间")]
-        public long? DeleterUserId { get; set; }
+        public long? DeleterUserID { get; set; }
         /// <summary>
         /// 删除操作时间
         /// </summary>

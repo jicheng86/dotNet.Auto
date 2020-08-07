@@ -21,7 +21,7 @@ namespace Auto.IService.IServices
         /// <param name="pageSize">页容量</param>
         /// <param name="total">查询数据总条数</param>
         /// <returns>分页数据集合</returns>
-        PageData<CorporationDto> LoadPageDataList(Expression<Func<Corporation, bool>> whereLambda, Expression<Func<Corporation, object>> orderLambda, int pageIndex, int pageSize, bool isDesc = false);
+        PageData<CorporationDto> LoadPageDataList(Expression<Func<CorporationDto, bool>> whereLambda, Expression<Func<CorporationDto, object>> orderLambda, int pageIndex, int pageSize, bool isDesc = false);
         bool IsExisted(Corporation corporation);
 
     }

@@ -1,0 +1,516 @@
+﻿2020-07-31 17:55:02.211 +08:00 [INF] Starting up Successful
+2020-07-31 17:55:04.095 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-31 17:55:04.618 +08:00 [INF] Now listening on: http://localhost:5000
+2020-07-31 17:55:04.627 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-31 17:55:04.627 +08:00 [INF] Hosting environment: Development
+2020-07-31 17:55:04.628 +08:00 [INF] Content root path: F:\dotNetCore\dotNet.Auto\Auto.Web
+2020-07-31 17:55:06.083 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2020-07-31 17:55:06.148 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.HomeController.Index (Auto.Web)'
+2020-07-31 17:55:06.185 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Auto.Web.Controllers.HomeController (Auto.Web).
+2020-07-31 17:55:06.273 +08:00 [INF] Executing action method Auto.Web.Controllers.HomeController.Index (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:06.285 +08:00 [INF] Executed action method Auto.Web.Controllers.HomeController.Index (Auto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.7587ms.
+2020-07-31 17:55:06.323 +08:00 [INF] Executing ViewResult, running view Index.
+2020-07-31 17:55:06.831 +08:00 [INF] Executed ViewResult - view Index executed in 512.0221ms.
+2020-07-31 17:55:06.842 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/v4.5.0/dist/css/bootstrap.css?v=1hm7xPFY4HL_GPfWz595kcNLVmuMC43nPagoQhWTb58  
+2020-07-31 17:55:06.843 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/animate/v4.1.0/dist/animate.css?v=6Wozb_CzRANFOaGqN-u_uRT7kcffVIQt9OhOuuA6I9o  
+2020-07-31 17:55:06.845 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/public.css  
+2020-07-31 17:55:06.845 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/inspina.css  
+2020-07-31 17:55:06.859 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/v3.5.1/dist/jquery.min.js?v=82hEkGrSMJh3quMSG4f7FbngmAPLTDM63H4eNayS4Us  
+2020-07-31 17:55:06.860 +08:00 [INF] Executed action Auto.Web.Controllers.HomeController.Index (Auto.Web) in 673.4516ms
+2020-07-31 17:55:06.862 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.HomeController.Index (Auto.Web)'
+2020-07-31 17:55:06.862 +08:00 [INF] The file /css/inspina.css was not modified
+2020-07-31 17:55:06.862 +08:00 [INF] The file /lib/bootstrap/v4.5.0/dist/css/bootstrap.css was not modified
+2020-07-31 17:55:06.862 +08:00 [INF] The file /lib/animate/v4.1.0/dist/animate.css was not modified
+2020-07-31 17:55:06.862 +08:00 [INF] The file /lib/jquery/v3.5.1/dist/jquery.min.js was not modified
+2020-07-31 17:55:06.862 +08:00 [INF] The file /css/public.css was not modified
+2020-07-31 17:55:06.864 +08:00 [INF] Request finished in 20.7226ms 304 text/css
+2020-07-31 17:55:06.864 +08:00 [INF] Request finished in 4.2645ms 304 application/javascript
+2020-07-31 17:55:06.864 +08:00 [INF] Request finished in 21.675ms 304 text/css
+2020-07-31 17:55:06.864 +08:00 [INF] Request finished in 18.6993ms 304 text/css
+2020-07-31 17:55:06.864 +08:00 [INF] Request finished in 19.575ms 304 text/css
+2020-07-31 17:55:06.896 +08:00 [INF] Request finished in 817.5353ms 200 text/html; charset=utf-8
+2020-07-31 17:55:06.897 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-slimScroll/v1.3.8/dist/jquery.slimscroll.min.js?v=qE_6vdSYzQu9lgosKxhFplETvWvqAAlmAuR-yPh_0SI  
+2020-07-31 17:55:06.897 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/layer/v3.11/dist/layer.js?v=HOZknYLS2w-OSCP3Ad38_Zx_EHy0RskH5G7H5XFxoqM  
+2020-07-31 17:55:06.897 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/inspina.js?v=AesI-MKnAvxCU6tM_87vaUPzeYLZvgKxlndX4Qk04ng  
+2020-07-31 17:55:06.897 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-metisMenu/v2.7.7/dist/metisMenu.min.js?v=iKIKDNMMtBZzNVSGytO-b7JCv16YfaR5xbqHlFuNAa8  
+2020-07-31 17:55:06.897 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/v4.5.0/dist/js/bootstrap.bundle.js?v=Bu2KGZCt5rR0kU0i5x8rQx5lUEWxa5aurmdDGPpM5kY  
+2020-07-31 17:55:06.910 +08:00 [INF] The file /lib/jquery-metisMenu/v2.7.7/dist/metisMenu.min.js was not modified
+2020-07-31 17:55:06.900 +08:00 [INF] The file /lib/jquery-slimScroll/v1.3.8/dist/jquery.slimscroll.min.js was not modified
+2020-07-31 17:55:06.900 +08:00 [INF] The file /lib/layer/v3.11/dist/layer.js was not modified
+2020-07-31 17:55:06.907 +08:00 [INF] The file /js/inspina.js was not modified
+2020-07-31 17:55:06.897 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/popper/v1.13.0/dist/umd/popper.min.js  
+2020-07-31 17:55:06.910 +08:00 [INF] The file /lib/bootstrap/v4.5.0/dist/js/bootstrap.bundle.js was not modified
+2020-07-31 17:55:06.910 +08:00 [INF] Request finished in 12.9887ms 304 application/javascript
+2020-07-31 17:55:06.910 +08:00 [INF] Request finished in 13.2757ms 304 application/javascript
+2020-07-31 17:55:06.911 +08:00 [INF] Request finished in 13.6311ms 304 application/javascript
+2020-07-31 17:55:06.912 +08:00 [INF] The file /lib/popper/v1.13.0/dist/umd/popper.min.js was not modified
+2020-07-31 17:55:06.911 +08:00 [INF] Request finished in 13.882ms 304 application/javascript
+2020-07-31 17:55:06.912 +08:00 [INF] Request finished in 15.1503ms 304 application/javascript
+2020-07-31 17:55:06.914 +08:00 [INF] Request finished in 17.2147ms 304 application/javascript
+2020-07-31 17:55:06.915 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/public.js?v=HOwj-6LiaDpJNhuMJ-z8wZ-IH0m9K8vEZ9fgPdtfgzs  
+2020-07-31 17:55:06.916 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-flot/v0.8.3/dist/jquery.flot.js  
+2020-07-31 17:55:06.916 +08:00 [INF] The file /js/public.js was not modified
+2020-07-31 17:55:06.917 +08:00 [INF] The file /lib/jquery-flot/v0.8.3/dist/jquery.flot.js was not modified
+2020-07-31 17:55:06.917 +08:00 [INF] Request finished in 1.5032ms 304 application/javascript
+2020-07-31 17:55:06.917 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-flot/v0.8.3/dist/jquery.flot.resize.js  
+2020-07-31 17:55:06.918 +08:00 [INF] Request finished in 1.9958ms 304 application/javascript
+2020-07-31 17:55:06.918 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-flot/v0.8.3/dist/jquery.flot.pie.js  
+2020-07-31 17:55:06.924 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-flot/v0.9.0/dist/jquery.flot.tooltip.js  
+2020-07-31 17:55:06.925 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-flot/v0.8.2/dist/js/jquery.flot.spline.js  
+2020-07-31 17:55:06.925 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-jvectormap/dist/js/jquery-jvectormap-2.0.3.min.js  
+2020-07-31 17:55:06.925 +08:00 [INF] The file /lib/jquery-flot/v0.8.3/dist/jquery.flot.resize.js was not modified
+2020-07-31 17:55:06.926 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-flot/v0.8.3/dist/jquery.flot.time.js  
+2020-07-31 17:55:06.927 +08:00 [INF] The file /lib/jquery-flot/v0.8.3/dist/jquery.flot.pie.js was not modified
+2020-07-31 17:55:06.927 +08:00 [INF] The file /lib/jquery-flot/v0.9.0/dist/jquery.flot.tooltip.js was not modified
+2020-07-31 17:55:06.929 +08:00 [INF] The file /lib/jquery-flot/v0.8.2/dist/js/jquery.flot.spline.js was not modified
+2020-07-31 17:55:06.929 +08:00 [INF] The file /lib/jquery-jvectormap/dist/js/jquery-jvectormap-2.0.3.min.js was not modified
+2020-07-31 17:55:06.933 +08:00 [INF] Request finished in 15.6219ms 304 application/javascript
+2020-07-31 17:55:06.936 +08:00 [INF] The file /lib/jquery-flot/v0.8.3/dist/jquery.flot.time.js was not modified
+2020-07-31 17:55:06.936 +08:00 [INF] Request finished in 17.8299ms 304 application/javascript
+2020-07-31 17:55:06.937 +08:00 [INF] Request finished in 12.4792ms 304 application/javascript
+2020-07-31 17:55:06.937 +08:00 [INF] Request finished in 11.5911ms 304 application/javascript
+2020-07-31 17:55:06.938 +08:00 [INF] Request finished in 13.1496ms 304 application/javascript
+2020-07-31 17:55:06.940 +08:00 [INF] Request finished in 13.9786ms 304 application/javascript
+2020-07-31 17:55:06.941 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-jvectormap/dist/js/jquery-jvectormap-world-mill.js  
+2020-07-31 17:55:06.943 +08:00 [INF] The file /lib/jquery-jvectormap/dist/js/jquery-jvectormap-world-mill.js was not modified
+2020-07-31 17:55:06.946 +08:00 [INF] Request finished in 4.3602ms 304 application/javascript
+2020-07-31 17:55:07.055 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/layer/v3.11/dist/theme/default/layer.css?v=3.1.1  
+2020-07-31 17:55:07.058 +08:00 [INF] The file /lib/layer/v3.11/dist/theme/default/layer.css was not modified
+2020-07-31 17:55:07.066 +08:00 [INF] Request finished in 12.2138ms 304 text/css
+2020-07-31 17:55:10.772 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Corporation/Creation  
+2020-07-31 17:55:10.778 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.CorporationController.Creation (Auto.Web)'
+2020-07-31 17:55:10.788 +08:00 [INF] Route matched with {action = "Creation", controller = "Corporation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Creation() on controller Auto.Web.Controllers.CorporationController (Auto.Web).
+2020-07-31 17:55:11.164 +08:00 [INF] Executing action method Auto.Web.Controllers.CorporationController.Creation (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:11.168 +08:00 [INF] Executed action method Auto.Web.Controllers.CorporationController.Creation (Auto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2992ms.
+2020-07-31 17:55:11.175 +08:00 [INF] Executing ViewResult, running view Creation.
+2020-07-31 17:55:11.423 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Corporation/Creation  
+2020-07-31 17:55:11.426 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.CorporationController.Creation (Auto.Web)'
+2020-07-31 17:55:11.435 +08:00 [INF] Route matched with {action = "Creation", controller = "Corporation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Creation() on controller Auto.Web.Controllers.CorporationController (Auto.Web).
+2020-07-31 17:55:11.451 +08:00 [INF] Executing action method Auto.Web.Controllers.CorporationController.Creation (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:11.453 +08:00 [INF] Executed action method Auto.Web.Controllers.CorporationController.Creation (Auto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1671ms.
+2020-07-31 17:55:11.454 +08:00 [INF] Executing ViewResult, running view Creation.
+2020-07-31 17:55:11.474 +08:00 [INF] Executed ViewResult - view Creation executed in 299.9192ms.
+2020-07-31 17:55:11.474 +08:00 [INF] Executed ViewResult - view Creation executed in 20.0168ms.
+2020-07-31 17:55:11.474 +08:00 [INF] Executed action Auto.Web.Controllers.CorporationController.Creation (Auto.Web) in 685.1575ms
+2020-07-31 17:55:11.477 +08:00 [INF] Executed action Auto.Web.Controllers.CorporationController.Creation (Auto.Web) in 41.2677ms
+2020-07-31 17:55:11.477 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.CorporationController.Creation (Auto.Web)'
+2020-07-31 17:55:11.478 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.CorporationController.Creation (Auto.Web)'
+2020-07-31 17:55:11.486 +08:00 [INF] Request finished in 714.2393ms 200 text/html; charset=utf-8
+2020-07-31 17:55:11.486 +08:00 [INF] Request finished in 62.991ms 200 text/html; charset=utf-8
+2020-07-31 17:55:11.495 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-select/v1.13.18/dist/js/bootstrap-select.js?v=IGXSZlvby-ZRK46KANoCJ8CK9U4wfnp2vLcQLcVVV_k  
+2020-07-31 17:55:11.495 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-select/v1.13.18/dist/css/bootstrap-select.css?v=-XSe2yBGTrBBSugZK_4VdokAFtsIBvcTLV5aktqcDf8  
+2020-07-31 17:55:11.497 +08:00 [INF] The file /lib/bootstrap-select/v1.13.18/dist/js/bootstrap-select.js was not modified
+2020-07-31 17:55:11.498 +08:00 [INF] The file /lib/bootstrap-select/v1.13.18/dist/css/bootstrap-select.css was not modified
+2020-07-31 17:55:11.507 +08:00 [INF] Request finished in 10.1734ms 304 application/javascript
+2020-07-31 17:55:11.510 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-bootstrapvalidator/dist/css/bootstrap.css?v=zn3EMLwM5MVXbkFxoiobB20dXyoiNrmBn5ioK_YtEkA  
+2020-07-31 17:55:11.514 +08:00 [INF] Request finished in 18.6516ms 304 text/css
+2020-07-31 17:55:11.517 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-bootstrapvalidator/dist/css/bootstrapValidator.css?v=_OSilKbt1vJDYG2AHl0WH22osBRmnFgP7X55u1s8hek  
+2020-07-31 17:55:11.517 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-bootstrapvalidator/dist/js/bootstrapValidator.js?v=o1euaz1vwPXBTxRl9OxyDQuac7lF8i92X56aky0gPEE  
+2020-07-31 17:55:11.517 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-bootstrapvalidator/dist/js/language/zh_CN.js?v=yP3ZG5GONKRi3ESckdSlOYerVgYnZC_Shj51JpP8c5s  
+2020-07-31 17:55:11.517 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-select/v1.13.18/dist/js/i18n/defaults-zh_CN.js?v=ZTLaDC6QZF8MQJ2vatq-Dz4vbZt1w4tW38a4o9n6V0M  
+2020-07-31 17:55:11.519 +08:00 [INF] The file /lib/jquery-bootstrapvalidator/dist/css/bootstrap.css was not modified
+2020-07-31 17:55:11.519 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-form/v4.3.0/dist/jquery.form.js?v=jpjDsy3bqvK8WWVXR5J-30Sx1WlP74nmtNQc9m1qBSs  
+2020-07-31 17:55:11.520 +08:00 [INF] The file /lib/jquery-bootstrapvalidator/dist/css/bootstrapValidator.css was not modified
+2020-07-31 17:55:11.522 +08:00 [INF] The file /lib/jquery-bootstrapvalidator/dist/js/bootstrapValidator.js was not modified
+2020-07-31 17:55:11.537 +08:00 [INF] The file /lib/jquery-bootstrapvalidator/dist/js/language/zh_CN.js was not modified
+2020-07-31 17:55:11.539 +08:00 [INF] The file /lib/bootstrap-select/v1.13.18/dist/js/i18n/defaults-zh_CN.js was not modified
+2020-07-31 17:55:11.539 +08:00 [INF] Request finished in 28.7149ms 304 text/css
+2020-07-31 17:55:11.540 +08:00 [INF] The file /lib/jquery-form/v4.3.0/dist/jquery.form.js was not modified
+2020-07-31 17:55:11.547 +08:00 [INF] Request finished in 30.0742ms 304 text/css
+2020-07-31 17:55:11.548 +08:00 [INF] Request finished in 31.4868ms 304 application/javascript
+2020-07-31 17:55:11.548 +08:00 [INF] Request finished in 31.4131ms 304 application/javascript
+2020-07-31 17:55:11.549 +08:00 [INF] Request finished in 31.6623ms 304 application/javascript
+2020-07-31 17:55:11.550 +08:00 [INF] Request finished in 31.2399ms 304 application/javascript
+2020-07-31 17:55:11.550 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/Corporation/Creation.js?v=cU8Nz8NginMg0cadwNcP38-Dg2ms8ce8elZ3NXa4gZI  
+2020-07-31 17:55:11.554 +08:00 [INF] The file /js/Corporation/Creation.js was not modified
+2020-07-31 17:55:11.559 +08:00 [INF] Request finished in 9.3774ms 304 application/javascript
+2020-07-31 17:55:11.698 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/layer/v3.11/dist/theme/default/loading-0.gif  
+2020-07-31 17:55:11.699 +08:00 [INF] The file /lib/layer/v3.11/dist/theme/default/loading-0.gif was not modified
+2020-07-31 17:55:11.701 +08:00 [INF] Request finished in 2.8892ms 304 image/gif
+2020-07-31 17:55:11.702 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 45
+2020-07-31 17:55:11.703 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:11.714 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:11.761 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:12.330 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:12.626 +08:00 [INF] Executed DbCommand (54ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:12.803 +08:00 [INF] Executed DbCommand (58ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:12.810 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1047.3494ms.
+2020-07-31 17:55:12.816 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:12.930 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 1214.2726ms
+2020-07-31 17:55:12.931 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:12.936 +08:00 [INF] Request finished in 1234.1985ms 200 application/json; charset=utf-8
+2020-07-31 17:55:18.653 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Corporation/Creation  
+2020-07-31 17:55:18.655 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.CorporationController.Creation (Auto.Web)'
+2020-07-31 17:55:18.658 +08:00 [INF] Route matched with {action = "Creation", controller = "Corporation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Creation() on controller Auto.Web.Controllers.CorporationController (Auto.Web).
+2020-07-31 17:55:18.676 +08:00 [INF] Executing action method Auto.Web.Controllers.CorporationController.Creation (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:18.676 +08:00 [INF] Executed action method Auto.Web.Controllers.CorporationController.Creation (Auto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0645ms.
+2020-07-31 17:55:18.678 +08:00 [INF] Executing ViewResult, running view Creation.
+2020-07-31 17:55:18.685 +08:00 [INF] Executed ViewResult - view Creation executed in 6.7145ms.
+2020-07-31 17:55:18.686 +08:00 [INF] Executed action Auto.Web.Controllers.CorporationController.Creation (Auto.Web) in 26.3098ms
+2020-07-31 17:55:18.692 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.CorporationController.Creation (Auto.Web)'
+2020-07-31 17:55:18.692 +08:00 [INF] Request finished in 39.1646ms 200 text/html; charset=utf-8
+2020-07-31 17:55:18.819 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 45
+2020-07-31 17:55:18.821 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:18.825 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:18.852 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:18.883 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:18.891 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:18.901 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:18.903 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 45.6816ms.
+2020-07-31 17:55:18.909 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:18.916 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 83.5487ms
+2020-07-31 17:55:18.918 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:18.919 +08:00 [INF] Request finished in 99.8795ms 200 application/json; charset=utf-8
+2020-07-31 17:55:22.622 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 13
+2020-07-31 17:55:22.623 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:22.626 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:22.651 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:22.660 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:22.663 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:22.674 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:22.678 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 24.5686ms.
+2020-07-31 17:55:22.678 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:22.679 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 52.324ms
+2020-07-31 17:55:22.680 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:22.682 +08:00 [INF] Request finished in 60.4675ms 200 application/json; charset=utf-8
+2020-07-31 17:55:24.132 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 13
+2020-07-31 17:55:24.134 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:24.139 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:24.176 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:24.178 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:24.182 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:24.194 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:24.197 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 19.5794ms.
+2020-07-31 17:55:24.202 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:24.203 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 47.3307ms
+2020-07-31 17:55:24.204 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:24.206 +08:00 [INF] Request finished in 73.7855ms 200 application/json; charset=utf-8
+2020-07-31 17:55:25.236 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 13
+2020-07-31 17:55:25.237 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:25.248 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:25.266 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:25.267 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:25.270 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:25.278 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:25.280 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 13.921ms.
+2020-07-31 17:55:25.284 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:25.285 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 35.4131ms
+2020-07-31 17:55:25.285 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:25.286 +08:00 [INF] Request finished in 49.5586ms 200 application/json; charset=utf-8
+2020-07-31 17:55:27.735 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 13
+2020-07-31 17:55:27.736 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:27.740 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:27.765 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:27.767 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:27.769 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:27.780 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:27.782 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.4611ms.
+2020-07-31 17:55:27.785 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:27.786 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 44.2779ms
+2020-07-31 17:55:27.787 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:27.796 +08:00 [INF] Request finished in 60.3043ms 200 application/json; charset=utf-8
+2020-07-31 17:55:33.685 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 13
+2020-07-31 17:55:33.686 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:33.693 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:33.718 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:33.722 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:33.724 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:33.743 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:33.750 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 29.8512ms.
+2020-07-31 17:55:33.752 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:33.753 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 58.1239ms
+2020-07-31 17:55:33.753 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:33.755 +08:00 [INF] Request finished in 69.7549ms 200 application/json; charset=utf-8
+2020-07-31 17:55:36.318 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Corporation/Creation  
+2020-07-31 17:55:36.320 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.CorporationController.Creation (Auto.Web)'
+2020-07-31 17:55:36.330 +08:00 [INF] Route matched with {action = "Creation", controller = "Corporation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Creation() on controller Auto.Web.Controllers.CorporationController (Auto.Web).
+2020-07-31 17:55:36.348 +08:00 [INF] Executing action method Auto.Web.Controllers.CorporationController.Creation (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:36.349 +08:00 [INF] Executed action method Auto.Web.Controllers.CorporationController.Creation (Auto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1043ms.
+2020-07-31 17:55:36.351 +08:00 [INF] Executing ViewResult, running view Creation.
+2020-07-31 17:55:36.370 +08:00 [INF] Executed ViewResult - view Creation executed in 19.4709ms.
+2020-07-31 17:55:36.371 +08:00 [INF] Executed action Auto.Web.Controllers.CorporationController.Creation (Auto.Web) in 40.6492ms
+2020-07-31 17:55:36.374 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.CorporationController.Creation (Auto.Web)'
+2020-07-31 17:55:36.385 +08:00 [INF] Request finished in 66.9968ms 200 text/html; charset=utf-8
+2020-07-31 17:55:36.523 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 45
+2020-07-31 17:55:36.525 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:36.528 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:36.561 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:36.565 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:36.567 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:36.578 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:36.582 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18.6672ms.
+2020-07-31 17:55:36.583 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:36.584 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 48.0891ms
+2020-07-31 17:55:36.586 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:36.596 +08:00 [INF] Request finished in 72.5126ms 200 application/json; charset=utf-8
+2020-07-31 17:55:38.278 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 14
+2020-07-31 17:55:38.279 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:38.280 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:38.312 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:38.314 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:38.316 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:38.327 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:38.329 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.2419ms.
+2020-07-31 17:55:38.331 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:38.332 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 39.0326ms
+2020-07-31 17:55:38.332 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:38.333 +08:00 [INF] Request finished in 55.2781ms 200 application/json; charset=utf-8
+2020-07-31 17:55:39.470 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 14
+2020-07-31 17:55:39.471 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:39.473 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:39.492 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:39.494 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:39.497 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:39.511 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:39.517 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 23.0577ms.
+2020-07-31 17:55:39.517 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:39.518 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 44.6047ms
+2020-07-31 17:55:39.518 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:39.519 +08:00 [INF] Request finished in 49.0189ms 200 application/json; charset=utf-8
+2020-07-31 17:55:40.709 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 14
+2020-07-31 17:55:40.709 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:40.711 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:40.744 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:40.748 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:40.753 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:40.763 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:40.766 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 19.03ms.
+2020-07-31 17:55:40.768 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:40.768 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 43.3684ms
+2020-07-31 17:55:40.769 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:40.770 +08:00 [INF] Request finished in 60.9493ms 200 application/json; charset=utf-8
+2020-07-31 17:55:42.484 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 14
+2020-07-31 17:55:42.485 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:42.488 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:42.514 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:42.518 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:42.526 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:46.642 +08:00 [INF] Executed DbCommand (4,107ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:46.645 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4128.0685ms.
+2020-07-31 17:55:46.649 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:46.655 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 4165.1298ms
+2020-07-31 17:55:46.658 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:46.661 +08:00 [INF] Request finished in 4177.465ms 200 application/json; charset=utf-8
+2020-07-31 17:55:55.278 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 13
+2020-07-31 17:55:55.279 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:55.281 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:55.301 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:55.304 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:55.315 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:55.337 +08:00 [INF] Executed DbCommand (19ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:55.343 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 39.851ms.
+2020-07-31 17:55:55.344 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:55.345 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 62.4998ms
+2020-07-31 17:55:55.345 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:55.346 +08:00 [INF] Request finished in 67.8943ms 200 application/json; charset=utf-8
+2020-07-31 17:55:57.064 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 13
+2020-07-31 17:55:57.064 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:57.068 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:57.087 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:57.091 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:57.097 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:57.105 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:57.107 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 16.8968ms.
+2020-07-31 17:55:57.109 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:57.110 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 40.6441ms
+2020-07-31 17:55:57.110 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:57.111 +08:00 [INF] Request finished in 46.9594ms 200 application/json; charset=utf-8
+2020-07-31 17:55:59.085 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 13
+2020-07-31 17:55:59.086 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:59.098 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:55:59.118 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:55:59.120 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:55:59.123 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:55:59.135 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:55:59.137 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17.5921ms.
+2020-07-31 17:55:59.144 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:55:59.144 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 44.6101ms
+2020-07-31 17:55:59.145 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:55:59.145 +08:00 [INF] Request finished in 60.0172ms 200 application/json; charset=utf-8
+2020-07-31 17:56:00.894 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 13
+2020-07-31 17:56:00.895 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:56:00.901 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:56:00.920 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:56:00.924 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:56:00.929 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:56:00.951 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:56:00.955 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 31.8112ms.
+2020-07-31 17:56:00.958 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:56:00.962 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 60.3576ms
+2020-07-31 17:56:00.968 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:56:00.969 +08:00 [INF] Request finished in 75.0118ms 200 application/json; charset=utf-8
+2020-07-31 17:56:02.609 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Corporation/Creation  
+2020-07-31 17:56:02.610 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.CorporationController.Creation (Auto.Web)'
+2020-07-31 17:56:02.613 +08:00 [INF] Route matched with {action = "Creation", controller = "Corporation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Creation() on controller Auto.Web.Controllers.CorporationController (Auto.Web).
+2020-07-31 17:56:02.634 +08:00 [INF] Executing action method Auto.Web.Controllers.CorporationController.Creation (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:56:02.637 +08:00 [INF] Executed action method Auto.Web.Controllers.CorporationController.Creation (Auto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0413ms.
+2020-07-31 17:56:02.641 +08:00 [INF] Executing ViewResult, running view Creation.
+2020-07-31 17:56:02.647 +08:00 [INF] Executed ViewResult - view Creation executed in 5.9361ms.
+2020-07-31 17:56:02.647 +08:00 [INF] Executed action Auto.Web.Controllers.CorporationController.Creation (Auto.Web) in 32.5909ms
+2020-07-31 17:56:02.654 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.CorporationController.Creation (Auto.Web)'
+2020-07-31 17:56:02.655 +08:00 [INF] Request finished in 46.2276ms 200 text/html; charset=utf-8
+2020-07-31 17:56:02.793 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 45
+2020-07-31 17:56:02.794 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:56:02.797 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-07-31 17:56:02.819 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-07-31 17:56:02.823 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-31 17:56:02.833 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-07-31 17:56:02.843 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-07-31 17:56:02.847 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 24.2189ms.
+2020-07-31 17:56:02.847 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.JSONData'.
+2020-07-31 17:56:02.848 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 49.9029ms
+2020-07-31 17:56:02.848 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-07-31 17:56:02.849 +08:00 [INF] Request finished in 56.0574ms 200 application/json; charset=utf-8

@@ -12,6 +12,6 @@ namespace Auto.Model.Auditing
         /// <summary>
         /// 创建者ID
         /// </summary>
-        public long CreatorUserId { get; set; }
+        public long CreatorUserID { get; set; }
     }
 }

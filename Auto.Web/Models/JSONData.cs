@@ -9,9 +9,9 @@ namespace Auto.Web.Models
     /// <summary>
     /// 返回json数据实体类
     /// </summary>
-    public class JSONData
+    public class ResponseJsonData
     {
-        public JSONData()
+        public ResponseJsonData()
         {
             Code = ResponseStatusCode.FAIL;
             Message = "操作失败";

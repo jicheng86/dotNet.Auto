@@ -1306,7 +1306,7 @@ h5 {
     background-image: url("patterns/header-profile.png");
 }
 
-.caret {
+/*.caret {
     display: inline-block;
     width: 0;
     height: 0;
@@ -1315,7 +1315,7 @@ h5 {
     border-top: 4px dashed;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
-}
+}*/
 
 .profile-element .dropdown-toggle::after {
     display: none;

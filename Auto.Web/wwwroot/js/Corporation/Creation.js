@@ -100,6 +100,10 @@ var ButtonInit = function () {
                                     $(element).html('');
                                 });
                             }
+                            layer.alert(resultData.message, { icon: 2, title: "操作提示", time: 5 * 1000, anim: 0, shadeClose: false, shade: [0.38, '#393D49'] }, function (index) {
+                                //do something
+                                layer.close(index);
+                            });
                         }
                         else {
                             //modelstate校验通过，隐藏modelstate错误
@@ -112,15 +116,15 @@ var ButtonInit = function () {
                                     $(element).html('');
                                 });
                             }
+                            // successful message
+                            layer.alert(resultData.message, { icon: 1, title: "操作提示", time: 5 * 1000, anim: 0, shadeClose: false, shade: [0.38, '#393D49'] }, function (index) {
+                                //do something
+                                layer.close(index);
+                                window.location.href = "/Corporation/List";
+                            });
                         }
-                        // 1=successful
-                        layer.alert(resultData.message, { icon: resultData.code == 1 ? 1 : 2, title: "操作提示", time: 5 * 1000, anim: 0, shadeClose: false, shade: [0.38, '#393D49'], area: ['500px', '300px'] }, function (index) {
-                            //do something
-                            layer.close(index);
-                        });
                     },
                     complete: function () {
-
                         //方法完成处理
                         closeAllloading();
                     },
@@ -180,7 +184,6 @@ var bvCorporationCreation = function () {
         },
         fields: {
             Name: {
-                message: '必填',
                 validators: {
                     notEmpty: { message: '请输入公司简称' }
                     , stringLength: {
@@ -191,7 +194,6 @@ var bvCorporationCreation = function () {
                 }
             },
             FullName: {
-                message: '必填',
                 validators: {
                     notEmpty: { message: '请输入公司名称' }
                     , stringLength: {
@@ -202,7 +204,6 @@ var bvCorporationCreation = function () {
                 }
             },
             BusinessLicense: {
-                message: '必填',
                 validators: {
                     notEmpty: { message: '请输入公司公司营业执照/组织机构代码/税务登记编号' }
                     , stringLength: {
@@ -213,7 +214,6 @@ var bvCorporationCreation = function () {
                 }
             },
             LegalPerson: {
-                message: '必填',
                 validators: {
                     notEmpty: { message: '请输入公司法人名称' }
                     , stringLength: {
@@ -235,7 +235,6 @@ var bvCorporationCreation = function () {
                 }
             },
             LegalPersonPhone: {
-                message: '必填',
                 validators: {
                     notEmpty: { message: '请输入公司法人联系电话' }
                     , regexp: {
@@ -273,13 +272,21 @@ var bvCorporationCreation = function () {
                 }
             },
             CorporationAddress: {
-                message: '必填',
                 validators: {
                     notEmpty: { message: '请填写公司所在区划之后的详细地址' },
                     stringLength: {
                         min: 5,
                         max: 200,
                         message: '详细地址请填写5-200个字符'
+                    }
+                }
+            },
+            Remarks: {
+                validators: {
+                    stringLength: {
+                        min: 0,
+                        max: 500,
+                        message: '备注信息请填写0-500个字符'
                     }
                 }
             }

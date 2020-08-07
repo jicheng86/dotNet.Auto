@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Auto.Model.Dto
 {
-    public class BootstrapTableDtoBase
+    public class BootstrapTableDtoBase : Entity
     {
         public BootstrapTableDtoBase()
         {

@@ -1,0 +1,153 @@
+﻿@model IEnumerable<CorporationDto>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<div class="wrapper wrapper-content animated fadeInRight ">
+    <div class="row wrapper border-bottom white-bg page-heading">
+        <div class="col-lg-12">
+            <h2>Basic Form</h2>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a>Forms</a>
+                </li>
+                <li class="breadcrumb-item active">
+                    <strong>公司信息列表</strong>
+                </li>
+            </ol>
+        </div>
+        @*<div class="col-lg-2 hidden">
+
+            </div>*@
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>@ViewBag.Title <small>查询条件.</small></h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user hidden">
+                            <li>
+                                <a href="#" class="dropdown-item">Config option 1</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">Config option 2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <form class="form-horizontal m-t" id="FormCorporationSearch" enctype="multipart/form-data" method="post">
+                        <div class="form-group row">
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-2 col-form-label" for="search_Name">公司简称：</label>
+                                    <div class="col-md-7">
+                                        <input type="text" placeholder="填写公司全称" class="form-control" name="search_Name" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-2 col-form-label" for="search_FullName">公司名称：</label>
+                                    <div class="col-md-7">
+                                        <input type="text" placeholder="填写公司名称" class="form-control" name="search_FullName" />
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <label class="col-md-3 offset-md-2 col-form-label" for="search_FullName">子公司：</label>
+                                    <div class="col-md-7">
+                                        <input type="text" placeholder="填写子公司名称" class="form-control" name="search_FullName" />
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-4 ">
+                                <div class="row">
+                                    <div class="col-md-2 offset-sm-5">
+                                        <button class="btn btn-primary btn-md" type="button" id="btnClear">Clear</button>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <button class="btn btn-primary btn-md" type="button" id="btnSearch">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>公司信息列表<small></small></h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user hidden">
+                            <li>
+                                <a href="#" class="dropdown-item">Config option 1</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">Config option 2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div id="toolbar">
+                        <button id="btnUpdate" type="button" class="btn btn-default">
+                            <img src="~/lib/bootstrap-icons/ui-checks.svg" width="16" height="16" aria-hidden="true" title="alarm" />修改
+                        </button>
+                        <button id="btnCreation" type="button" class="btn btn-default">
+                            <img src="~/lib/bootstrap-icons/person-plus.svg" width="16" height="16" aria-hidden="true" title="alarm" />新增
+                        </button>
+                    </div>
+
+                    @*列表模块*@
+                    <div class="row col-sm-12 table-responsive ">
+                        <table id="tb_list" class="table table-striped table-bordered table-hover"></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_BootstrapTablePartal"); }
+    <script src="~/js/Corporation/List.js" type="text/javascript" asp-append-version="true"></script>
+}
+

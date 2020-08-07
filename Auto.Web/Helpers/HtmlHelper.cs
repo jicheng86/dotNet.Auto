@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Auto.Web.Helpers
 {
+    /// <summary>
+    /// html帮助类
+    /// </summary>
     public static class HtmlHelper
     {
         public static string IsSelected(this IHtmlHelper html, string controller = null, string action = null, string cssClass = null)

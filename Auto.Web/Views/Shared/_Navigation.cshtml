@@ -37,7 +37,8 @@
                     <span class="fa arrow"></span>
                 </a>
                 <ul class="nav nav-second-level collapse @Html.IsSelected(controller: "Corporation", cssClass: "in")">
-                    <li class="@Html.IsSelected(action: "Creation")"><a href="@Url.Action("Creation", "Corporation")">Creation</a></li>
+                    <li class="@Html.IsSelected(action: "List")"><a href="@Url.Action("List", "Corporation")">列表</a></li>
+                    <li class="@Html.IsSelected(action: "Creation")"><a href="@Url.Action("Creation", "Corporation")">新增</a></li>
                 </ul>
             </li>
             <li class="@Html.IsSelected(controller: "Dashboards")">

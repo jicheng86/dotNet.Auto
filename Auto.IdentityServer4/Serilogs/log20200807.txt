@@ -1,0 +1,1092 @@
+﻿2020-08-07 10:45:04.853 +08:00 [INF] Starting up Successful
+2020-08-07 10:45:06.367 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-07 10:45:06.462 +08:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2020-08-07 10:45:06.570 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-08-07 10:45:06.787 +08:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+ ---> System.Net.Sockets.SocketException (10048): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2020-08-07 10:45:06.921 +08:00 [FTL] Application start-up failed
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+ ---> System.Net.Sockets.SocketException (10048): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Auto.IdentityServer4.Program.Main(String[] args) in F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\Program.cs:line 60
+2020-08-07 11:27:57.343 +08:00 [INF] Starting up Successful
+2020-08-07 11:27:58.353 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-07 11:27:58.463 +08:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2020-08-07 11:27:58.608 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-08-07 11:27:58.834 +08:00 [INF] Now listening on: https://localhost:5001
+2020-08-07 11:27:58.835 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-07 11:27:58.835 +08:00 [INF] Hosting environment: Development
+2020-08-07 11:27:58.835 +08:00 [INF] Content root path: F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4
+2020-08-07 11:27:59.827 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-08-07 11:27:59.894 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-07 11:27:59.918 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-07 11:28:13.809 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-07 11:28:16.960 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3138.7381ms.
+2020-08-07 11:28:39.105 +08:00 [INF] Executing ViewResult, running view Index.
+2020-08-07 11:28:39.711 +08:00 [INF] Executed ViewResult - view Index executed in 666.5287ms.
+2020-08-07 11:28:39.712 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) in 39793.0177ms
+2020-08-07 11:28:39.713 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-07 11:28:39.717 +08:00 [INF] Request finished in 39893.7333ms 200 text/html; charset=utf-8
+2020-08-07 11:28:39.732 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2020-08-07 11:28:39.732 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2020-08-07 11:28:39.732 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.slim.min.js  
+2020-08-07 11:28:39.758 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\wwwroot\css\site.css'
+2020-08-07 11:28:39.775 +08:00 [INF] Request finished in 43.0261ms 200 text/css
+2020-08-07 11:28:39.794 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2020-08-07 11:28:39.795 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2020-08-07 11:28:39.795 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.slim.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\wwwroot\lib\jquery\dist\jquery.slim.min.js'
+2020-08-07 11:28:39.797 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2020-08-07 11:28:39.800 +08:00 [INF] Request finished in 68.1691ms 200 text/css
+2020-08-07 11:28:39.800 +08:00 [INF] Request finished in 5.7853ms 200 application/javascript
+2020-08-07 11:28:39.800 +08:00 [INF] Request finished in 68.2021ms 200 application/javascript
+2020-08-07 11:28:39.808 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/icon.png  
+2020-08-07 11:28:39.809 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/icon.jpg  
+2020-08-07 11:28:39.812 +08:00 [INF] Sending file. Request path: '/icon.png'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\wwwroot\icon.png'
+2020-08-07 11:28:39.812 +08:00 [INF] Sending file. Request path: '/icon.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\wwwroot\icon.jpg'
+2020-08-07 11:28:39.813 +08:00 [INF] Request finished in 4.8288ms 200 image/png
+2020-08-07 11:28:39.814 +08:00 [INF] Request finished in 4.9679ms 200 image/jpeg
+2020-08-07 11:28:52.722 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-07 11:28:52.732 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-07 11:28:53.331 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 11:28:53.664 +08:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 11:28:53.795 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 11:28:53.817 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 11:28:54.061 +08:00 [INF] Request finished in 1339.7571ms 200 application/json; charset=UTF-8
+2020-08-07 11:37:59.775 +08:00 [INF] Starting up Successful
+2020-08-07 11:38:00.855 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-07 11:38:00.962 +08:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2020-08-07 11:38:01.073 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-08-07 11:38:01.273 +08:00 [INF] Now listening on: https://localhost:5001
+2020-08-07 11:38:01.274 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-07 11:38:01.274 +08:00 [INF] Hosting environment: Development
+2020-08-07 11:38:01.274 +08:00 [INF] Content root path: F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4
+2020-08-07 11:38:01.893 +08:00 [INF] Application is shutting down...
+2020-08-07 11:38:57.999 +08:00 [INF] Starting up Successful
+2020-08-07 11:38:59.083 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-07 11:38:59.197 +08:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2020-08-07 11:38:59.311 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-08-07 11:38:59.505 +08:00 [INF] Now listening on: https://localhost:5001
+2020-08-07 11:38:59.505 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-07 11:38:59.506 +08:00 [INF] Hosting environment: Development
+2020-08-07 11:38:59.506 +08:00 [INF] Content root path: F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4
+2020-08-07 11:39:00.622 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-08-07 11:39:00.702 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-07 11:39:00.723 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-07 11:39:27.402 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-07 11:39:27.413 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.1714ms.
+2020-08-07 11:39:27.438 +08:00 [INF] Executing ViewResult, running view Index.
+2020-08-07 11:39:27.527 +08:00 [INF] Executed ViewResult - view Index executed in 91.3127ms.
+2020-08-07 11:39:27.528 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) in 26802.7878ms
+2020-08-07 11:39:27.528 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-07 11:39:27.532 +08:00 [INF] Request finished in 26913.7541ms 200 text/html; charset=utf-8
+2020-08-07 11:39:28.417 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-07 11:39:28.423 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-07 11:39:29.011 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 11:39:29.311 +08:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 11:39:29.431 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 11:39:29.450 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 11:39:29.672 +08:00 [INF] Request finished in 1255.4515ms 200 application/json; charset=UTF-8
+2020-08-07 11:39:29.796 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration/jwks  
+2020-08-07 11:39:29.803 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-08-07 11:39:29.812 +08:00 [INF] Request finished in 15.4099ms 200 application/json; charset=UTF-8
+2020-08-07 11:39:30.080 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/connect/token application/x-www-form-urlencoded 84
+2020-08-07 11:39:30.085 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2020-08-07 11:39:30.126 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 11:39:30.195 +08:00 [INF] Executed DbCommand (30ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[AbsoluteRefreshTokenLifetime], [t].[AccessTokenLifetime], [t].[AccessTokenType], [t].[AllowAccessTokensViaBrowser], [t].[AllowOfflineAccess], [t].[AllowPlainTextPkce], [t].[AllowRememberConsent], [t].[AllowedIdentityTokenSigningAlgorithms], [t].[AlwaysIncludeUserClaimsInIdToken], [t].[AlwaysSendClientClaims], [t].[AuthorizationCodeLifetime], [t].[BackChannelLogoutSessionRequired], [t].[BackChannelLogoutUri], [t].[ClientClaimsPrefix], [t].[ClientId], [t].[ClientName], [t].[ClientUri], [t].[ConsentLifetime], [t].[Created], [t].[Description], [t].[DeviceCodeLifetime], [t].[EnableLocalLogin], [t].[Enabled], [t].[FrontChannelLogoutSessionRequired], [t].[FrontChannelLogoutUri], [t].[IdentityTokenLifetime], [t].[IncludeJwtId], [t].[LastAccessed], [t].[LogoUri], [t].[NonEditable], [t].[PairWiseSubjectSalt], [t].[ProtocolType], [t].[RefreshTokenExpiration], [t].[RefreshTokenUsage], [t].[RequireClientSecret], [t].[RequireConsent], [t].[RequirePkce], [t].[RequireRequestObject], [t].[SlidingRefreshTokenLifetime], [t].[UpdateAccessTokenClaimsOnRefresh], [t].[Updated], [t].[UserCodeType], [t].[UserSsoLifetime]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+2020-08-07 11:39:30.248 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Origin]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientCorsOrigins] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:39:30.276 +08:00 [INF] Executed DbCommand (9ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[GrantType]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientGrantTypes] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:39:30.295 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Scope]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientScopes] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:39:30.311 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Type], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientClaims] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:39:30.324 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Created], [c0].[Description], [c0].[Expiration], [c0].[Type], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientSecrets] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:39:30.340 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Provider]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientIdPRestrictions] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:39:30.354 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[PostLogoutRedirectUri]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientPostLogoutRedirectUris] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:39:30.365 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Key], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientProperties] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:39:30.385 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[RedirectUri]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientRedirectUris] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:39:30.564 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+WHERE [i].[Name] IN (N'scope1')
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 11:39:30.604 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+WHERE EXISTS (
+    SELECT 1
+    FROM [ApiResourceScopes] AS [a4]
+    WHERE ([a].[Id] = [a4].[ApiResourceId]) AND [a4].[Scope] IN (N'scope1'))
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 11:39:30.622 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+WHERE [a].[Name] IN (N'scope1')
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 11:39:30.640 +08:00 [INF] Token request validation success, {"ClientId":"m2m.client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"scope1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"scope1","client_id":"m2m.client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2020-08-07 11:39:30.750 +08:00 [INF] Request finished in 669.7179ms 200 application/json; charset=UTF-8
+2020-08-07 11:40:41.923 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-07 11:40:41.928 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-07 11:40:41.936 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 11:40:41.944 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 11:40:41.953 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 11:40:41.958 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 11:40:41.962 +08:00 [INF] Request finished in 39.7175ms 200 application/json; charset=UTF-8
+2020-08-07 11:40:42.009 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration/jwks  
+2020-08-07 11:40:42.010 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-08-07 11:40:42.011 +08:00 [INF] Request finished in 2.1723ms 200 application/json; charset=UTF-8
+2020-08-07 11:40:46.788 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/connect/token application/x-www-form-urlencoded 84
+2020-08-07 11:40:46.792 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2020-08-07 11:40:46.794 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 11:40:46.800 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[AbsoluteRefreshTokenLifetime], [t].[AccessTokenLifetime], [t].[AccessTokenType], [t].[AllowAccessTokensViaBrowser], [t].[AllowOfflineAccess], [t].[AllowPlainTextPkce], [t].[AllowRememberConsent], [t].[AllowedIdentityTokenSigningAlgorithms], [t].[AlwaysIncludeUserClaimsInIdToken], [t].[AlwaysSendClientClaims], [t].[AuthorizationCodeLifetime], [t].[BackChannelLogoutSessionRequired], [t].[BackChannelLogoutUri], [t].[ClientClaimsPrefix], [t].[ClientId], [t].[ClientName], [t].[ClientUri], [t].[ConsentLifetime], [t].[Created], [t].[Description], [t].[DeviceCodeLifetime], [t].[EnableLocalLogin], [t].[Enabled], [t].[FrontChannelLogoutSessionRequired], [t].[FrontChannelLogoutUri], [t].[IdentityTokenLifetime], [t].[IncludeJwtId], [t].[LastAccessed], [t].[LogoUri], [t].[NonEditable], [t].[PairWiseSubjectSalt], [t].[ProtocolType], [t].[RefreshTokenExpiration], [t].[RefreshTokenUsage], [t].[RequireClientSecret], [t].[RequireConsent], [t].[RequirePkce], [t].[RequireRequestObject], [t].[SlidingRefreshTokenLifetime], [t].[UpdateAccessTokenClaimsOnRefresh], [t].[Updated], [t].[UserCodeType], [t].[UserSsoLifetime]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+2020-08-07 11:40:46.811 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Origin]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientCorsOrigins] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:40:46.816 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[GrantType]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientGrantTypes] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:40:46.824 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Scope]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientScopes] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:40:46.828 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Type], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientClaims] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:40:46.833 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Created], [c0].[Description], [c0].[Expiration], [c0].[Type], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientSecrets] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:40:46.839 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Provider]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientIdPRestrictions] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:40:46.844 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[PostLogoutRedirectUri]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientPostLogoutRedirectUris] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:40:46.849 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Key], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientProperties] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:40:46.856 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[RedirectUri]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientRedirectUris] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 11:40:46.863 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+WHERE [i].[Name] IN (N'scope1')
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 11:40:46.875 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+WHERE EXISTS (
+    SELECT 1
+    FROM [ApiResourceScopes] AS [a4]
+    WHERE ([a].[Id] = [a4].[ApiResourceId]) AND [a4].[Scope] IN (N'scope1'))
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 11:40:46.882 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+WHERE [a].[Name] IN (N'scope1')
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 11:40:46.885 +08:00 [INF] Token request validation success, {"ClientId":"m2m.client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"scope1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"scope1","client_id":"m2m.client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2020-08-07 11:40:46.888 +08:00 [INF] Request finished in 100.2173ms 200 application/json; charset=UTF-8
+2020-08-07 13:41:24.747 +08:00 [INF] Starting up Successful
+2020-08-07 13:41:25.790 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-07 13:41:25.896 +08:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2020-08-07 13:41:26.013 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-08-07 13:41:26.205 +08:00 [INF] Now listening on: https://localhost:5001
+2020-08-07 13:41:26.205 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-07 13:41:26.205 +08:00 [INF] Hosting environment: Development
+2020-08-07 13:41:26.205 +08:00 [INF] Content root path: F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4
+2020-08-07 13:41:27.309 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-08-07 13:41:27.410 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-07 13:41:27.432 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-07 13:41:36.326 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-07 13:41:40.059 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3727.158ms.
+2020-08-07 13:41:45.095 +08:00 [INF] Executing ViewResult, running view Index.
+2020-08-07 13:41:45.171 +08:00 [INF] Executed ViewResult - view Index executed in 80.8986ms.
+2020-08-07 13:41:45.173 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) in 17739.5059ms
+2020-08-07 13:41:45.173 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-07 13:41:45.178 +08:00 [INF] Request finished in 17871.9229ms 200 text/html; charset=utf-8
+2020-08-07 13:42:29.217 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-07 13:42:29.224 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-07 13:42:29.823 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 13:42:30.143 +08:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 13:42:30.276 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 13:42:30.299 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 13:42:30.544 +08:00 [INF] Request finished in 1326.5298ms 200 application/json; charset=UTF-8
+2020-08-07 13:42:30.599 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration/jwks  
+2020-08-07 13:42:30.608 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-08-07 13:42:30.620 +08:00 [INF] Request finished in 20.8009ms 200 application/json; charset=UTF-8
+2020-08-07 13:42:40.114 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/connect/token application/x-www-form-urlencoded 84
+2020-08-07 13:42:40.121 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2020-08-07 13:42:40.176 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 13:42:40.247 +08:00 [INF] Executed DbCommand (32ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[AbsoluteRefreshTokenLifetime], [t].[AccessTokenLifetime], [t].[AccessTokenType], [t].[AllowAccessTokensViaBrowser], [t].[AllowOfflineAccess], [t].[AllowPlainTextPkce], [t].[AllowRememberConsent], [t].[AllowedIdentityTokenSigningAlgorithms], [t].[AlwaysIncludeUserClaimsInIdToken], [t].[AlwaysSendClientClaims], [t].[AuthorizationCodeLifetime], [t].[BackChannelLogoutSessionRequired], [t].[BackChannelLogoutUri], [t].[ClientClaimsPrefix], [t].[ClientId], [t].[ClientName], [t].[ClientUri], [t].[ConsentLifetime], [t].[Created], [t].[Description], [t].[DeviceCodeLifetime], [t].[EnableLocalLogin], [t].[Enabled], [t].[FrontChannelLogoutSessionRequired], [t].[FrontChannelLogoutUri], [t].[IdentityTokenLifetime], [t].[IncludeJwtId], [t].[LastAccessed], [t].[LogoUri], [t].[NonEditable], [t].[PairWiseSubjectSalt], [t].[ProtocolType], [t].[RefreshTokenExpiration], [t].[RefreshTokenUsage], [t].[RequireClientSecret], [t].[RequireConsent], [t].[RequirePkce], [t].[RequireRequestObject], [t].[SlidingRefreshTokenLifetime], [t].[UpdateAccessTokenClaimsOnRefresh], [t].[Updated], [t].[UserCodeType], [t].[UserSsoLifetime]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+2020-08-07 13:42:40.308 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Origin]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientCorsOrigins] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:42:40.319 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[GrantType]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientGrantTypes] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:42:40.337 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Scope]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientScopes] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:42:40.356 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Type], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientClaims] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:42:40.368 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Created], [c0].[Description], [c0].[Expiration], [c0].[Type], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientSecrets] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:42:40.386 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Provider]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientIdPRestrictions] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:42:40.396 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[PostLogoutRedirectUri]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientPostLogoutRedirectUris] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:42:40.409 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Key], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientProperties] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:42:40.425 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[RedirectUri]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientRedirectUris] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:42:40.596 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+WHERE [i].[Name] IN (N'scope1')
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 13:42:40.679 +08:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+WHERE EXISTS (
+    SELECT 1
+    FROM [ApiResourceScopes] AS [a4]
+    WHERE ([a].[Id] = [a4].[ApiResourceId]) AND [a4].[Scope] IN (N'scope1'))
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 13:42:40.700 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+WHERE [a].[Name] IN (N'scope1')
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 13:42:40.718 +08:00 [INF] Token request validation success, {"ClientId":"m2m.client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"scope1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"scope1","client_id":"m2m.client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2020-08-07 13:42:40.821 +08:00 [INF] Request finished in 707.5746ms 200 application/json; charset=UTF-8
+2020-08-07 13:42:57.929 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-07 13:42:57.931 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-07 13:42:57.938 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 13:42:57.945 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 13:42:57.948 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 13:42:57.949 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 13:42:57.951 +08:00 [INF] Request finished in 22.3399ms 200 application/json; charset=UTF-8
+2020-08-07 13:42:58.231 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration/jwks  
+2020-08-07 13:42:58.232 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-08-07 13:42:58.233 +08:00 [INF] Request finished in 1.6945ms 200 application/json; charset=UTF-8
+2020-08-07 13:45:45.726 +08:00 [INF] Starting up Successful
+2020-08-07 13:45:46.769 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-07 13:45:46.865 +08:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2020-08-07 13:45:46.972 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-08-07 13:45:47.173 +08:00 [INF] Now listening on: https://localhost:5001
+2020-08-07 13:45:47.174 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-07 13:45:47.174 +08:00 [INF] Hosting environment: Development
+2020-08-07 13:45:47.174 +08:00 [INF] Content root path: F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4
+2020-08-07 13:45:48.189 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-08-07 13:45:48.259 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-07 13:45:48.283 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-07 13:46:04.695 +08:00 [INF] Executing action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) - Validation state: "Valid"
+2020-08-07 13:46:04.707 +08:00 [INF] Executed action method IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.1844ms.
+2020-08-07 13:46:04.737 +08:00 [INF] Executing ViewResult, running view Index.
+2020-08-07 13:46:04.848 +08:00 [INF] Executed ViewResult - view Index executed in 114.727ms.
+2020-08-07 13:46:04.849 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) in 16564.7282ms
+2020-08-07 13:46:04.853 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-07 13:46:04.858 +08:00 [INF] Request finished in 16673.2797ms 200 text/html; charset=utf-8
+2020-08-07 13:46:27.712 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-07 13:46:27.719 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-07 13:46:28.338 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 13:46:28.671 +08:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 13:46:28.799 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 13:46:28.820 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 13:46:29.063 +08:00 [INF] Request finished in 1350.779ms 200 application/json; charset=UTF-8
+2020-08-07 13:46:29.130 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration/jwks  
+2020-08-07 13:46:29.138 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-08-07 13:46:29.146 +08:00 [INF] Request finished in 16.3442ms 200 application/json; charset=UTF-8
+2020-08-07 13:46:31.136 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/connect/token application/x-www-form-urlencoded 84
+2020-08-07 13:46:31.142 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2020-08-07 13:46:31.187 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 13:46:31.259 +08:00 [INF] Executed DbCommand (34ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[AbsoluteRefreshTokenLifetime], [t].[AccessTokenLifetime], [t].[AccessTokenType], [t].[AllowAccessTokensViaBrowser], [t].[AllowOfflineAccess], [t].[AllowPlainTextPkce], [t].[AllowRememberConsent], [t].[AllowedIdentityTokenSigningAlgorithms], [t].[AlwaysIncludeUserClaimsInIdToken], [t].[AlwaysSendClientClaims], [t].[AuthorizationCodeLifetime], [t].[BackChannelLogoutSessionRequired], [t].[BackChannelLogoutUri], [t].[ClientClaimsPrefix], [t].[ClientId], [t].[ClientName], [t].[ClientUri], [t].[ConsentLifetime], [t].[Created], [t].[Description], [t].[DeviceCodeLifetime], [t].[EnableLocalLogin], [t].[Enabled], [t].[FrontChannelLogoutSessionRequired], [t].[FrontChannelLogoutUri], [t].[IdentityTokenLifetime], [t].[IncludeJwtId], [t].[LastAccessed], [t].[LogoUri], [t].[NonEditable], [t].[PairWiseSubjectSalt], [t].[ProtocolType], [t].[RefreshTokenExpiration], [t].[RefreshTokenUsage], [t].[RequireClientSecret], [t].[RequireConsent], [t].[RequirePkce], [t].[RequireRequestObject], [t].[SlidingRefreshTokenLifetime], [t].[UpdateAccessTokenClaimsOnRefresh], [t].[Updated], [t].[UserCodeType], [t].[UserSsoLifetime]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+2020-08-07 13:46:31.321 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Origin]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientCorsOrigins] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:46:31.339 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[GrantType]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientGrantTypes] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:46:31.362 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Scope]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientScopes] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:46:31.384 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Type], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientClaims] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:46:31.395 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Created], [c0].[Description], [c0].[Expiration], [c0].[Type], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientSecrets] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:46:31.416 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Provider]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientIdPRestrictions] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:46:31.427 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[PostLogoutRedirectUri]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientPostLogoutRedirectUris] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:46:31.441 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Key], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientProperties] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:46:31.456 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[RedirectUri]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientRedirectUris] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:46:31.649 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+WHERE [i].[Name] IN (N'scope1')
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 13:46:31.689 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+WHERE EXISTS (
+    SELECT 1
+    FROM [ApiResourceScopes] AS [a4]
+    WHERE ([a].[Id] = [a4].[ApiResourceId]) AND [a4].[Scope] IN (N'scope1'))
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 13:46:31.716 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+WHERE [a].[Name] IN (N'scope1')
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 13:46:31.743 +08:00 [INF] Token request validation success, {"ClientId":"m2m.client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"scope1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"scope1","client_id":"m2m.client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2020-08-07 13:46:31.888 +08:00 [INF] Request finished in 752.0149ms 200 application/json; charset=UTF-8
+2020-08-07 13:46:48.855 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-07 13:46:48.857 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-07 13:46:48.865 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 13:46:48.875 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 13:46:48.878 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 13:46:48.884 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 13:46:48.886 +08:00 [INF] Request finished in 31.2602ms 200 application/json; charset=UTF-8
+2020-08-07 13:46:49.155 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration/jwks  
+2020-08-07 13:46:49.158 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-08-07 13:46:49.161 +08:00 [INF] Request finished in 6.117ms 200 application/json; charset=UTF-8
+2020-08-07 13:49:31.848 +08:00 [INF] Starting up Successful
+2020-08-07 13:49:32.980 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-07 13:49:33.113 +08:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2020-08-07 13:49:33.235 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-08-07 13:49:33.457 +08:00 [INF] Now listening on: https://localhost:5001
+2020-08-07 13:49:33.457 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-07 13:49:33.458 +08:00 [INF] Hosting environment: Development
+2020-08-07 13:49:33.458 +08:00 [INF] Content root path: F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4
+2020-08-07 13:49:34.594 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-08-07 13:49:34.716 +08:00 [INF] Executing endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-07 13:49:34.749 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller IdentityServerHost.Quickstart.UI.HomeController (Auto.IdentityServer4).
+2020-08-07 13:49:39.491 +08:00 [INF] Executing ViewResult, running view Index.
+2020-08-07 13:49:39.581 +08:00 [INF] Executed ViewResult - view Index executed in 97.8568ms.
+2020-08-07 13:49:39.588 +08:00 [INF] Executed action IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4) in 4836.6898ms
+2020-08-07 13:49:39.589 +08:00 [INF] Executed endpoint 'IdentityServerHost.Quickstart.UI.HomeController.Index (Auto.IdentityServer4)'
+2020-08-07 13:49:40.483 +08:00 [INF] Request finished in 5899.7861ms 200 text/html; charset=utf-8
+2020-08-07 13:49:41.004 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-07 13:49:41.011 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-07 13:49:41.692 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 13:49:42.140 +08:00 [INF] Executed DbCommand (140ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 13:49:42.299 +08:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 13:49:42.339 +08:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 13:49:42.604 +08:00 [INF] Request finished in 1600.2582ms 200 application/json; charset=UTF-8
+2020-08-07 13:49:42.670 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration/jwks  
+2020-08-07 13:49:42.679 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-08-07 13:49:42.690 +08:00 [INF] Request finished in 20.6693ms 200 application/json; charset=UTF-8
+2020-08-07 13:49:42.929 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/connect/token application/x-www-form-urlencoded 84
+2020-08-07 13:49:42.933 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2020-08-07 13:49:42.980 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 13:49:43.061 +08:00 [INF] Executed DbCommand (35ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[AbsoluteRefreshTokenLifetime], [t].[AccessTokenLifetime], [t].[AccessTokenType], [t].[AllowAccessTokensViaBrowser], [t].[AllowOfflineAccess], [t].[AllowPlainTextPkce], [t].[AllowRememberConsent], [t].[AllowedIdentityTokenSigningAlgorithms], [t].[AlwaysIncludeUserClaimsInIdToken], [t].[AlwaysSendClientClaims], [t].[AuthorizationCodeLifetime], [t].[BackChannelLogoutSessionRequired], [t].[BackChannelLogoutUri], [t].[ClientClaimsPrefix], [t].[ClientId], [t].[ClientName], [t].[ClientUri], [t].[ConsentLifetime], [t].[Created], [t].[Description], [t].[DeviceCodeLifetime], [t].[EnableLocalLogin], [t].[Enabled], [t].[FrontChannelLogoutSessionRequired], [t].[FrontChannelLogoutUri], [t].[IdentityTokenLifetime], [t].[IncludeJwtId], [t].[LastAccessed], [t].[LogoUri], [t].[NonEditable], [t].[PairWiseSubjectSalt], [t].[ProtocolType], [t].[RefreshTokenExpiration], [t].[RefreshTokenUsage], [t].[RequireClientSecret], [t].[RequireConsent], [t].[RequirePkce], [t].[RequireRequestObject], [t].[SlidingRefreshTokenLifetime], [t].[UpdateAccessTokenClaimsOnRefresh], [t].[Updated], [t].[UserCodeType], [t].[UserSsoLifetime]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+2020-08-07 13:49:43.122 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Origin]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientCorsOrigins] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:49:43.135 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[GrantType]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientGrantTypes] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:49:43.153 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Scope]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientScopes] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:49:43.169 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Type], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientClaims] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:49:43.182 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Created], [c0].[Description], [c0].[Expiration], [c0].[Type], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientSecrets] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:49:43.215 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Provider]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientIdPRestrictions] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:49:43.227 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[PostLogoutRedirectUri]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientPostLogoutRedirectUris] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:49:43.240 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Key], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientProperties] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:49:43.257 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[RedirectUri]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientRedirectUris] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:49:43.457 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+WHERE [i].[Name] IN (N'scope1')
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 13:49:43.501 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+WHERE EXISTS (
+    SELECT 1
+    FROM [ApiResourceScopes] AS [a4]
+    WHERE ([a].[Id] = [a4].[ApiResourceId]) AND [a4].[Scope] IN (N'scope1'))
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 13:49:43.527 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+WHERE [a].[Name] IN (N'scope1')
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 13:49:43.549 +08:00 [INF] Token request validation success, {"ClientId":"m2m.client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"scope1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"scope1","client_id":"m2m.client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2020-08-07 13:49:43.693 +08:00 [INF] Request finished in 764.8501ms 200 application/json; charset=UTF-8
+2020-08-07 13:49:44.042 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-07 13:49:44.043 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-07 13:49:44.050 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 13:49:44.057 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 13:49:44.060 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 13:49:44.062 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 13:49:44.064 +08:00 [INF] Request finished in 22.3603ms 200 application/json; charset=UTF-8
+2020-08-07 13:49:44.341 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration/jwks  
+2020-08-07 13:49:44.345 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-08-07 13:49:44.347 +08:00 [INF] Request finished in 6.3166ms 200 application/json; charset=UTF-8
+2020-08-07 13:50:10.072 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration  
+2020-08-07 13:50:10.075 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-08-07 13:50:10.077 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 13:50:10.081 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 13:50:10.092 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 13:50:10.094 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 13:50:10.096 +08:00 [INF] Request finished in 23.7948ms 200 application/json; charset=UTF-8
+2020-08-07 13:50:10.147 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/.well-known/openid-configuration/jwks  
+2020-08-07 13:50:10.149 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-08-07 13:50:10.153 +08:00 [INF] Request finished in 6.0666ms 200 application/json; charset=UTF-8
+2020-08-07 13:50:11.582 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/connect/token application/x-www-form-urlencoded 84
+2020-08-07 13:50:11.585 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2020-08-07 13:50:11.594 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-07 13:50:11.601 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[AbsoluteRefreshTokenLifetime], [t].[AccessTokenLifetime], [t].[AccessTokenType], [t].[AllowAccessTokensViaBrowser], [t].[AllowOfflineAccess], [t].[AllowPlainTextPkce], [t].[AllowRememberConsent], [t].[AllowedIdentityTokenSigningAlgorithms], [t].[AlwaysIncludeUserClaimsInIdToken], [t].[AlwaysSendClientClaims], [t].[AuthorizationCodeLifetime], [t].[BackChannelLogoutSessionRequired], [t].[BackChannelLogoutUri], [t].[ClientClaimsPrefix], [t].[ClientId], [t].[ClientName], [t].[ClientUri], [t].[ConsentLifetime], [t].[Created], [t].[Description], [t].[DeviceCodeLifetime], [t].[EnableLocalLogin], [t].[Enabled], [t].[FrontChannelLogoutSessionRequired], [t].[FrontChannelLogoutUri], [t].[IdentityTokenLifetime], [t].[IncludeJwtId], [t].[LastAccessed], [t].[LogoUri], [t].[NonEditable], [t].[PairWiseSubjectSalt], [t].[ProtocolType], [t].[RefreshTokenExpiration], [t].[RefreshTokenUsage], [t].[RequireClientSecret], [t].[RequireConsent], [t].[RequirePkce], [t].[RequireRequestObject], [t].[SlidingRefreshTokenLifetime], [t].[UpdateAccessTokenClaimsOnRefresh], [t].[Updated], [t].[UserCodeType], [t].[UserSsoLifetime]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+2020-08-07 13:50:11.613 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Origin]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientCorsOrigins] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:50:11.622 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[GrantType]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientGrantTypes] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:50:11.627 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Scope]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientScopes] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:50:11.637 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Type], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientClaims] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:50:11.642 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Created], [c0].[Description], [c0].[Expiration], [c0].[Type], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientSecrets] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:50:11.655 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Provider]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientIdPRestrictions] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:50:11.660 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[PostLogoutRedirectUri]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientPostLogoutRedirectUris] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:50:11.672 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[Key], [c0].[Value]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientProperties] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:50:11.676 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__clientId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c0].[Id], [c0].[ClientId], [c0].[RedirectUri]
+FROM (
+    SELECT TOP(@__p_1) [c].[Id], [c].[AbsoluteRefreshTokenLifetime], [c].[AccessTokenLifetime], [c].[AccessTokenType], [c].[AllowAccessTokensViaBrowser], [c].[AllowOfflineAccess], [c].[AllowPlainTextPkce], [c].[AllowRememberConsent], [c].[AllowedIdentityTokenSigningAlgorithms], [c].[AlwaysIncludeUserClaimsInIdToken], [c].[AlwaysSendClientClaims], [c].[AuthorizationCodeLifetime], [c].[BackChannelLogoutSessionRequired], [c].[BackChannelLogoutUri], [c].[ClientClaimsPrefix], [c].[ClientId], [c].[ClientName], [c].[ClientUri], [c].[ConsentLifetime], [c].[Created], [c].[Description], [c].[DeviceCodeLifetime], [c].[EnableLocalLogin], [c].[Enabled], [c].[FrontChannelLogoutSessionRequired], [c].[FrontChannelLogoutUri], [c].[IdentityTokenLifetime], [c].[IncludeJwtId], [c].[LastAccessed], [c].[LogoUri], [c].[NonEditable], [c].[PairWiseSubjectSalt], [c].[ProtocolType], [c].[RefreshTokenExpiration], [c].[RefreshTokenUsage], [c].[RequireClientSecret], [c].[RequireConsent], [c].[RequirePkce], [c].[RequireRequestObject], [c].[SlidingRefreshTokenLifetime], [c].[UpdateAccessTokenClaimsOnRefresh], [c].[Updated], [c].[UserCodeType], [c].[UserSsoLifetime]
+    FROM [Clients] AS [c]
+    WHERE [c].[ClientId] = @__clientId_0
+) AS [t]
+INNER JOIN [ClientRedirectUris] AS [c0] ON [t].[Id] = [c0].[ClientId]
+2020-08-07 13:50:11.689 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Created], [i].[Description], [i].[DisplayName], [i].[Emphasize], [i].[Enabled], [i].[Name], [i].[NonEditable], [i].[Required], [i].[ShowInDiscoveryDocument], [i].[Updated], [i0].[Id], [i0].[IdentityResourceId], [i0].[Type], [i1].[Id], [i1].[IdentityResourceId], [i1].[Key], [i1].[Value]
+FROM [IdentityResources] AS [i]
+LEFT JOIN [IdentityResourceClaims] AS [i0] ON [i].[Id] = [i0].[IdentityResourceId]
+LEFT JOIN [IdentityResourceProperties] AS [i1] ON [i].[Id] = [i1].[IdentityResourceId]
+WHERE [i].[Name] IN (N'scope1')
+ORDER BY [i].[Id], [i0].[Id], [i1].[Id]
+2020-08-07 13:50:11.698 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AllowedAccessTokenSigningAlgorithms], [a].[Created], [a].[Description], [a].[DisplayName], [a].[Enabled], [a].[LastAccessed], [a].[Name], [a].[NonEditable], [a].[ShowInDiscoveryDocument], [a].[Updated], [a0].[Id], [a0].[ApiResourceId], [a0].[Created], [a0].[Description], [a0].[Expiration], [a0].[Type], [a0].[Value], [a1].[Id], [a1].[ApiResourceId], [a1].[Scope], [a2].[Id], [a2].[ApiResourceId], [a2].[Type], [a3].[Id], [a3].[ApiResourceId], [a3].[Key], [a3].[Value]
+FROM [ApiResources] AS [a]
+LEFT JOIN [ApiResourceSecrets] AS [a0] ON [a].[Id] = [a0].[ApiResourceId]
+LEFT JOIN [ApiResourceScopes] AS [a1] ON [a].[Id] = [a1].[ApiResourceId]
+LEFT JOIN [ApiResourceClaims] AS [a2] ON [a].[Id] = [a2].[ApiResourceId]
+LEFT JOIN [ApiResourceProperties] AS [a3] ON [a].[Id] = [a3].[ApiResourceId]
+WHERE EXISTS (
+    SELECT 1
+    FROM [ApiResourceScopes] AS [a4]
+    WHERE ([a].[Id] = [a4].[ApiResourceId]) AND [a4].[Scope] IN (N'scope1'))
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id], [a2].[Id], [a3].[Id]
+2020-08-07 13:50:11.701 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Description], [a].[DisplayName], [a].[Emphasize], [a].[Enabled], [a].[Name], [a].[Required], [a].[ShowInDiscoveryDocument], [a0].[Id], [a0].[ScopeId], [a0].[Type], [a1].[Id], [a1].[Key], [a1].[ScopeId], [a1].[Value]
+FROM [ApiScopes] AS [a]
+LEFT JOIN [ApiScopeClaims] AS [a0] ON [a].[Id] = [a0].[ScopeId]
+LEFT JOIN [ApiScopeProperties] AS [a1] ON [a].[Id] = [a1].[ScopeId]
+WHERE [a].[Name] IN (N'scope1')
+ORDER BY [a].[Id], [a0].[Id], [a1].[Id]
+2020-08-07 13:50:11.703 +08:00 [INF] Token request validation success, {"ClientId":"m2m.client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"scope1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"scope1","client_id":"m2m.client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2020-08-07 13:50:11.706 +08:00 [INF] Request finished in 124.7563ms 200 application/json; charset=UTF-8
