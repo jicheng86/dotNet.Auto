@@ -47,19 +47,22 @@ namespace Auto.IdentityServer4
             try
             {
                 Log.Information("Starting up Successful");
+                IHost host = CreateHostBuilder(args).Build();
                 //初次启动时：生成数据库及初始种子数据
-                //if (false)
-                //{
-                //    Log.Information("Seeding database...");
-                //    var config = host.Services.GetRequiredService<IConfiguration>();
-                //    var connectionString = config.GetConnectionString("DefaultConnection");
-                //    InitializeIdentityServer4.InitializeDatabaseANDEnsureSeedData(connectionString);
-                //    Log.Information("Done seeding database.");
-                //    return 0;
-                //}
-                CreateHostBuilder(args)
-                    .Build()
-                    .Run();
+                if (true)
+                {
+                    Log.Information("Seeding database...");
+                    var config = host.Services.GetRequiredService<IConfiguration>();
+                    var connectionString = config.GetConnectionString("DefaultConnection");
+                    Log.Information($"参数连接字符串DefaultConnection={connectionString}。");
+                    if (string.IsNullOrWhiteSpace(connectionString))
+                    {
+                        Log.Information($"链接字符串DefaultConnection参数为空，请核实！");
+                    }
+                    InitializeIdentityServer4.InitializeDatabaseANDEnsureSeedData(connectionString);
+                    Log.Information("Done seeding database.");
+
+                }
             }
             catch (Exception ex)
             {

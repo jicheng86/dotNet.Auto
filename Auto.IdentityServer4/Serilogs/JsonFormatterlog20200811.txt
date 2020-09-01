@@ -1,0 +1,8 @@
+﻿{"@t":"2020-08-11T09:20:52.3374550Z","@mt":"Starting up Successful"}
+{"@t":"2020-08-11T09:20:55.0510685Z","@mt":"Seeding database..."}
+{"@t":"2020-08-11T09:20:55.0548620Z","@mt":"参数连接字符串DefaultConnection=Data Source=.;Database=DB_Auto_identityserver4;Integrated Security=SSPI;Persist Security Info=False;。"}
+{"@t":"2020-08-11T09:21:24.9652345Z","@mt":"Done seeding database."}
+{"@t":"2020-08-11T09:24:10.9107868Z","@mt":"Starting up Successful"}
+{"@t":"2020-08-11T09:24:12.2224762Z","@mt":"Seeding database..."}
+{"@t":"2020-08-11T09:24:12.2240986Z","@mt":"参数连接字符串DefaultConnection=Data Source=.;Database=DB_Auto_IdentityServer4;Integrated Security=SSPI;Persist Security Info=False;。"}
+{"@t":"2020-08-11T09:24:43.9378386Z","@mt":"Done seeding database."}

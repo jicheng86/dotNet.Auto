@@ -22,19 +22,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorys", "Repositorys"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B180CFB8-69E8-4DE6-A7DD-30EB8651A123}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.IdentityServer4", "Auto.IdentityServer4\Auto.IdentityServer4.csproj", "{DE6FE391-9554-4CC3-96B3-4CBA245A8F52}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.IdentityServerAdmin", "Auto.IdentityServerAdmin\Auto.IdentityServerAdmin.csproj", "{DA739FFB-1831-443F-A369-CC47E2DEA9D5}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.Client", "Auto.Client\Auto.Client.csproj", "{328782B0-F375-41FC-9660-F51D0017AB63}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.ClientCredentials", "Auto.ClientCredentials\Auto.ClientCredentials.csproj", "{465A8793-67A0-497B-8566-CAF394CA56CC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientCredentials", "ClientCredentials", "{24E34C15-6C0B-4005-9FD4-0B4E2F61FBBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto.Api", "Auto.Api\Auto.Api.csproj", "{7EEA1349-90C2-401B-A5E9-DCFA1DEBBE10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.Api", "Auto.Api\Auto.Api.csproj", "{7EEA1349-90C2-401B-A5E9-DCFA1DEBBE10}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.IdentityServer4AspNetIdentity", "Auto.IdentityServer4AspNetIdentity\Auto.IdentityServer4AspNetIdentity.csproj", "{ED975C99-F27D-4E32-BEB6-9355BC497E97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.IdentityServer4", "Auto.IdentityServer4\Auto.IdentityServer4.csproj", "{E7120D00-AB43-4693-8BBA-2ADC2027851A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer4Admin", "IdentityServer4Admin", "{8F3F05E1-750D-4AE8-8428-9037996A28C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.IdentityServer4Admin.Admin", "Auto.IdentityServer4Admin\src\Auto.IdentityServer4Admin.Admin\Auto.IdentityServer4Admin.Admin.csproj", "{13A5FDB3-6161-46CF-A0DC-0005E35150AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.IdentityServer4Admin.Admin.EntityFramework.SqlServer", "Auto.IdentityServer4Admin\src\Auto.IdentityServer4Admin.Admin.EntityFramework.SqlServer\Auto.IdentityServer4Admin.Admin.EntityFramework.SqlServer.csproj", "{867AA5F3-02E2-4B0B-B4E5-ED01BAC7F3E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.IdentityServer4Admin.Admin.EntityFramework.Shared", "Auto.IdentityServer4Admin\src\Auto.IdentityServer4Admin.Admin.EntityFramework.Shared\Auto.IdentityServer4Admin.Admin.EntityFramework.Shared.csproj", "{2B1773E5-9CB4-4531-BF31-B8FFFFE10F3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.IdentityServer4Admin.Shared", "Auto.IdentityServer4Admin\src\Auto.IdentityServer4Admin.Shared\Auto.IdentityServer4Admin.Shared.csproj", "{E003D433-3DE3-4693-BEFB-0D2C17C6C8E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.IdentityServer4Admin.STS.Identity", "Auto.IdentityServer4Admin\src\Auto.IdentityServer4Admin.STS.Identity\Auto.IdentityServer4Admin.STS.Identity.csproj", "{376FB459-3815-4C08-AFD0-6DD84F6CFEEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.IdentityServer4Admin.Admin.Api", "Auto.IdentityServer4Admin\src\Auto.IdentityServer4Admin.Admin.Api\Auto.IdentityServer4Admin.Admin.Api.csproj", "{84EF7031-317D-4983-B311-BF8F9228F8F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.IdentityServer4Admin.Admin.EntityFramework.MySql", "Auto.IdentityServer4Admin\src\Auto.IdentityServer4Admin.Admin.EntityFramework.MySql\Auto.IdentityServer4Admin.Admin.EntityFramework.MySql.csproj", "{9CFFE35F-CEA1-426E-88F5-4EE494895A95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auto.IdentityServer4Admin.Admin.EntityFramework.PostgreSQL", "Auto.IdentityServer4Admin\src\Auto.IdentityServer4Admin.Admin.EntityFramework.PostgreSQL\Auto.IdentityServer4Admin.Admin.EntityFramework.PostgreSQL.csproj", "{ED040FB8-1818-45F7-9E0A-CB8A2C22323E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,14 +80,6 @@ Global
 		{041E0CF8-1676-49FC-84D7-5E88C42CB7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{041E0CF8-1676-49FC-84D7-5E88C42CB7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{041E0CF8-1676-49FC-84D7-5E88C42CB7F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DE6FE391-9554-4CC3-96B3-4CBA245A8F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE6FE391-9554-4CC3-96B3-4CBA245A8F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE6FE391-9554-4CC3-96B3-4CBA245A8F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE6FE391-9554-4CC3-96B3-4CBA245A8F52}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DA739FFB-1831-443F-A369-CC47E2DEA9D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA739FFB-1831-443F-A369-CC47E2DEA9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA739FFB-1831-443F-A369-CC47E2DEA9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA739FFB-1831-443F-A369-CC47E2DEA9D5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{328782B0-F375-41FC-9660-F51D0017AB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{328782B0-F375-41FC-9660-F51D0017AB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{328782B0-F375-41FC-9660-F51D0017AB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -86,10 +92,42 @@ Global
 		{7EEA1349-90C2-401B-A5E9-DCFA1DEBBE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EEA1349-90C2-401B-A5E9-DCFA1DEBBE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EEA1349-90C2-401B-A5E9-DCFA1DEBBE10}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ED975C99-F27D-4E32-BEB6-9355BC497E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED975C99-F27D-4E32-BEB6-9355BC497E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED975C99-F27D-4E32-BEB6-9355BC497E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED975C99-F27D-4E32-BEB6-9355BC497E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7120D00-AB43-4693-8BBA-2ADC2027851A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7120D00-AB43-4693-8BBA-2ADC2027851A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7120D00-AB43-4693-8BBA-2ADC2027851A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7120D00-AB43-4693-8BBA-2ADC2027851A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A5FDB3-6161-46CF-A0DC-0005E35150AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A5FDB3-6161-46CF-A0DC-0005E35150AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A5FDB3-6161-46CF-A0DC-0005E35150AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A5FDB3-6161-46CF-A0DC-0005E35150AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{867AA5F3-02E2-4B0B-B4E5-ED01BAC7F3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867AA5F3-02E2-4B0B-B4E5-ED01BAC7F3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867AA5F3-02E2-4B0B-B4E5-ED01BAC7F3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867AA5F3-02E2-4B0B-B4E5-ED01BAC7F3E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1773E5-9CB4-4531-BF31-B8FFFFE10F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1773E5-9CB4-4531-BF31-B8FFFFE10F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1773E5-9CB4-4531-BF31-B8FFFFE10F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1773E5-9CB4-4531-BF31-B8FFFFE10F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E003D433-3DE3-4693-BEFB-0D2C17C6C8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E003D433-3DE3-4693-BEFB-0D2C17C6C8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E003D433-3DE3-4693-BEFB-0D2C17C6C8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E003D433-3DE3-4693-BEFB-0D2C17C6C8E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376FB459-3815-4C08-AFD0-6DD84F6CFEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376FB459-3815-4C08-AFD0-6DD84F6CFEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376FB459-3815-4C08-AFD0-6DD84F6CFEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376FB459-3815-4C08-AFD0-6DD84F6CFEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84EF7031-317D-4983-B311-BF8F9228F8F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84EF7031-317D-4983-B311-BF8F9228F8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84EF7031-317D-4983-B311-BF8F9228F8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84EF7031-317D-4983-B311-BF8F9228F8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFFE35F-CEA1-426E-88F5-4EE494895A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFFE35F-CEA1-426E-88F5-4EE494895A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFFE35F-CEA1-426E-88F5-4EE494895A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFFE35F-CEA1-426E-88F5-4EE494895A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED040FB8-1818-45F7-9E0A-CB8A2C22323E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED040FB8-1818-45F7-9E0A-CB8A2C22323E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED040FB8-1818-45F7-9E0A-CB8A2C22323E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED040FB8-1818-45F7-9E0A-CB8A2C22323E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +140,14 @@ Global
 		{328782B0-F375-41FC-9660-F51D0017AB63} = {24E34C15-6C0B-4005-9FD4-0B4E2F61FBBB}
 		{465A8793-67A0-497B-8566-CAF394CA56CC} = {24E34C15-6C0B-4005-9FD4-0B4E2F61FBBB}
 		{7EEA1349-90C2-401B-A5E9-DCFA1DEBBE10} = {24E34C15-6C0B-4005-9FD4-0B4E2F61FBBB}
+		{13A5FDB3-6161-46CF-A0DC-0005E35150AB} = {8F3F05E1-750D-4AE8-8428-9037996A28C6}
+		{867AA5F3-02E2-4B0B-B4E5-ED01BAC7F3E0} = {8F3F05E1-750D-4AE8-8428-9037996A28C6}
+		{2B1773E5-9CB4-4531-BF31-B8FFFFE10F3D} = {8F3F05E1-750D-4AE8-8428-9037996A28C6}
+		{E003D433-3DE3-4693-BEFB-0D2C17C6C8E5} = {8F3F05E1-750D-4AE8-8428-9037996A28C6}
+		{376FB459-3815-4C08-AFD0-6DD84F6CFEEB} = {8F3F05E1-750D-4AE8-8428-9037996A28C6}
+		{84EF7031-317D-4983-B311-BF8F9228F8F5} = {8F3F05E1-750D-4AE8-8428-9037996A28C6}
+		{9CFFE35F-CEA1-426E-88F5-4EE494895A95} = {8F3F05E1-750D-4AE8-8428-9037996A28C6}
+		{ED040FB8-1818-45F7-9E0A-CB8A2C22323E} = {8F3F05E1-750D-4AE8-8428-9037996A28C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D1F9150C-7C5F-465A-BB21-5907D7B1C6C3}

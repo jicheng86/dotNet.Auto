@@ -1,0 +1,65 @@
+﻿2020-08-18 10:08:03.747 +08:00 [INF] Starting up Successful
+2020-08-18 10:15:18.755 +08:00 [INF] Starting up Successful
+2020-08-18 10:15:22.923 +08:00 [INF] Seeding database...
+2020-08-18 10:15:27.257 +08:00 [INF] 参数连接字符串DefaultConnection=Data Source=.;Database=DB_Abp_Auto-IdentityServer4;Integrated Security=SSPI;Persist Security Info=False;。
+2020-08-18 10:18:27.826 +08:00 [FTL] Application start-up failed
+System.AggregateException: One or more errors occurred. (对象名 'AspNetUsers' 无效。)
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 对象名 'AspNetUsers' 无效。
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+ClientConnectionId:9d801ad9-0566-4ffe-9d31-727a2037a1a6
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Auto.IdentityServer4.InitializeIdentityServer4.EnsureSeedData(ConfigurationDbContext context, ApplicationDbContext context2, IServiceScope serviceScope) in F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\InitializeIdentityServer4.cs:line 70
+   at Auto.IdentityServer4.InitializeIdentityServer4.InitializeDatabaseANDEnsureSeedData(String connectionString) in F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\InitializeIdentityServer4.cs:line 60
+   at Auto.IdentityServer4.Program.Main(String[] args) in F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\Program.cs:line 62
+2020-08-18 10:30:27.473 +08:00 [INF] Starting up Successful
+2020-08-18 10:30:32.053 +08:00 [INF] Seeding database...
+2020-08-18 10:30:33.757 +08:00 [INF] 参数连接字符串DefaultConnection=Data Source=.;Database=DB_Auto-IdentityServer4;Integrated Security=SSPI;Persist Security Info=False;。
+2020-08-18 10:34:04.126 +08:00 [INF] Starting up Successful
+2020-08-18 10:34:07.725 +08:00 [INF] Seeding database...
+2020-08-18 10:34:09.377 +08:00 [INF] 参数连接字符串DefaultConnection=Data Source=.;Database=DB_Auto-IdentityServer4;Integrated Security=SSPI;Persist Security Info=False;。
+2020-08-18 10:50:57.539 +08:00 [INF] Starting up Successful
+2020-08-18 10:51:00.773 +08:00 [INF] Seeding database...
+2020-08-18 10:51:01.526 +08:00 [INF] 参数连接字符串DefaultConnection=Data Source=.;Database=DB_Auto-IdentityServer4;Integrated Security=SSPI;Persist Security Info=False;。
+2020-08-18 10:51:36.919 +08:00 [FTL] Application start-up failed
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Auto.IdentityServer4.InitializeIdentityServer4.InitializeDatabaseANDEnsureSeedData(String connectionString) in F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\InitializeIdentityServer4.cs:line 61
+   at Auto.IdentityServer4.Program.Main(String[] args) in F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\Program.cs:line 62
+2020-08-18 10:52:02.559 +08:00 [INF] Starting up Successful
+2020-08-18 10:52:03.587 +08:00 [INF] Seeding database...
+2020-08-18 10:52:03.590 +08:00 [INF] 参数连接字符串DefaultConnection=Data Source=.;Database=DB_Auto-IdentityServer4;Integrated Security=SSPI;Persist Security Info=False;。
+2020-08-18 11:19:01.464 +08:00 [INF] Starting up Successful
+2020-08-18 11:19:02.597 +08:00 [INF] Seeding database...
+2020-08-18 11:19:02.598 +08:00 [INF] 参数连接字符串DefaultConnection=Data Source=.;Database=DB_Auto-IdentityServer4;Integrated Security=SSPI;Persist Security Info=False;。
+2020-08-18 11:19:49.072 +08:00 [FTL] Application start-up failed
+System.InvalidOperationException: No service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Auto.IdentityServer4.AspNetIdentity.ApplicationUser]' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Auto.IdentityServer4.InitializeIdentityServer4.EnsureSeedData(ConfigurationDbContext context, ApplicationDbContext context2, IServiceScope serviceScope) in F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\InitializeIdentityServer4.cs:line 73
+   at Auto.IdentityServer4.InitializeIdentityServer4.InitializeDatabaseANDEnsureSeedData(String connectionString) in F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\InitializeIdentityServer4.cs:line 65
+   at Auto.IdentityServer4.Program.Main(String[] args) in F:\dotNetCore\dotNet.Auto\Auto.IdentityServer4\Program.cs:line 62
+2020-08-18 11:20:26.427 +08:00 [INF] Starting up Successful
+2020-08-18 11:20:30.811 +08:00 [INF] Seeding database...
+2020-08-18 11:20:30.813 +08:00 [INF] 参数连接字符串DefaultConnection=Data Source=.;Database=DB_Auto-IdentityServer4;Integrated Security=SSPI;Persist Security Info=False;。
+2020-08-18 11:24:31.878 +08:00 [INF] Starting up Successful
+2020-08-18 11:24:33.020 +08:00 [INF] Seeding database...
+2020-08-18 11:24:33.024 +08:00 [INF] 参数连接字符串DefaultConnection=Data Source=.;Database=DB_Auto-IdentityServer4;Integrated Security=SSPI;Persist Security Info=False;。

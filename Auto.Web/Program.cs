@@ -34,7 +34,7 @@ namespace Auto.Web
                   .WriteTo.File(formatter: new CompactJsonFormatter(), path: "Serilogs/JsonFormatterlog.txt", rollingInterval: RollingInterval.Day, restrictedToMinimumLevel: LogEventLevel.Debug, retainedFileCountLimit: 365, encoding: Encoding.UTF8, shared: true, buffered: false)
                   .WriteTo.File(path: "Serilogs/log.txt", rollingInterval: RollingInterval.Day, restrictedToMinimumLevel: LogEventLevel.Debug, retainedFileCountLimit: 365, encoding: Encoding.UTF8, shared: true, buffered: false)
                   .AuditTo.File(path: "Serilogs/audit.txt", restrictedToMinimumLevel: LogEventLevel.Error)
-                  .WriteTo.MSSqlServer(connectionString: @"Data Source=.;Database=DB_LMS_Core3.x;Integrated Security=SSPI;Persist Security Info=False;", sinkOptions: new SinkOptions { TableName = "Serilogs4Web", AutoCreateSqlTable = true }, restrictedToMinimumLevel: LogEventLevel.Warning)
+                  .WriteTo.MSSqlServer(connectionString: @"Data Source=.;Database=DB_Auto;Integrated Security=SSPI;Persist Security Info=False;", sinkOptions: new SinkOptions { TableName = "Serilogs4Web", AutoCreateSqlTable = true }, restrictedToMinimumLevel: LogEventLevel.Warning)
                  //.WriteTo.Email(
                  //   fromEmail: "lijc@lx-car.com",
                  //   toEmail: "791457931@qq.com",

@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using IdentityServerHost.Quickstart.UI;
+using Microsoft.AspNetCore.Identity;
+using Auto.IdentityServer4.AspNetIdentity;
 
 namespace Auto.IdentityServer4
 {
@@ -27,22 +29,29 @@ namespace Auto.IdentityServer4
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-
             var connectionString = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<ApplicationDbContext>(options =>
+             options.UseSqlServer(connectionString));
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+              .AddEntityFrameworkStores<ApplicationDbContext>()
+              .AddDefaultTokenProviders();
 
+            //services.AddDefaultIdentity<ApplicationUser>()
+            //.AddRoles<IdentityRole>()
+            //.AddEntityFrameworkStores<ApplicationDbContext>();
             var builder = services.AddIdentityServer(
-            //    options =>
-            //{
-            //    options.Events.RaiseErrorEvents = true;
-            //    options.Events.RaiseInformationEvents = true;
-            //    options.Events.RaiseFailureEvents = true;
-            //    options.Events.RaiseSuccessEvents = true;
+                options =>
+            {
+                options.Events.RaiseErrorEvents = true;
+                options.Events.RaiseInformationEvents = true;
+                options.Events.RaiseFailureEvents = true;
+                options.Events.RaiseSuccessEvents = true;
 
-            //    // see https://identityserver4.readthedocs.io/en/latest/topics/resources.html
-            //    options.EmitStaticAudienceClaim = true;
-            //}
+                // see https://identityserver4.readthedocs.io/en/latest/topics/resources.html
+                options.EmitStaticAudienceClaim = true;
+            }
             )
-                .AddTestUsers(TestUsers.Users)
+                //.AddTestUsers(TestUsers.Users)
                 // this adds the config data from DB (clients, resources, CORS)
                 .AddConfigurationStore(options =>
                 {
@@ -55,7 +64,9 @@ namespace Auto.IdentityServer4
 
                     // this enables automatic token cleanup. this is optional.
                     options.EnableTokenCleanup = true;
-                });
+                })
+            //this adds the operational data from DB（.NetCore Identity）
+             .AddAspNetIdentity<ApplicationUser>();
 
             // not recommended for production - you need to store your key material somewhere secure
             builder.AddDeveloperSigningCredential();

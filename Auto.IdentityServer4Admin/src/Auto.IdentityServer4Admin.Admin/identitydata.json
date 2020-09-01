@@ -1,0 +1,25 @@
+﻿{
+  "IdentityData": {
+    "Roles": [
+      {
+        "Name": "Administrator"
+      }
+    ],
+    "Users": [
+      {
+        "Username": "admin",
+        "Password": "admin",
+        "Email": "791457931@qq.com",
+        "Roles": [
+          "Administrator"
+        ],
+        "Claims": [
+          {
+            "Type": "name",
+            "Value": "admin"
+          }
+        ]
+      }
+    ]
+  }
+}

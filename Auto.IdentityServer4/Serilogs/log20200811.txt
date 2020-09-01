@@ -1,0 +1,8 @@
+﻿2020-08-11 17:20:52.337 +08:00 [INF] Starting up Successful
+2020-08-11 17:20:55.051 +08:00 [INF] Seeding database...
+2020-08-11 17:20:55.054 +08:00 [INF] 参数连接字符串DefaultConnection=Data Source=.;Database=DB_Auto_identityserver4;Integrated Security=SSPI;Persist Security Info=False;。
+2020-08-11 17:21:24.965 +08:00 [INF] Done seeding database.
+2020-08-11 17:24:10.910 +08:00 [INF] Starting up Successful
+2020-08-11 17:24:12.222 +08:00 [INF] Seeding database...
+2020-08-11 17:24:12.224 +08:00 [INF] 参数连接字符串DefaultConnection=Data Source=.;Database=DB_Auto_IdentityServer4;Integrated Security=SSPI;Persist Security Info=False;。
+2020-08-11 17:24:43.937 +08:00 [INF] Done seeding database.

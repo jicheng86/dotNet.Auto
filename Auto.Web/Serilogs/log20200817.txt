@@ -1,0 +1,474 @@
+﻿2020-08-17 11:02:14.863 +08:00 [INF] Starting up Successful
+2020-08-17 11:02:16.834 +08:00 [INF] User profile is available. Using 'C:\Users\LVXING\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-17 11:02:17.546 +08:00 [INF] Now listening on: http://localhost:5000
+2020-08-17 11:02:17.547 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-17 11:02:17.548 +08:00 [INF] Hosting environment: Development
+2020-08-17 11:02:17.549 +08:00 [INF] Content root path: F:\dotNetCore\dotNet.Auto\Auto.Web
+2020-08-17 11:02:20.814 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2020-08-17 11:02:20.867 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.HomeController.Index (Auto.Web)'
+2020-08-17 11:02:20.901 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Auto.Web.Controllers.HomeController (Auto.Web).
+2020-08-17 11:02:20.991 +08:00 [INF] Executing action method Auto.Web.Controllers.HomeController.Index (Auto.Web) - Validation state: "Valid"
+2020-08-17 11:02:20.997 +08:00 [INF] Executed action method Auto.Web.Controllers.HomeController.Index (Auto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5077ms.
+2020-08-17 11:02:21.024 +08:00 [INF] Executing ViewResult, running view Index.
+2020-08-17 11:02:21.466 +08:00 [INF] Executed ViewResult - view Index executed in 441.7518ms.
+2020-08-17 11:02:21.472 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/fontawesome/v5.11.2/dist/css/all.css?v=46qynGAkLSFpVbEBog43gvNhfrOj-BmwXdxFgVK_Kvc  
+2020-08-17 11:02:21.500 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/inspina.css  
+2020-08-17 11:02:21.500 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/animate/v4.1.0/dist/animate.css?v=6Wozb_CzRANFOaGqN-u_uRT7kcffVIQt9OhOuuA6I9o  
+2020-08-17 11:02:21.500 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/v4.5.0/dist/css/bootstrap.css?v=1hm7xPFY4HL_GPfWz595kcNLVmuMC43nPagoQhWTb58  
+2020-08-17 11:02:21.504 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/public.css  
+2020-08-17 11:02:21.509 +08:00 [INF] Executed action Auto.Web.Controllers.HomeController.Index (Auto.Web) in 606.3295ms
+2020-08-17 11:02:21.513 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.HomeController.Index (Auto.Web)'
+2020-08-17 11:02:21.529 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/v4.5.0/dist/css/bootstrap.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\bootstrap\v4.5.0\dist\css\bootstrap.css'
+2020-08-17 11:02:21.529 +08:00 [INF] Sending file. Request path: '/lib/fontawesome/v5.11.2/dist/css/all.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\fontawesome\v5.11.2\dist\css\all.css'
+2020-08-17 11:02:21.529 +08:00 [INF] Sending file. Request path: '/lib/animate/v4.1.0/dist/animate.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\animate\v4.1.0\dist\animate.css'
+2020-08-17 11:02:21.532 +08:00 [INF] Request finished in 59.4413ms 200 text/css
+2020-08-17 11:02:21.532 +08:00 [INF] Request finished in 30.4645ms 200 text/css
+2020-08-17 11:02:21.532 +08:00 [INF] Request finished in 31.8075ms 200 text/css
+2020-08-17 11:02:21.542 +08:00 [INF] Sending file. Request path: '/css/public.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\css\public.css'
+2020-08-17 11:02:21.544 +08:00 [INF] Request finished in 40.1315ms 200 text/css
+2020-08-17 11:02:21.553 +08:00 [INF] Request finished in 744.3572ms 200 text/html; charset=utf-8
+2020-08-17 11:02:21.569 +08:00 [INF] Sending file. Request path: '/css/inspina.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\css\inspina.css'
+2020-08-17 11:02:21.575 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-slimScroll/v1.3.8/dist/jquery.slimscroll.min.js?v=qE_6vdSYzQu9lgosKxhFplETvWvqAAlmAuR-yPh_0SI  
+2020-08-17 11:02:21.575 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-metisMenu/v2.7.7/dist/metisMenu.min.js?v=iKIKDNMMtBZzNVSGytO-b7JCv16YfaR5xbqHlFuNAa8  
+2020-08-17 11:02:21.575 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/profile_small.jpg  
+2020-08-17 11:02:21.576 +08:00 [INF] Request finished in 104.1168ms 200 text/css
+2020-08-17 11:02:21.578 +08:00 [INF] Sending file. Request path: '/lib/jquery-slimScroll/v1.3.8/dist/jquery.slimscroll.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-slimScroll\v1.3.8\dist\jquery.slimscroll.min.js'
+2020-08-17 11:02:21.580 +08:00 [INF] Sending file. Request path: '/lib/jquery-metisMenu/v2.7.7/dist/metisMenu.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-metisMenu\v2.7.7\dist\metisMenu.min.js'
+2020-08-17 11:02:21.580 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/v4.5.0/dist/js/bootstrap.bundle.js?v=Bu2KGZCt5rR0kU0i5x8rQx5lUEWxa5aurmdDGPpM5kY  
+2020-08-17 11:02:21.575 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/v3.5.1/dist/jquery.min.js?v=82hEkGrSMJh3quMSG4f7FbngmAPLTDM63H4eNayS4Us  
+2020-08-17 11:02:21.575 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/popper/v1.13.0/dist/umd/popper.min.js  
+2020-08-17 11:02:21.583 +08:00 [INF] Request finished in 7.9387ms 200 application/javascript
+2020-08-17 11:02:21.581 +08:00 [INF] Request finished in 6.6006ms 200 application/javascript
+2020-08-17 11:02:21.593 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/inspina.js?v=AesI-MKnAvxCU6tM_87vaUPzeYLZvgKxlndX4Qk04ng  
+2020-08-17 11:02:21.588 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/layer/v3.11/dist/layer.js?v=HOZknYLS2w-OSCP3Ad38_Zx_EHy0RskH5G7H5XFxoqM  
+2020-08-17 11:02:21.590 +08:00 [INF] Sending file. Request path: '/Images/profile_small.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\profile_small.jpg'
+2020-08-17 11:02:21.595 +08:00 [INF] Sending file. Request path: '/js/inspina.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\js\inspina.js'
+2020-08-17 11:02:21.598 +08:00 [INF] Request finished in 23.7719ms 200 image/jpeg
+2020-08-17 11:02:21.597 +08:00 [INF] Sending file. Request path: '/lib/layer/v3.11/dist/layer.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\layer\v3.11\dist\layer.js'
+2020-08-17 11:02:21.592 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/v4.5.0/dist/js/bootstrap.bundle.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\bootstrap\v4.5.0\dist\js\bootstrap.bundle.js'
+2020-08-17 11:02:21.590 +08:00 [INF] Sending file. Request path: '/lib/jquery/v3.5.1/dist/jquery.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery\v3.5.1\dist\jquery.min.js'
+2020-08-17 11:02:21.600 +08:00 [INF] Request finished in 7.0787ms 200 application/javascript
+2020-08-17 11:02:21.600 +08:00 [INF] Sending file. Request path: '/lib/popper/v1.13.0/dist/umd/popper.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\popper\v1.13.0\dist\umd\popper.min.js'
+2020-08-17 11:02:21.609 +08:00 [INF] Request finished in 21.8674ms 200 application/javascript
+2020-08-17 11:02:21.610 +08:00 [INF] Request finished in 29.2776ms 200 application/javascript
+2020-08-17 11:02:21.610 +08:00 [INF] Request finished in 35.3637ms 200 application/javascript
+2020-08-17 11:02:21.611 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-flot/v0.8.3/dist/jquery.flot.resize.js  
+2020-08-17 11:02:21.612 +08:00 [INF] Request finished in 36.6223ms 200 application/javascript
+2020-08-17 11:02:21.612 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-flot/v0.8.3/dist/jquery.flot.pie.js  
+2020-08-17 11:02:21.614 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-flot/v0.9.0/dist/jquery.flot.tooltip.js  
+2020-08-17 11:02:21.616 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-flot/v0.8.3/dist/jquery.flot.time.js  
+2020-08-17 11:02:21.617 +08:00 [INF] Sending file. Request path: '/lib/jquery-flot/v0.8.3/dist/jquery.flot.pie.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-flot\v0.8.3\dist\jquery.flot.pie.js'
+2020-08-17 11:02:21.614 +08:00 [INF] Sending file. Request path: '/lib/jquery-flot/v0.8.3/dist/jquery.flot.resize.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-flot\v0.8.3\dist\jquery.flot.resize.js'
+2020-08-17 11:02:21.621 +08:00 [INF] Sending file. Request path: '/lib/jquery-flot/v0.9.0/dist/jquery.flot.tooltip.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-flot\v0.9.0\dist\jquery.flot.tooltip.js'
+2020-08-17 11:02:21.613 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-flot/v0.8.3/dist/jquery.flot.js  
+2020-08-17 11:02:21.613 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/public.js?v=aSG8GOXjpo7hAmz6tf9BpO1GWlYMIKI-5SI5Rue4OME  
+2020-08-17 11:02:21.622 +08:00 [INF] Sending file. Request path: '/lib/jquery-flot/v0.8.3/dist/jquery.flot.time.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-flot\v0.8.3\dist\jquery.flot.time.js'
+2020-08-17 11:02:21.623 +08:00 [INF] Request finished in 10.4533ms 200 application/javascript
+2020-08-17 11:02:21.628 +08:00 [INF] Request finished in 12.4509ms 200 application/javascript
+2020-08-17 11:02:21.623 +08:00 [INF] Request finished in 12.4684ms 200 application/javascript
+2020-08-17 11:02:21.626 +08:00 [INF] Request finished in 12.2473ms 200 application/javascript
+2020-08-17 11:02:21.629 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-jvectormap/dist/js/jquery-jvectormap-2.0.3.min.js  
+2020-08-17 11:02:21.629 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-jvectormap/dist/js/jquery-jvectormap-world-mill.js  
+2020-08-17 11:02:21.630 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-flot/v0.8.2/dist/js/jquery.flot.spline.js  
+2020-08-17 11:02:21.630 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a7.jpg  
+2020-08-17 11:02:21.629 +08:00 [INF] Sending file. Request path: '/js/public.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\js\public.js'
+2020-08-17 11:02:21.633 +08:00 [INF] Sending file. Request path: '/lib/jquery-flot/v0.8.2/dist/js/jquery.flot.spline.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-flot\v0.8.2\dist\js\jquery.flot.spline.js'
+2020-08-17 11:02:21.634 +08:00 [INF] Sending file. Request path: '/lib/jquery-jvectormap/dist/js/jquery-jvectormap-world-mill.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-jvectormap\dist\js\jquery-jvectormap-world-mill.js'
+2020-08-17 11:02:21.641 +08:00 [INF] Request finished in 11.2701ms 200 application/javascript
+2020-08-17 11:02:21.635 +08:00 [INF] Request finished in 21.7768ms 200 application/javascript
+2020-08-17 11:02:21.642 +08:00 [INF] Request finished in 13.3311ms 200 application/javascript
+2020-08-17 11:02:21.643 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a4.jpg  
+2020-08-17 11:02:21.645 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/profile.jpg  
+2020-08-17 11:02:21.645 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a1.jpg  
+2020-08-17 11:02:21.647 +08:00 [INF] Sending file. Request path: '/Images/a7.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a7.jpg'
+2020-08-17 11:02:21.647 +08:00 [INF] Sending file. Request path: '/lib/jquery-flot/v0.8.3/dist/jquery.flot.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-flot\v0.8.3\dist\jquery.flot.js'
+2020-08-17 11:02:21.647 +08:00 [INF] Sending file. Request path: '/Images/a4.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a4.jpg'
+2020-08-17 11:02:21.648 +08:00 [INF] Request finished in 18.1832ms 200 image/jpeg
+2020-08-17 11:02:21.654 +08:00 [INF] Sending file. Request path: '/Images/a1.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a1.jpg'
+2020-08-17 11:02:21.654 +08:00 [INF] Request finished in 41.7343ms 200 application/javascript
+2020-08-17 11:02:21.657 +08:00 [INF] Request finished in 11.9334ms 200 image/jpeg
+2020-08-17 11:02:21.657 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a8.jpg  
+2020-08-17 11:02:21.655 +08:00 [INF] Request finished in 12.1221ms 200 image/jpeg
+2020-08-17 11:02:21.658 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a2.jpg  
+2020-08-17 11:02:21.658 +08:00 [INF] Sending file. Request path: '/Images/profile.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\profile.jpg'
+2020-08-17 11:02:21.660 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a3.jpg  
+2020-08-17 11:02:21.662 +08:00 [INF] Request finished in 17.666ms 200 image/jpeg
+2020-08-17 11:02:21.670 +08:00 [INF] Sending file. Request path: '/lib/jquery-jvectormap/dist/js/jquery-jvectormap-2.0.3.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-jvectormap\dist\js\jquery-jvectormap-2.0.3.min.js'
+2020-08-17 11:02:21.672 +08:00 [INF] Request finished in 43.1577ms 200 application/javascript
+2020-08-17 11:02:21.685 +08:00 [INF] Sending file. Request path: '/Images/a2.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a2.jpg'
+2020-08-17 11:02:21.687 +08:00 [INF] Request finished in 29.6338ms 200 image/jpeg
+2020-08-17 11:02:21.693 +08:00 [INF] Sending file. Request path: '/Images/a8.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a8.jpg'
+2020-08-17 11:02:21.693 +08:00 [INF] Sending file. Request path: '/Images/a3.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a3.jpg'
+2020-08-17 11:02:21.694 +08:00 [INF] Request finished in 37.5145ms 200 image/jpeg
+2020-08-17 11:02:21.695 +08:00 [INF] Request finished in 34.9528ms 200 image/jpeg
+2020-08-17 11:02:21.814 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/patterns/header-profile.png  
+2020-08-17 11:02:21.817 +08:00 [INF] Sending file. Request path: '/css/patterns/header-profile.png'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\css\patterns\header-profile.png'
+2020-08-17 11:02:21.819 +08:00 [INF] Request finished in 4.8758ms 200 image/png
+2020-08-17 11:02:21.823 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/fontawesome/v5.11.2/dist/webfonts/fa-solid-900.woff2  
+2020-08-17 11:02:21.840 +08:00 [INF] Sending file. Request path: '/lib/fontawesome/v5.11.2/dist/webfonts/fa-solid-900.woff2'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\fontawesome\v5.11.2\dist\webfonts\fa-solid-900.woff2'
+2020-08-17 11:02:21.841 +08:00 [INF] Request finished in 18.1364ms 200 font/woff2
+2020-08-17 11:02:22.024 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/layer/v3.11/dist/theme/default/layer.css?v=3.1.1  
+2020-08-17 11:02:22.033 +08:00 [INF] Sending file. Request path: '/lib/layer/v3.11/dist/theme/default/layer.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\layer\v3.11\dist\theme\default\layer.css'
+2020-08-17 11:02:22.034 +08:00 [INF] Request finished in 9.7022ms 200 text/css
+2020-08-17 11:02:22.507 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2020-08-17 11:02:22.521 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\favicon.ico'
+2020-08-17 11:02:22.524 +08:00 [INF] Request finished in 16.9223ms 200 image/x-icon
+2020-08-17 11:02:38.007 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Corporation/List  
+2020-08-17 11:02:38.013 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.CorporationController.List (Auto.Web)'
+2020-08-17 11:02:38.015 +08:00 [INF] Route matched with {action = "List", controller = "Corporation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller Auto.Web.Controllers.CorporationController (Auto.Web).
+2020-08-17 11:02:38.394 +08:00 [INF] Executing action method Auto.Web.Controllers.CorporationController.List (Auto.Web) - Validation state: "Valid"
+2020-08-17 11:02:38.396 +08:00 [INF] Executed action method Auto.Web.Controllers.CorporationController.List (Auto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3039ms.
+2020-08-17 11:02:38.398 +08:00 [INF] Executing ViewResult, running view List.
+2020-08-17 11:02:38.443 +08:00 [INF] Executed ViewResult - view List executed in 46.2385ms.
+2020-08-17 11:02:38.444 +08:00 [INF] Executed action Auto.Web.Controllers.CorporationController.List (Auto.Web) in 427.3065ms
+2020-08-17 11:02:38.446 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.CorporationController.List (Auto.Web)'
+2020-08-17 11:02:38.454 +08:00 [INF] Request finished in 447.3326ms 200 text/html; charset=utf-8
+2020-08-17 11:02:38.483 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/v4.5.0/dist/css/bootstrap.css?v=1hm7xPFY4HL_GPfWz595kcNLVmuMC43nPagoQhWTb58  
+2020-08-17 11:02:38.483 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/fontawesome/v5.11.2/dist/css/all.css?v=46qynGAkLSFpVbEBog43gvNhfrOj-BmwXdxFgVK_Kvc  
+2020-08-17 11:02:38.484 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/animate/v4.1.0/dist/animate.css?v=6Wozb_CzRANFOaGqN-u_uRT7kcffVIQt9OhOuuA6I9o  
+2020-08-17 11:02:38.484 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/inspina.css  
+2020-08-17 11:02:38.484 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/public.css  
+2020-08-17 11:02:38.487 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/v3.5.1/dist/jquery.min.js?v=82hEkGrSMJh3quMSG4f7FbngmAPLTDM63H4eNayS4Us  
+2020-08-17 11:02:38.507 +08:00 [INF] Sending file. Request path: '/css/public.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\css\public.css'
+2020-08-17 11:02:38.508 +08:00 [INF] Request finished in 23.9631ms 200 text/css
+2020-08-17 11:02:38.508 +08:00 [INF] Sending file. Request path: '/lib/fontawesome/v5.11.2/dist/css/all.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\fontawesome\v5.11.2\dist\css\all.css'
+2020-08-17 11:02:38.517 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/v4.5.0/dist/css/bootstrap.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\bootstrap\v4.5.0\dist\css\bootstrap.css'
+2020-08-17 11:02:38.518 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-slimScroll/v1.3.8/dist/jquery.slimscroll.min.js?v=qE_6vdSYzQu9lgosKxhFplETvWvqAAlmAuR-yPh_0SI  
+2020-08-17 11:02:38.523 +08:00 [INF] Sending file. Request path: '/lib/animate/v4.1.0/dist/animate.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\animate\v4.1.0\dist\animate.css'
+2020-08-17 11:02:38.542 +08:00 [INF] Sending file. Request path: '/css/inspina.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\css\inspina.css'
+2020-08-17 11:02:38.518 +08:00 [INF] Request finished in 34.264ms 200 text/css
+2020-08-17 11:02:38.522 +08:00 [INF] Request finished in 39.6267ms 200 text/css
+2020-08-17 11:02:38.542 +08:00 [INF] Sending file. Request path: '/lib/jquery/v3.5.1/dist/jquery.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery\v3.5.1\dist\jquery.min.js'
+2020-08-17 11:02:38.542 +08:00 [INF] Sending file. Request path: '/lib/jquery-slimScroll/v1.3.8/dist/jquery.slimscroll.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-slimScroll\v1.3.8\dist\jquery.slimscroll.min.js'
+2020-08-17 11:02:38.545 +08:00 [INF] Request finished in 61.1767ms 200 text/css
+2020-08-17 11:02:38.547 +08:00 [INF] Request finished in 62.866ms 200 text/css
+2020-08-17 11:02:38.547 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-metisMenu/v2.7.7/dist/metisMenu.min.js?v=iKIKDNMMtBZzNVSGytO-b7JCv16YfaR5xbqHlFuNAa8  
+2020-08-17 11:02:38.548 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/v4.5.0/dist/js/bootstrap.bundle.js?v=Bu2KGZCt5rR0kU0i5x8rQx5lUEWxa5aurmdDGPpM5kY  
+2020-08-17 11:02:38.548 +08:00 [INF] Request finished in 61.6272ms 200 application/javascript
+2020-08-17 11:02:38.550 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/popper/v1.13.0/dist/umd/popper.min.js  
+2020-08-17 11:02:38.549 +08:00 [INF] Request finished in 30.767ms 200 application/javascript
+2020-08-17 11:02:38.553 +08:00 [INF] Sending file. Request path: '/lib/jquery-metisMenu/v2.7.7/dist/metisMenu.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-metisMenu\v2.7.7\dist\metisMenu.min.js'
+2020-08-17 11:02:38.553 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/inspina.js?v=AesI-MKnAvxCU6tM_87vaUPzeYLZvgKxlndX4Qk04ng  
+2020-08-17 11:02:38.553 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/layer/v3.11/dist/layer.js?v=HOZknYLS2w-OSCP3Ad38_Zx_EHy0RskH5G7H5XFxoqM  
+2020-08-17 11:02:38.556 +08:00 [INF] Sending file. Request path: '/lib/popper/v1.13.0/dist/umd/popper.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\popper\v1.13.0\dist\umd\popper.min.js'
+2020-08-17 11:02:38.560 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/public.js?v=aSG8GOXjpo7hAmz6tf9BpO1GWlYMIKI-5SI5Rue4OME  
+2020-08-17 11:02:38.563 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/v4.5.0/dist/js/bootstrap.bundle.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\bootstrap\v4.5.0\dist\js\bootstrap.bundle.js'
+2020-08-17 11:02:38.567 +08:00 [INF] Request finished in 15.6068ms 200 application/javascript
+2020-08-17 11:02:38.559 +08:00 [INF] Request finished in 12.2116ms 200 application/javascript
+2020-08-17 11:02:38.573 +08:00 [INF] Request finished in 23.4757ms 200 application/javascript
+2020-08-17 11:02:38.561 +08:00 [INF] Sending file. Request path: '/js/inspina.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\js\inspina.js'
+2020-08-17 11:02:38.567 +08:00 [INF] Sending file. Request path: '/lib/layer/v3.11/dist/layer.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\layer\v3.11\dist\layer.js'
+2020-08-17 11:02:38.575 +08:00 [INF] Sending file. Request path: '/js/public.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\js\public.js'
+2020-08-17 11:02:38.575 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-table/v1.17.1/dist/bootstrap-table.css  
+2020-08-17 11:02:38.576 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-table/v1.17.1/dist/bootstrap-table.js  
+2020-08-17 11:02:38.577 +08:00 [INF] Request finished in 24.0286ms 200 application/javascript
+2020-08-17 11:02:38.582 +08:00 [INF] Request finished in 21.9212ms 200 application/javascript
+2020-08-17 11:02:38.580 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/Corporation/List.js?v=hdPLT8mUYcyrKecsBIQ2X3JMTM96Jub0feIeAuybPIQ  
+2020-08-17 11:02:38.584 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-table/v1.17.1/dist/locale/bootstrap-table-zh-CN.js  
+2020-08-17 11:02:38.580 +08:00 [INF] Request finished in 27.2387ms 200 application/javascript
+2020-08-17 11:02:38.589 +08:00 [INF] Sending file. Request path: '/js/Corporation/List.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\js\Corporation\List.js'
+2020-08-17 11:02:38.594 +08:00 [INF] Sending file. Request path: '/lib/bootstrap-table/v1.17.1/dist/locale/bootstrap-table-zh-CN.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\bootstrap-table\v1.17.1\dist\locale\bootstrap-table-zh-CN.js'
+2020-08-17 11:02:38.591 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a7.jpg  
+2020-08-17 11:02:38.595 +08:00 [INF] Request finished in 16.4176ms 200 application/javascript
+2020-08-17 11:02:38.598 +08:00 [INF] Sending file. Request path: '/Images/a7.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a7.jpg'
+2020-08-17 11:02:38.596 +08:00 [INF] Sending file. Request path: '/lib/bootstrap-table/v1.17.1/dist/bootstrap-table.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\bootstrap-table\v1.17.1\dist\bootstrap-table.css'
+2020-08-17 11:02:38.597 +08:00 [INF] Request finished in 14.0235ms 200 application/javascript
+2020-08-17 11:02:38.599 +08:00 [INF] Request finished in 8.0844ms 200 image/jpeg
+2020-08-17 11:02:38.598 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a4.jpg  
+2020-08-17 11:02:38.594 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/profile_small.jpg  
+2020-08-17 11:02:38.600 +08:00 [INF] Request finished in 24.5839ms 200 text/css
+2020-08-17 11:02:38.608 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/profile.jpg  
+2020-08-17 11:02:38.610 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-icons/ui-checks.svg  
+2020-08-17 11:02:38.600 +08:00 [INF] Sending file. Request path: '/lib/bootstrap-table/v1.17.1/dist/bootstrap-table.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\bootstrap-table\v1.17.1\dist\bootstrap-table.js'
+2020-08-17 11:02:38.613 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-icons/person-plus.svg  
+2020-08-17 11:02:38.607 +08:00 [INF] Sending file. Request path: '/Images/a4.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a4.jpg'
+2020-08-17 11:02:38.616 +08:00 [INF] Sending file. Request path: '/Images/profile.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\profile.jpg'
+2020-08-17 11:02:38.617 +08:00 [INF] Request finished in 41.0961ms 200 application/javascript
+2020-08-17 11:02:38.613 +08:00 [INF] Sending file. Request path: '/Images/profile_small.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\profile_small.jpg'
+2020-08-17 11:02:38.624 +08:00 [INF] Request finished in 26.0592ms 200 image/jpeg
+2020-08-17 11:02:38.625 +08:00 [INF] Sending file. Request path: '/lib/bootstrap-icons/ui-checks.svg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\bootstrap-icons\ui-checks.svg'
+2020-08-17 11:02:38.625 +08:00 [INF] Request finished in 18.0284ms 200 image/jpeg
+2020-08-17 11:02:38.626 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a1.jpg  
+2020-08-17 11:02:38.627 +08:00 [INF] Request finished in 33.0349ms 200 image/jpeg
+2020-08-17 11:02:38.628 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a2.jpg  
+2020-08-17 11:02:38.629 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a8.jpg  
+2020-08-17 11:02:38.629 +08:00 [INF] Request finished in 18.8516ms 200 image/svg+xml
+2020-08-17 11:02:38.630 +08:00 [INF] Sending file. Request path: '/Images/a1.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a1.jpg'
+2020-08-17 11:02:38.632 +08:00 [INF] Sending file. Request path: '/Images/a2.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a2.jpg'
+2020-08-17 11:02:38.630 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a3.jpg  
+2020-08-17 11:02:38.636 +08:00 [INF] Sending file. Request path: '/lib/bootstrap-icons/person-plus.svg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\bootstrap-icons\person-plus.svg'
+2020-08-17 11:02:38.637 +08:00 [INF] Sending file. Request path: '/Images/a8.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a8.jpg'
+2020-08-17 11:02:38.639 +08:00 [INF] Request finished in 13.1365ms 200 image/jpeg
+2020-08-17 11:02:38.640 +08:00 [INF] Request finished in 12.5194ms 200 image/jpeg
+2020-08-17 11:02:38.641 +08:00 [INF] Sending file. Request path: '/Images/a3.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a3.jpg'
+2020-08-17 11:02:38.642 +08:00 [INF] Request finished in 28.534ms 200 image/svg+xml
+2020-08-17 11:02:38.642 +08:00 [INF] Request finished in 13.1448ms 200 image/jpeg
+2020-08-17 11:02:38.644 +08:00 [INF] Request finished in 14.0912ms 200 image/jpeg
+2020-08-17 11:02:38.654 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/patterns/header-profile.png  
+2020-08-17 11:02:38.655 +08:00 [INF] Sending file. Request path: '/css/patterns/header-profile.png'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\css\patterns\header-profile.png'
+2020-08-17 11:02:38.656 +08:00 [INF] Request finished in 2.4377ms 200 image/png
+2020-08-17 11:02:38.661 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/fontawesome/v5.11.2/dist/webfonts/fa-solid-900.woff2  
+2020-08-17 11:02:38.663 +08:00 [INF] Sending file. Request path: '/lib/fontawesome/v5.11.2/dist/webfonts/fa-solid-900.woff2'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\fontawesome\v5.11.2\dist\webfonts\fa-solid-900.woff2'
+2020-08-17 11:02:38.667 +08:00 [INF] Request finished in 6.436ms 200 font/woff2
+2020-08-17 11:02:38.745 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/layer/v3.11/dist/theme/default/layer.css?v=3.1.1  
+2020-08-17 11:02:38.746 +08:00 [INF] Sending file. Request path: '/lib/layer/v3.11/dist/theme/default/layer.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\layer\v3.11\dist\theme\default\layer.css'
+2020-08-17 11:02:38.748 +08:00 [INF] Request finished in 3.0795ms 200 text/css
+2020-08-17 11:02:41.453 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Corporation/ListPageData application/json 65
+2020-08-17 11:02:42.131 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.CorporationController.ListPageData (Auto.Web)'
+2020-08-17 11:02:42.144 +08:00 [INF] Route matched with {action = "ListPageData", controller = "Corporation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListPageData(Newtonsoft.Json.Linq.JObject) on controller Auto.Web.Controllers.CorporationController (Auto.Web).
+2020-08-17 11:02:42.279 +08:00 [INF] Executing action method Auto.Web.Controllers.CorporationController.ListPageData (Auto.Web) - Validation state: "Valid"
+2020-08-17 11:02:42.936 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-17 11:02:43.211 +08:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Corporation] AS [c]
+        LEFT JOIN [Area] AS [a] ON [c].[AreaID] = [a].[ID]
+        WHERE [c].[IsActive] = CAST(1 AS bit)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2020-08-17 11:02:43.245 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Corporation] AS [c]
+LEFT JOIN [Area] AS [a] ON [c].[AreaID] = [a].[ID]
+WHERE [c].[IsActive] = CAST(1 AS bit)
+2020-08-17 11:02:43.371 +08:00 [INF] Executed DbCommand (43ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[MergerName], [t].[ID], [t].[LevelType], [t].[ID0], [t].[Name], [t].[FullName], [t].[BusinessLicense], [t].[CorporationAddress], [t].[CreationTime], [t].[CreatorUserID], [t].[IsDeleted], [t].[IsActive], [t].[LegalPersonIDCardNo], [t].[LastModificationTime], [t].[LegalPerson], [t].[LegalPersonPhone], [t].[FaxNumber], [t].[Remarks], [t].[SupportEMail], [t].[Telephone], [d].[ID], [d].[CorporationID], [d].[CreationTime], [d].[CreatorUserID], [d].[DeleterUserID], [d].[DeletionTime], [d].[IsActive], [d].[IsDeleted], [d].[LastModificationTime], [d].[ModificationUserID], [d].[Name], [d].[Remarks]
+FROM (
+    SELECT [a].[MergerName], [a].[ID], [a].[LevelType], [c].[ID] AS [ID0], [c].[Name], [c].[FullName], [c].[BusinessLicense], [c].[CorporationAddress], [c].[CreationTime], [c].[CreatorUserID], [c].[IsDeleted], [c].[IsActive], [c].[LegalPersonIDCardNo], [c].[LastModificationTime], [c].[LegalPerson], [c].[LegalPersonPhone], [c].[FaxNumber], [c].[Remarks], [c].[SupportEMail], [c].[Telephone]
+    FROM [Corporation] AS [c]
+    LEFT JOIN [Area] AS [a] ON [c].[AreaID] = [a].[ID]
+    WHERE [c].[IsActive] = CAST(1 AS bit)
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN [Department] AS [d] ON [t].[ID0] = [d].[CorporationID]
+ORDER BY [t].[ID0], [d].[ID]
+2020-08-17 11:02:43.386 +08:00 [INF] Executed action method Auto.Web.Controllers.CorporationController.ListPageData (Auto.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1105.9135ms.
+2020-08-17 11:02:43.393 +08:00 [INF] Executing JsonResult, writing value of type 'Auto.Model.PageData`1[[Auto.Model.Dto.CorporationDto, Auto.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-08-17 11:02:43.441 +08:00 [INF] Executed action Auto.Web.Controllers.CorporationController.ListPageData (Auto.Web) in 1295.8376ms
+2020-08-17 11:02:43.442 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.CorporationController.ListPageData (Auto.Web)'
+2020-08-17 11:02:43.448 +08:00 [INF] Request finished in 1994.8282ms 200 application/json; charset=utf-8
+2020-08-17 11:02:54.018 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Corporation/Creation  
+2020-08-17 11:02:54.021 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.CorporationController.Creation (Auto.Web)'
+2020-08-17 11:02:54.025 +08:00 [INF] Route matched with {action = "Creation", controller = "Corporation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Creation() on controller Auto.Web.Controllers.CorporationController (Auto.Web).
+2020-08-17 11:02:54.048 +08:00 [INF] Executing action method Auto.Web.Controllers.CorporationController.Creation (Auto.Web) - Validation state: "Valid"
+2020-08-17 11:02:54.050 +08:00 [INF] Executed action method Auto.Web.Controllers.CorporationController.Creation (Auto.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3635ms.
+2020-08-17 11:02:54.053 +08:00 [INF] Executing ViewResult, running view Creation.
+2020-08-17 11:02:54.280 +08:00 [INF] Executed ViewResult - view Creation executed in 228.9988ms.
+2020-08-17 11:02:54.281 +08:00 [INF] Executed action Auto.Web.Controllers.CorporationController.Creation (Auto.Web) in 253.2781ms
+2020-08-17 11:02:54.282 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.CorporationController.Creation (Auto.Web)'
+2020-08-17 11:02:54.283 +08:00 [INF] Request finished in 264.8003ms 200 text/html; charset=utf-8
+2020-08-17 11:02:54.316 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/v4.5.0/dist/css/bootstrap.css?v=1hm7xPFY4HL_GPfWz595kcNLVmuMC43nPagoQhWTb58  
+2020-08-17 11:02:54.316 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/fontawesome/v5.11.2/dist/css/all.css?v=46qynGAkLSFpVbEBog43gvNhfrOj-BmwXdxFgVK_Kvc  
+2020-08-17 11:02:54.318 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/v3.5.1/dist/jquery.min.js?v=82hEkGrSMJh3quMSG4f7FbngmAPLTDM63H4eNayS4Us  
+2020-08-17 11:02:54.318 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/animate/v4.1.0/dist/animate.css?v=6Wozb_CzRANFOaGqN-u_uRT7kcffVIQt9OhOuuA6I9o  
+2020-08-17 11:02:54.318 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/inspina.css  
+2020-08-17 11:02:54.318 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/public.css  
+2020-08-17 11:02:54.332 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/v4.5.0/dist/css/bootstrap.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\bootstrap\v4.5.0\dist\css\bootstrap.css'
+2020-08-17 11:02:54.333 +08:00 [INF] Sending file. Request path: '/lib/fontawesome/v5.11.2/dist/css/all.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\fontawesome\v5.11.2\dist\css\all.css'
+2020-08-17 11:02:54.339 +08:00 [INF] Sending file. Request path: '/lib/animate/v4.1.0/dist/animate.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\animate\v4.1.0\dist\animate.css'
+2020-08-17 11:02:54.343 +08:00 [INF] Request finished in 27.6002ms 200 text/css
+2020-08-17 11:02:54.345 +08:00 [INF] Sending file. Request path: '/lib/jquery/v3.5.1/dist/jquery.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery\v3.5.1\dist\jquery.min.js'
+2020-08-17 11:02:54.344 +08:00 [INF] Request finished in 26.9639ms 200 text/css
+2020-08-17 11:02:54.349 +08:00 [INF] Request finished in 30.5434ms 200 application/javascript
+2020-08-17 11:02:54.346 +08:00 [INF] Sending file. Request path: '/css/inspina.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\css\inspina.css'
+2020-08-17 11:02:54.343 +08:00 [INF] Request finished in 26.9066ms 200 text/css
+2020-08-17 11:02:54.333 +08:00 [INF] Sending file. Request path: '/css/public.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\css\public.css'
+2020-08-17 11:02:54.374 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/popper/v1.13.0/dist/umd/popper.min.js  
+2020-08-17 11:02:54.373 +08:00 [INF] Request finished in 55.8362ms 200 text/css
+2020-08-17 11:02:54.374 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-metisMenu/v2.7.7/dist/metisMenu.min.js?v=iKIKDNMMtBZzNVSGytO-b7JCv16YfaR5xbqHlFuNAa8  
+2020-08-17 11:02:54.396 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/layer/v3.11/dist/layer.js?v=HOZknYLS2w-OSCP3Ad38_Zx_EHy0RskH5G7H5XFxoqM  
+2020-08-17 11:02:54.396 +08:00 [INF] Request finished in 77.7655ms 200 text/css
+2020-08-17 11:02:54.411 +08:00 [INF] Sending file. Request path: '/lib/popper/v1.13.0/dist/umd/popper.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\popper\v1.13.0\dist\umd\popper.min.js'
+2020-08-17 11:02:54.421 +08:00 [INF] Sending file. Request path: '/lib/jquery-metisMenu/v2.7.7/dist/metisMenu.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-metisMenu\v2.7.7\dist\metisMenu.min.js'
+2020-08-17 11:02:54.421 +08:00 [INF] Sending file. Request path: '/lib/layer/v3.11/dist/layer.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\layer\v3.11\dist\layer.js'
+2020-08-17 11:02:54.422 +08:00 [INF] Request finished in 48.5955ms 200 application/javascript
+2020-08-17 11:02:54.436 +08:00 [INF] Request finished in 61.9901ms 200 application/javascript
+2020-08-17 11:02:54.421 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-slimScroll/v1.3.8/dist/jquery.slimscroll.min.js?v=qE_6vdSYzQu9lgosKxhFplETvWvqAAlmAuR-yPh_0SI  
+2020-08-17 11:02:54.374 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/v4.5.0/dist/js/bootstrap.bundle.js?v=Bu2KGZCt5rR0kU0i5x8rQx5lUEWxa5aurmdDGPpM5kY  
+2020-08-17 11:02:54.459 +08:00 [INF] Request finished in 63.0482ms 200 application/javascript
+2020-08-17 11:02:54.460 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/public.js?v=aSG8GOXjpo7hAmz6tf9BpO1GWlYMIKI-5SI5Rue4OME  
+2020-08-17 11:02:54.465 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-select/v1.13.18/dist/css/bootstrap-select.css?v=-XSe2yBGTrBBSugZK_4VdokAFtsIBvcTLV5aktqcDf8  
+2020-08-17 11:02:54.462 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-select/v1.13.18/dist/js/bootstrap-select.js?v=IGXSZlvby-ZRK46KANoCJ8CK9U4wfnp2vLcQLcVVV_k  
+2020-08-17 11:02:54.465 +08:00 [INF] Sending file. Request path: '/lib/jquery-slimScroll/v1.3.8/dist/jquery.slimscroll.min.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-slimScroll\v1.3.8\dist\jquery.slimscroll.min.js'
+2020-08-17 11:02:54.473 +08:00 [INF] Sending file. Request path: '/js/public.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\js\public.js'
+2020-08-17 11:02:54.396 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/inspina.js?v=AesI-MKnAvxCU6tM_87vaUPzeYLZvgKxlndX4Qk04ng  
+2020-08-17 11:02:54.478 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/v4.5.0/dist/js/bootstrap.bundle.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\bootstrap\v4.5.0\dist\js\bootstrap.bundle.js'
+2020-08-17 11:02:54.475 +08:00 [INF] Request finished in 54.067ms 200 application/javascript
+2020-08-17 11:02:54.477 +08:00 [INF] Request finished in 17.1957ms 200 application/javascript
+2020-08-17 11:02:54.487 +08:00 [INF] Request finished in 113.5301ms 200 application/javascript
+2020-08-17 11:02:54.487 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-select/v1.13.18/dist/js/i18n/defaults-zh_CN.js?v=ZTLaDC6QZF8MQJ2vatq-Dz4vbZt1w4tW38a4o9n6V0M  
+2020-08-17 11:02:54.507 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/fontawesome/v5.11.2/dist/webfonts/fa-solid-900.woff2  
+2020-08-17 11:02:54.490 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-bootstrapvalidator/dist/css/bootstrap.css?v=zn3EMLwM5MVXbkFxoiobB20dXyoiNrmBn5ioK_YtEkA  
+2020-08-17 11:02:54.506 +08:00 [INF] Sending file. Request path: '/js/inspina.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\js\inspina.js'
+2020-08-17 11:02:54.520 +08:00 [INF] Sending file. Request path: '/lib/bootstrap-select/v1.13.18/dist/js/i18n/defaults-zh_CN.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\bootstrap-select\v1.13.18\dist\js\i18n\defaults-zh_CN.js'
+2020-08-17 11:02:54.540 +08:00 [INF] Sending file. Request path: '/lib/bootstrap-select/v1.13.18/dist/css/bootstrap-select.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\bootstrap-select\v1.13.18\dist\css\bootstrap-select.css'
+2020-08-17 11:02:54.553 +08:00 [INF] Sending file. Request path: '/lib/bootstrap-select/v1.13.18/dist/js/bootstrap-select.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\bootstrap-select\v1.13.18\dist\js\bootstrap-select.js'
+2020-08-17 11:02:54.540 +08:00 [INF] Request finished in 143.9949ms 200 application/javascript
+2020-08-17 11:02:54.570 +08:00 [INF] Sending file. Request path: '/lib/jquery-bootstrapvalidator/dist/css/bootstrap.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-bootstrapvalidator\dist\css\bootstrap.css'
+2020-08-17 11:02:54.570 +08:00 [INF] Sending file. Request path: '/lib/fontawesome/v5.11.2/dist/webfonts/fa-solid-900.woff2'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\fontawesome\v5.11.2\dist\webfonts\fa-solid-900.woff2'
+2020-08-17 11:02:54.574 +08:00 [INF] Request finished in 86.4149ms 200 application/javascript
+2020-08-17 11:02:54.578 +08:00 [INF] Request finished in 112.4657ms 200 text/css
+2020-08-17 11:02:54.580 +08:00 [INF] Request finished in 118.2887ms 200 application/javascript
+2020-08-17 11:02:54.582 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-bootstrapvalidator/dist/css/bootstrapValidator.css?v=_OSilKbt1vJDYG2AHl0WH22osBRmnFgP7X55u1s8hek  
+2020-08-17 11:02:54.583 +08:00 [INF] Request finished in 92.8747ms 200 text/css
+2020-08-17 11:02:54.584 +08:00 [INF] Request finished in 77.492ms 200 font/woff2
+2020-08-17 11:02:54.590 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/fonts/glyphicons-halflings-regular.woff2  
+2020-08-17 11:02:54.585 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-bootstrapvalidator/dist/js/bootstrapValidator.js?v=o1euaz1vwPXBTxRl9OxyDQuac7lF8i92X56aky0gPEE  
+2020-08-17 11:02:54.591 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/patterns/header-profile.png  
+2020-08-17 11:02:54.593 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-bootstrapvalidator/dist/js/language/zh_CN.js?v=yP3ZG5GONKRi3ESckdSlOYerVgYnZC_Shj51JpP8c5s  
+2020-08-17 11:02:54.593 +08:00 [INF] Sending file. Request path: '/lib/jquery-bootstrapvalidator/dist/css/bootstrapValidator.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-bootstrapvalidator\dist\css\bootstrapValidator.css'
+2020-08-17 11:02:54.597 +08:00 [INF] Sending file. Request path: '/css/patterns/header-profile.png'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\css\patterns\header-profile.png'
+2020-08-17 11:02:54.593 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/profile_small.jpg  
+2020-08-17 11:02:54.597 +08:00 [INF] Sending file. Request path: '/lib/jquery-bootstrapvalidator/dist/js/language/zh_CN.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-bootstrapvalidator\dist\js\language\zh_CN.js'
+2020-08-17 11:02:54.599 +08:00 [INF] Request finished in 7.3434ms 200 image/png
+2020-08-17 11:02:54.598 +08:00 [INF] Request finished in 16.0052ms 200 text/css
+2020-08-17 11:02:54.602 +08:00 [INF] Sending file. Request path: '/Images/profile_small.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\profile_small.jpg'
+2020-08-17 11:02:54.605 +08:00 [INF] Sending file. Request path: '/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\fonts\glyphicons-halflings-regular.woff2'
+2020-08-17 11:02:54.605 +08:00 [INF] Sending file. Request path: '/lib/jquery-bootstrapvalidator/dist/js/bootstrapValidator.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-bootstrapvalidator\dist\js\bootstrapValidator.js'
+2020-08-17 11:02:54.606 +08:00 [INF] Request finished in 12.3868ms 200 application/javascript
+2020-08-17 11:02:54.606 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/Corporation/Creation.js?v=6h7xNGP3ohuk9Z-DTO0_eN99GaIiyYau_wGW5faM4MI  
+2020-08-17 11:02:54.606 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-form/v4.3.0/dist/jquery.form.js?v=jpjDsy3bqvK8WWVXR5J-30Sx1WlP74nmtNQc9m1qBSs  
+2020-08-17 11:02:54.607 +08:00 [INF] Request finished in 14.331ms 200 image/jpeg
+2020-08-17 11:02:54.609 +08:00 [INF] Request finished in 24.1668ms 200 application/javascript
+2020-08-17 11:02:54.610 +08:00 [INF] Sending file. Request path: '/js/Corporation/Creation.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\js\Corporation\Creation.js'
+2020-08-17 11:02:54.608 +08:00 [INF] Request finished in 18.2257ms 200 font/woff2
+2020-08-17 11:02:54.612 +08:00 [INF] Sending file. Request path: '/lib/jquery-form/v4.3.0/dist/jquery.form.js'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-form\v4.3.0\dist\jquery.form.js'
+2020-08-17 11:02:54.612 +08:00 [INF] Request finished in 5.6726ms 200 application/javascript
+2020-08-17 11:02:54.613 +08:00 [INF] Request finished in 6.5461ms 200 application/javascript
+2020-08-17 11:02:54.614 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a7.jpg  
+2020-08-17 11:02:54.619 +08:00 [INF] Sending file. Request path: '/Images/a7.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a7.jpg'
+2020-08-17 11:02:54.622 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a4.jpg  
+2020-08-17 11:02:54.623 +08:00 [INF] Request finished in 8.3522ms 200 image/jpeg
+2020-08-17 11:02:54.624 +08:00 [INF] Sending file. Request path: '/Images/a4.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a4.jpg'
+2020-08-17 11:02:54.625 +08:00 [INF] Request finished in 2.3114ms 200 image/jpeg
+2020-08-17 11:02:54.627 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/profile.jpg  
+2020-08-17 11:02:54.633 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a1.jpg  
+2020-08-17 11:02:54.633 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a3.jpg  
+2020-08-17 11:02:54.633 +08:00 [INF] Sending file. Request path: '/Images/profile.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\profile.jpg'
+2020-08-17 11:02:54.635 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a8.jpg  
+2020-08-17 11:02:54.637 +08:00 [INF] Sending file. Request path: '/Images/a1.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a1.jpg'
+2020-08-17 11:02:54.639 +08:00 [INF] Request finished in 12.2067ms 200 image/jpeg
+2020-08-17 11:02:54.639 +08:00 [INF] Sending file. Request path: '/Images/a3.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a3.jpg'
+2020-08-17 11:02:54.633 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Images/a2.jpg  
+2020-08-17 11:02:54.643 +08:00 [INF] Request finished in 10.6897ms 200 image/jpeg
+2020-08-17 11:02:54.644 +08:00 [INF] Sending file. Request path: '/Images/a8.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a8.jpg'
+2020-08-17 11:02:54.645 +08:00 [INF] Request finished in 12.1927ms 200 image/jpeg
+2020-08-17 11:02:54.647 +08:00 [INF] Request finished in 11.1575ms 200 image/jpeg
+2020-08-17 11:02:54.647 +08:00 [INF] Sending file. Request path: '/Images/a2.jpg'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\Images\a2.jpg'
+2020-08-17 11:02:54.649 +08:00 [INF] Request finished in 16.6093ms 200 image/jpeg
+2020-08-17 11:02:54.701 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/layer/v3.11/dist/theme/default/layer.css?v=3.1.1  
+2020-08-17 11:02:54.703 +08:00 [INF] Sending file. Request path: '/lib/layer/v3.11/dist/theme/default/layer.css'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\layer\v3.11\dist\theme\default\layer.css'
+2020-08-17 11:02:54.704 +08:00 [INF] Request finished in 3.5145ms 200 text/css
+2020-08-17 11:02:54.779 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-bootstrapvalidator/dist/fonts/glyphicons-halflings-regular.woff2  
+2020-08-17 11:02:54.793 +08:00 [INF] Sending file. Request path: '/lib/jquery-bootstrapvalidator/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\jquery-bootstrapvalidator\dist\fonts\glyphicons-halflings-regular.woff2'
+2020-08-17 11:02:54.797 +08:00 [INF] Request finished in 18.268ms 200 font/woff2
+2020-08-17 11:02:54.941 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/layer/v3.11/dist/theme/default/loading-0.gif  
+2020-08-17 11:02:54.944 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 45
+2020-08-17 11:02:54.947 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-08-17 11:02:54.952 +08:00 [INF] Sending file. Request path: '/lib/layer/v3.11/dist/theme/default/loading-0.gif'. Physical path: 'F:\dotNetCore\dotNet.Auto\Auto.Web\wwwroot\lib\layer\v3.11\dist\theme\default\loading-0.gif'
+2020-08-17 11:02:54.954 +08:00 [INF] Request finished in 12.671ms 200 image/gif
+2020-08-17 11:02:54.954 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-08-17 11:02:54.986 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-08-17 11:02:55.018 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-17 11:02:55.032 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserID], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-08-17 11:02:55.174 +08:00 [INF] Executed DbCommand (58ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-08-17 11:02:55.178 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 189.9532ms.
+2020-08-17 11:02:55.182 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.ResponseJsonData'.
+2020-08-17 11:02:55.197 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 241.4883ms
+2020-08-17 11:02:55.198 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-08-17 11:02:55.199 +08:00 [INF] Request finished in 255.0488ms 200 application/json; charset=utf-8
+2020-08-17 11:03:11.445 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 13
+2020-08-17 11:03:11.448 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-08-17 11:03:11.455 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-08-17 11:03:11.480 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-08-17 11:03:11.489 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-17 11:03:11.498 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserID], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-08-17 11:03:11.538 +08:00 [INF] Executed DbCommand (35ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-08-17 11:03:11.541 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 58.9959ms.
+2020-08-17 11:03:11.544 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.ResponseJsonData'.
+2020-08-17 11:03:11.548 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 92.1374ms
+2020-08-17 11:03:11.549 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-08-17 11:03:11.549 +08:00 [INF] Request finished in 104.0199ms 200 application/json; charset=utf-8
+2020-08-17 11:03:14.917 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 13
+2020-08-17 11:03:14.919 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-08-17 11:03:14.919 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-08-17 11:03:14.940 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-08-17 11:03:14.942 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-17 11:03:14.944 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserID], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-08-17 11:03:14.960 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-08-17 11:03:14.961 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 19.8286ms.
+2020-08-17 11:03:14.972 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.ResponseJsonData'.
+2020-08-17 11:03:14.973 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 52.7078ms
+2020-08-17 11:03:14.974 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-08-17 11:03:14.976 +08:00 [INF] Request finished in 58.8082ms 200 application/json; charset=utf-8
+2020-08-17 11:03:16.923 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 13
+2020-08-17 11:03:16.924 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-08-17 11:03:16.924 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-08-17 11:03:16.946 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-08-17 11:03:16.951 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-17 11:03:16.955 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserID], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-08-17 11:03:16.966 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-08-17 11:03:16.969 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18.871ms.
+2020-08-17 11:03:16.974 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.ResponseJsonData'.
+2020-08-17 11:03:16.975 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 49.8526ms
+2020-08-17 11:03:16.976 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-08-17 11:03:16.977 +08:00 [INF] Request finished in 54.3961ms 200 application/json; charset=utf-8
+2020-08-17 11:03:24.441 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Area/GetAreasSelectOptions application/x-www-form-urlencoded; charset=UTF-8 13
+2020-08-17 11:03:24.442 +08:00 [INF] Executing endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-08-17 11:03:24.443 +08:00 [INF] Route matched with {action = "GetAreasSelectOptions", controller = "Area"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAreasSelectOptions(Int32, Int32, Boolean) on controller Auto.Web.Controllers.AreaController (Auto.Web).
+2020-08-17 11:03:24.465 +08:00 [INF] Executing action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) - Validation state: "Valid"
+2020-08-17 11:03:24.468 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'EFDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-08-17 11:03:24.472 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ParentID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[ID], [a].[AreaLevel], [a].[Center], [a].[CityCode], [a].[CompleteSpelling], [a].[CreationTime], [a].[CreatorUserID], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[Latitude], [a].[LevelType], [a].[LogogramName], [a].[LogogramSpelling], [a].[Longitude], [a].[MergerLogogramName], [a].[MergerName], [a].[ModificationUserID], [a].[Name], [a].[NameFirstChar], [a].[ParentCode], [a].[Remarks], [a].[TelephoneCode], [a].[Version], [a].[ZipCode]
+FROM [Area] AS [a]
+WHERE [a].[ID] = @__ParentID_0
+2020-08-17 11:03:24.486 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__SelectedID_1='?' (DbType = Int32), @__area_CityCode_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT CONVERT(VARCHAR(11), [a].[ID]) AS [Value], [a].[Name] AS [Text], CASE
+    WHEN [a].[ID] = @__SelectedID_1 THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [Selected]
+FROM [Area] AS [a]
+WHERE [a].[ParentCode] = @__area_CityCode_0
+2020-08-17 11:03:24.489 +08:00 [INF] Executed action method Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 22.5321ms.
+2020-08-17 11:03:24.490 +08:00 [INF] Executing ObjectResult, writing value of type 'Auto.Web.Models.ResponseJsonData'.
+2020-08-17 11:03:24.491 +08:00 [INF] Executed action Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web) in 46.9826ms
+2020-08-17 11:03:24.492 +08:00 [INF] Executed endpoint 'Auto.Web.Controllers.AreaController.GetAreasSelectOptions (Auto.Web)'
+2020-08-17 11:03:24.493 +08:00 [INF] Request finished in 51.5712ms 200 application/json; charset=utf-8

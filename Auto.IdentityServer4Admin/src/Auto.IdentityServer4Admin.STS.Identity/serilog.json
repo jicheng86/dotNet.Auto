@@ -1,0 +1,33 @@
+﻿{
+  "Serilog": {
+    "MinimumLevel": {
+      "Default": "Error",
+      "Override": {
+        "Skoruba": "Information"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "Console"
+      },
+      {
+        "Name": "File",
+        "Args": {
+          "path": "SeriLog\\log.txt",
+          "rollingInterval": "Day"
+        }
+      },
+      {
+        "Name": "MSSqlServer",
+        "Args": {
+          "connectionString": "Data Source=.;Database=DB_Auto_IdentityServer4;Integrated Security=SSPI;Persist Security Info=False;",
+          "tableName": "SeriLog4IdentityServer4Admin",
+          "columnOptionsSection": {
+            "addStandardColumns": [ "LogEvent" ],
+            "removeStandardColumns": [ "Properties" ]
+          }
+        }
+      }
+    ]
+  }
+}

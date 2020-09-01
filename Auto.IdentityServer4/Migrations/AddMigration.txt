@@ -1,0 +1,7 @@
+﻿第一个：
+add-migration InitialIdentityServerConfigurationDbMigration -c ConfigurationDbContext -o Data/Migrations/IdentityServer/ConfigurationDb
+update-database -c ConfigurationDbContext
+
+第二个：
+add-migration InitialIdentityServerPersistedGrantDbMigration -c PersistedGrantDbContext -o Data/Migrations/IdentityServer/PersistedGrantDb
+update-database -c PersistedGrantDbContext
